@@ -118,7 +118,7 @@ export default function AdminDashboard({
             setAsc(false);
           }
         }}
-        style={{ padding: ".55rem .9rem", cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", color: active ? "#1d4ed8" : "#6b7280" }}
+        style={{ padding: ".55rem .9rem", cursor: "pointer", whiteSpace: "nowrap", userSelect: "none", color: active ? "#1d4ed8" : "#111827" }}
       >
         {label} {active ? (asc ? "↑" : "↓") : ""}
       </th>
@@ -131,7 +131,7 @@ export default function AdminDashboard({
       <aside style={{ width: 220, background: "#fff", borderRight: "1px solid #e5e7eb", position: "fixed", top: 0, bottom: 0, left: 0, display: "flex", flexDirection: "column" }}>
         <div style={{ padding: "1rem 1.1rem", borderBottom: "1px solid #f3f4f6" }}>
           <div style={{ fontWeight: 700, fontSize: ".95rem" }}>Affiliate Network</div>
-          <div style={{ fontSize: ".65rem", letterSpacing: ".2em", color: "#9ca3af" }}>VIRALPEPS</div>
+          <div style={{ fontSize: ".65rem", letterSpacing: ".2em", color: "#374151" }}>VIRALPEPS</div>
         </div>
         <nav style={{ flex: 1, padding: ".5rem .7rem" }}>
           {[
@@ -145,7 +145,7 @@ export default function AdminDashboard({
               style={{
                 width: "100%", textAlign: "left", display: "flex", alignItems: "center", gap: ".5rem",
                 padding: ".55rem .7rem", borderRadius: 8, border: "none", background: tab === id ? "#eff6ff" : "transparent",
-                color: tab === id ? "#1d4ed8" : "#4b5563", fontSize: ".85rem", cursor: "pointer", fontWeight: tab === id ? 600 : 400,
+                color: tab === id ? "#1d4ed8" : "#111827", fontSize: ".85rem", cursor: "pointer", fontWeight: tab === id ? 600 : 400,
               }}
             >
               <span>{icon}</span> {label}
@@ -157,7 +157,7 @@ export default function AdminDashboard({
             </button>
           ))}
         </nav>
-        <div style={{ padding: ".8rem 1.1rem", borderTop: "1px solid #f3f4f6", fontSize: ".72rem", color: "#9ca3af" }}>
+        <div style={{ padding: ".8rem 1.1rem", borderTop: "1px solid #f3f4f6", fontSize: ".72rem", color: "#374151" }}>
           <a href="/" style={{ color: "#2563eb", textDecoration: "none" }}>Back to site ↗</a>
         </div>
       </aside>
@@ -167,9 +167,9 @@ export default function AdminDashboard({
         {tab === "network" ? (
           <>
             <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Network performance</h1>
-            <p style={{ color: "#6b7280", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
               Every supplier&apos;s referral clicks, sales and commission.{" "}
-              <span style={{ color: "#9ca3af" }}>Click data: {dataRange || "—"}</span>
+              <span style={{ color: "#374151" }}>Click data: {dataRange || "—"}</span>
             </p>
 
             {/* Stat cards */}
@@ -181,7 +181,7 @@ export default function AdminDashboard({
                 ["Referred revenue", fmtMoney(totals.revenue)],
               ].map(([l, v]) => (
                 <div key={l} style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, padding: ".9rem" }}>
-                  <div style={{ fontSize: ".75rem", color: "#6b7280" }}>{l}</div>
+                  <div style={{ fontSize: ".75rem", color: "#111827" }}>{l}</div>
                   <div style={{ fontSize: "1.3rem", fontWeight: 700 }}>{v}</div>
                 </div>
               ))}
@@ -201,7 +201,7 @@ export default function AdminDashboard({
                   onClick={() => setWin(w.key)}
                   style={{
                     padding: ".45rem .8rem", borderRadius: 999, border: "1px solid #d1d5db", cursor: "pointer",
-                    background: win === w.key ? "#1d4ed8" : "#fff", color: win === w.key ? "#fff" : "#4b5563",
+                    background: win === w.key ? "#1d4ed8" : "#fff", color: win === w.key ? "#fff" : "#111827",
                     fontSize: ".8rem",
                   }}
                 >
@@ -226,12 +226,12 @@ export default function AdminDashboard({
                   </thead>
                   <tbody>
                     {rows.length === 0 ? (
-                      <tr><td colSpan={6} style={{ padding: "1.5rem", color: "#9ca3af" }}>No suppliers match.</td></tr>
+                      <tr><td colSpan={6} style={{ padding: "1.5rem", color: "#374151" }}>No suppliers match.</td></tr>
                     ) : rows.map((v) => (
                       <tr key={v.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
                         <td style={{ padding: ".5rem 1.1rem" }}>
                           <span style={{ fontWeight: 600 }}>{v.name}</span>
-                          <div style={{ color: "#9ca3af", fontSize: ".72rem" }}>{v.slug}</div>
+                          <div style={{ color: "#374151", fontSize: ".72rem" }}>{v.slug}</div>
                         </td>
                         <td style={{ padding: ".5rem .9rem" }}><span style={{ fontWeight: 700, color: band(v.trust) }}>{v.trust}</span></td>
                         <td style={{ padding: ".5rem .9rem" }}>{v.clicks}</td>
@@ -248,7 +248,7 @@ export default function AdminDashboard({
         ) : tab === "requests" ? (
           <>
             <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Affiliate join requests</h1>
-            <p style={{ color: "#6b7280", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
               {affiliateRequests.length} request(s) from suppliers wanting to join the affiliate program.
             </p>
             <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
@@ -263,16 +263,16 @@ export default function AdminDashboard({
                 </thead>
                 <tbody>
                   {affiliateRequests.length === 0 ? (
-                    <tr><td colSpan={4} style={{ padding: "1.5rem", color: "#9ca3af" }}>No join requests yet.</td></tr>
+                    <tr><td colSpan={4} style={{ padding: "1.5rem", color: "#374151" }}>No join requests yet.</td></tr>
                   ) : affiliateRequests.map((r) => (
                     <tr key={r.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
                       <td style={{ padding: ".5rem 1.1rem" }}>
-                        <a href={`/sellers/${r.slug}`} style={{ fontWeight: 600 }}>{r.name || r.slug}</a>
-                        <div style={{ color: "#9ca3af", fontSize: ".72rem" }}>{r.slug}</div>
+                        <a href={`/vendors/${r.slug}`} style={{ fontWeight: 600 }}>{r.name || r.slug}</a>
+                        <div style={{ color: "#374151", fontSize: ".72rem" }}>{r.slug}</div>
                       </td>
-                      <td style={{ padding: ".5rem .9rem", color: "#6b7280" }}>{r.email || "—"}</td>
+                      <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{r.email || "—"}</td>
                       <td style={{ padding: ".5rem .9rem" }}>{r.commissionRate ?? 20}%</td>
-                      <td style={{ padding: ".5rem .9rem", color: "#6b7280" }}>
+                      <td style={{ padding: ".5rem .9rem", color: "#111827" }}>
                         {r.requestedAt ? new Date(r.requestedAt).toLocaleString("en-GB") : "—"}
                       </td>
                     </tr>
@@ -284,7 +284,7 @@ export default function AdminDashboard({
         ) : (
           <>
             <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Registered sellers</h1>
-            <p style={{ color: "#6b7280", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>{sellers.length} seller account(s).</p>
+            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>{sellers.length} seller account(s).</p>
             <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
               <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
                 <thead>
@@ -300,12 +300,12 @@ export default function AdminDashboard({
                 </thead>
                 <tbody>
                   {sellers.length === 0 ? (
-                    <tr><td colSpan={7} style={{ padding: "1.5rem", color: "#9ca3af" }}>No sellers registered yet.</td></tr>
+                    <tr><td colSpan={7} style={{ padding: "1.5rem", color: "#374151" }}>No sellers registered yet.</td></tr>
                   ) : sellers.map((s) => (
                     <tr key={s.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
                       <td style={{ padding: ".5rem 1.1rem" }}>
-                        <a href={`/sellers/${s.slug}`} style={{ fontWeight: 600 }}>{s.name || s.slug}</a>
-                        <div style={{ color: "#9ca3af", fontSize: ".72rem" }}>{s.slug}</div>
+                        <a href={`/vendors/${s.slug}`} style={{ fontWeight: 600 }}>{s.name || s.slug}</a>
+                        <div style={{ color: "#374151", fontSize: ".72rem" }}>{s.slug}</div>
                       </td>
                       <td style={{ padding: ".5rem .9rem" }}><span style={{ fontWeight: 700, color: band(s.trust) }}>{s.trust}</span></td>
                       <td style={{ padding: ".5rem .9rem" }}>
@@ -316,7 +316,7 @@ export default function AdminDashboard({
                       <td style={{ padding: ".5rem .9rem" }}>{s.clicks}</td>
                       <td style={{ padding: ".5rem .9rem" }}>{s.sales}</td>
                       <td style={{ padding: ".5rem .9rem" }}>{fmtMoney(s.commission)}</td>
-                      <td style={{ padding: ".5rem .9rem", color: "#6b7280" }}>{s.email ?? "—"}</td>
+                      <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{s.email ?? "—"}</td>
                     </tr>
                   ))}
                 </tbody>

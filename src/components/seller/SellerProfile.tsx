@@ -55,7 +55,7 @@ export default function SellerProfile(props: {
     <div className="space-y-4">
       <div className="bg-white border border-gray-200 rounded-xl p-5">
         <h2 className="font-semibold mb-1">Account</h2>
-        <div className="text-sm text-gray-500 space-y-1">
+        <div className="text-sm text-gray-700 space-y-1">
           <div>Email: <span className="text-gray-800">{props.email}</span></div>
           <div>Commission rate: <span className="text-gray-800">{props.commissionRate}%</span></div>
           <div className="flex items-center gap-2">
@@ -72,23 +72,23 @@ export default function SellerProfile(props: {
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
           <div>
-            <label className="text-xs text-gray-500">Company name</label>
+            <label className="text-xs text-gray-700">Company name</label>
             <input className={input} value={companyName} onChange={(e) => setCompanyName(e.target.value)} placeholder={props.slug} />
           </div>
           <div>
-            <label className="text-xs text-gray-500">Contact email</label>
+            <label className="text-xs text-gray-700">Contact email</label>
             <input className={input} value={contactEmail} onChange={(e) => setContactEmail(e.target.value)} placeholder="hello@…" />
           </div>
           <div>
-            <label className="text-xs text-gray-500">Contact phone</label>
+            <label className="text-xs text-gray-700">Contact phone</label>
             <input className={input} value={contactPhone} onChange={(e) => setContactPhone(e.target.value)} placeholder="+44…" />
           </div>
           <div>
-            <label className="text-xs text-gray-500">Address</label>
+            <label className="text-xs text-gray-700">Address</label>
             <input className={input} value={address} onChange={(e) => setAddress(e.target.value)} placeholder="Street, city, postcode" />
           </div>
           <div>
-            <label className="text-xs text-gray-500">Entity type</label>
+            <label className="text-xs text-gray-700">Entity type</label>
             <select className={input} value={entityType} onChange={(e) => setEntityType(e.target.value)}>
               <option value="">—</option>
               <option value="ltd">Limited company</option>
@@ -96,7 +96,7 @@ export default function SellerProfile(props: {
             </select>
           </div>
           <div>
-            <label className="text-xs text-gray-500">Payment method</label>
+            <label className="text-xs text-gray-700">Payment method</label>
             <select className={input} value={paymentMethod} onChange={(e) => setPaymentMethod(e.target.value)}>
               <option value="">—</option>
               <option value="card">Card</option>
@@ -109,14 +109,14 @@ export default function SellerProfile(props: {
 
       <div className="bg-white border border-gray-200 rounded-xl p-5">
         <h2 className="font-semibold mb-1">TrustScore inputs</h2>
-        <p className="text-xs text-gray-400 mb-3">These feed your confidence score. COA, reviews and domain are verified by us — you can&apos;t self-claim those.</p>
+        <p className="text-xs text-gray-600 mb-3">These feed your TrustScore. COA, reviews and domain are verified by us — you can&apos;t self-claim those.</p>
         <div className="space-y-3">
           <div>
-            <label className="text-xs text-gray-500">RUO compliance statement</label>
+            <label className="text-xs text-gray-700">RUO compliance statement</label>
             <textarea className={input} rows={2} value={ruo} onChange={(e) => setRuo(e.target.value)} placeholder="Research-use-only disclaimer on your site" />
           </div>
           <div>
-            <label className="text-xs text-gray-500">Shipping info</label>
+            <label className="text-xs text-gray-700">Shipping info</label>
             <input className={input} value={shipping} onChange={(e) => setShipping(e.target.value)} placeholder="e.g. tracked 24h, free over £50" />
           </div>
         </div>
@@ -124,7 +124,7 @@ export default function SellerProfile(props: {
 
       <div className="bg-white border border-gray-200 rounded-xl p-5">
         <h2 className="font-semibold mb-2">How to raise your score</h2>
-        <ul className="text-sm space-y-2 text-gray-600">
+        <ul className="text-sm space-y-2 text-gray-900">
           <li><span className="text-emerald-600 font-medium">+25</span> — Add a COA / lab report to your site, then let us verify it.</li>
           <li><span className="text-emerald-600 font-medium">+15</span> — Install the TrustScore badge on your site (we confirm domain ownership).</li>
           <li><span className="text-emerald-600 font-medium">+15</span> — Verified entity + card/bank payment (book the recertification audit).</li>
@@ -142,7 +142,7 @@ export default function SellerProfile(props: {
         >
           {saving ? "Saving…" : "Save changes"}
         </button>
-        {status && <span className="text-sm text-gray-600">{status}</span>}
+        {status && <span className="text-sm text-gray-900">{status}</span>}
       </div>
     </div>
   );

@@ -253,7 +253,7 @@ function Placeholder({ title, desc }: { title: string; desc: string }) {
         <FileTextIcon />
       </div>
       <h2 className="font-semibold text-gray-900">{title}</h2>
-      <p className="text-sm text-gray-400 mt-1 max-w-md mx-auto">{desc}</p>
+      <p className="text-sm text-gray-600 mt-1 max-w-md mx-auto">{desc}</p>
     </div>
   );
 }
@@ -383,9 +383,9 @@ export default function SellerDashboard(props: {
         ["Product clicks", productClicks, "product page visits"],
       ].map(([label, val, sub]) => (
         <div key={label as string} className="bg-white border border-gray-200 rounded-xl p-4">
-          <div className="text-xs text-gray-500">{label}</div>
+          <div className="text-xs text-gray-700">{label}</div>
           <div className="text-2xl font-bold mt-1">{val}</div>
-          <div className="text-xs text-gray-400 mt-0.5">{sub}</div>
+          <div className="text-xs text-gray-600 mt-0.5">{sub}</div>
         </div>
       ))}
     </div>
@@ -395,10 +395,10 @@ export default function SellerDashboard(props: {
     <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-semibold">Click activity</h2>
-        <span className="text-xs text-gray-400">per day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</span>
+        <span className="text-xs text-gray-600">per day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</span>
       </div>
       {bars.length === 0 ? (
-        <p className="text-sm text-gray-400 py-6">No clicks in this period.</p>
+        <p className="text-sm text-gray-600 py-6">No clicks in this period.</p>
       ) : (
         <div className="flex items-end gap-1 h-32">
           {bars.map((b) => (
@@ -425,7 +425,7 @@ export default function SellerDashboard(props: {
             <BrandHexagon />
             <div>
               <div className="font-semibold text-sm leading-tight">Supplier Portal</div>
-              <div className="text-[10px] tracking-widest text-gray-400">VIRALPEPS</div>
+              <div className="text-[10px] tracking-widest text-gray-600">VIRALPEPS</div>
             </div>
           </div>
         </div>
@@ -452,7 +452,7 @@ export default function SellerDashboard(props: {
         <nav className="flex-1 px-2 py-3 text-sm">
           {NAV_SECTIONS.map((section) => (
             <div key={section.label} className="mt-2 first:mt-0">
-              <div className="px-3 pb-1 text-[10px] font-semibold tracking-widest text-gray-400 uppercase">
+              <div className="px-3 pb-1 text-[10px] font-semibold tracking-widest text-gray-600 uppercase">
                 {section.label}
               </div>
               {section.items.map(({ id, label, Icon }) => (
@@ -460,7 +460,7 @@ export default function SellerDashboard(props: {
                   key={id}
                   onClick={() => setTab(id)}
                   className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left ${
-                    tab === id ? "bg-blue-50 text-blue-700 font-medium" : "text-gray-600 hover:bg-gray-50"
+                    tab === id ? "bg-blue-50 text-blue-700 font-medium" : "text-gray-900 hover:bg-gray-50"
                   }`}
                 >
                   <Icon /> {label}
@@ -482,15 +482,15 @@ export default function SellerDashboard(props: {
         </div>
 
         {/* Footer */}
-        <div className="px-3 py-3 border-t border-gray-100 text-xs text-gray-500 space-y-1">
-          <a href="/contact" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-500">
+        <div className="px-3 py-3 border-t border-gray-100 text-xs text-gray-700 space-y-1">
+          <a href="/contact" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-700">
             <LifeBuoyIcon /> Support
           </a>
-          <a href="/" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-500">
+          <a href="/" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-700">
             <ArrowLeftIcon /> Back to Site
           </a>
           <form action="/api/sellers/logout" method="POST">
-            <button className="w-full flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-left text-gray-400">
+            <button className="w-full flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-left text-gray-600">
               Sign out
             </button>
           </form>
@@ -511,7 +511,7 @@ export default function SellerDashboard(props: {
                 </span>
                 <span className="bg-white/10 border border-white/15 rounded-full px-2.5 py-0.5 flex items-center gap-1.5">
                   <span className={`inline-block w-1.5 h-1.5 rounded-full ${props.trustScore >= 45 ? "bg-emerald-400" : "bg-amber-400"}`} />
-                  Confidence {props.trustScore}
+                  TrustScore {props.trustScore}
                 </span>
                 <a href={`/vendors/${props.slug}`} className="bg-white/10 border border-white/15 rounded-full px-2.5 py-0.5 hover:bg-white/20">
                   View public listing ↗
@@ -562,18 +562,18 @@ export default function SellerDashboard(props: {
                     : "Join program"}
                 </button>
               </div>
-              <p className="text-sm text-gray-500">
+              <p className="text-sm text-gray-700">
                 Pay only for the sales we actually send you. No monthly fees, no minimums.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-4">
                 <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
-                  <div className="text-xs text-gray-500">Affiliate clicks</div>
+                  <div className="text-xs text-gray-700">Affiliate clicks</div>
                   <div className="text-2xl font-bold mt-1">{affiliateClicksAll}</div>
                 </div>
                 <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
-                  <div className="text-xs text-gray-500">Total commissions</div>
+                  <div className="text-xs text-gray-700">Total commissions</div>
                   <div className="text-2xl font-bold mt-1">{fmtMoney(totalCommissionAll)}</div>
-                  <div className="text-xs text-gray-400 mt-0.5">across all referred sales</div>
+                  <div className="text-xs text-gray-600 mt-0.5">across all referred sales</div>
                 </div>
               </div>
             </div>
@@ -593,15 +593,15 @@ export default function SellerDashboard(props: {
                   </svg>
                   <div className="absolute inset-0 flex flex-col items-center justify-center">
                     <span className={`text-2xl font-bold ${band}`}>{props.trustScore}</span>
-                    <span className="text-[9px] text-gray-400">OUT OF 100</span>
+                    <span className="text-[9px] text-gray-600">OUT OF 100</span>
                   </div>
                 </div>
                 <div>
-                  <div className="text-xs tracking-widest text-gray-400 uppercase mb-1">Your confidence score</div>
-                  <div className="text-sm text-gray-600">
+                  <div className="text-xs tracking-widest text-gray-600 uppercase mb-1">Your TrustScore</div>
+                  <div className="text-sm text-gray-900">
                     {props.trustTicks.length ? props.trustTicks.join(" · ") : "No signals verified yet"}
                   </div>
-                  <div className="text-xs text-gray-400 mt-1">This is what buyers see next to your listing.</div>
+                  <div className="text-xs text-gray-600 mt-1">This is what buyers see next to your listing.</div>
                 </div>
               </div>
               <div className="bg-white border border-gray-200 rounded-xl p-5">
@@ -633,7 +633,7 @@ export default function SellerDashboard(props: {
                           <span className={has ? "text-emerald-500" : "text-rose-500"}>{has ? "✓" : "✕"}</span>
                           {label}
                         </span>
-                        <span className="text-gray-400 text-xs">{pts}</span>
+                        <span className="text-gray-600 text-xs">{pts}</span>
                       </li>
                     );
                   })}
@@ -653,18 +653,18 @@ export default function SellerDashboard(props: {
               <div className="px-5 py-3 border-b border-gray-100 flex items-center justify-between">
                 <div>
                   <h2 className="font-semibold">Recent clicks</h2>
-                  <div className="text-xs text-gray-400">the last people we sent your way</div>
+                  <div className="text-xs text-gray-600">the last people we sent your way</div>
                 </div>
                 <span className="text-xs text-emerald-600 flex items-center gap-1.5">
                   <span className="inline-block w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" /> Live feed
                 </span>
               </div>
               {filteredClicks.length === 0 ? (
-                <p className="px-5 py-6 text-sm text-gray-400">No clicks in this period.</p>
+                <p className="px-5 py-6 text-sm text-gray-600">No clicks in this period.</p>
               ) : (
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="text-left text-xs text-gray-400 border-b border-gray-100">
+                    <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
                       <th className="px-5 py-2 font-medium">Product</th>
                       <th className="px-5 py-2 font-medium">Type</th>
                       <th className="px-5 py-2 font-medium">When</th>
@@ -675,11 +675,11 @@ export default function SellerDashboard(props: {
                       <tr key={i} className="border-b border-gray-50">
                         <td className="px-5 py-2">{c.compound_slug || "—"}</td>
                         <td className="px-5 py-2">
-                          <span className={`text-xs px-2 py-0.5 rounded-full ${c.click_type === "vendor-site" ? "bg-emerald-50 text-emerald-700" : "bg-gray-100 text-gray-600"}`}>
+                          <span className={`text-xs px-2 py-0.5 rounded-full ${c.click_type === "vendor-site" ? "bg-emerald-50 text-emerald-700" : "bg-gray-100 text-gray-900"}`}>
                             {c.click_type === "vendor-site" ? "Affiliate" : "Product"}
                           </span>
                         </td>
-                        <td className="px-5 py-2 text-gray-500" suppressHydrationWarning>{timeAgo(c.created_at)}</td>
+                        <td className="px-5 py-2 text-gray-700" suppressHydrationWarning>{timeAgo(c.created_at)}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -696,14 +696,14 @@ export default function SellerDashboard(props: {
             <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
               <div className="px-5 py-3 border-b border-gray-100">
                 <h2 className="font-semibold">Top products</h2>
-                <div className="text-xs text-gray-400">by clicks this period</div>
+                <div className="text-xs text-gray-600">by clicks this period</div>
               </div>
               {topProducts.length === 0 ? (
-                <p className="px-5 py-6 text-sm text-gray-400">No product clicks yet.</p>
+                <p className="px-5 py-6 text-sm text-gray-600">No product clicks yet.</p>
               ) : (
                 <table className="w-full text-sm">
                   <thead>
-                    <tr className="text-left text-xs text-gray-400 border-b border-gray-100">
+                    <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
                       <th className="px-5 py-2 font-medium">Product</th>
                       <th className="px-5 py-2 font-medium">Clicks</th>
                     </tr>
@@ -736,7 +736,7 @@ export default function SellerDashboard(props: {
             <div className="px-5 py-3 border-b border-gray-100 flex items-center justify-between">
               <div>
                 <h2 className="font-semibold">Your products</h2>
-                <div className="text-xs text-gray-400">as listed on the comparison pages</div>
+                <div className="text-xs text-gray-600">as listed on the comparison pages</div>
               </div>
               <select
                 value={productFilter}
@@ -751,7 +751,7 @@ export default function SellerDashboard(props: {
             </div>
             <table className="w-full text-sm">
               <thead>
-                <tr className="text-left text-xs text-gray-400 border-b border-gray-100">
+                <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
                   <th className="px-5 py-2 font-medium">Product</th>
                   <th className="px-5 py-2 font-medium">Price</th>
                   <th className="px-5 py-2 font-medium">Stock</th>
@@ -774,7 +774,7 @@ export default function SellerDashboard(props: {
                   </tr>
                 ))}
                 {props.products.length === 0 && (
-                  <tr><td colSpan={4} className="px-5 py-6 text-gray-400">No products listed.</td></tr>
+                  <tr><td colSpan={4} className="px-5 py-6 text-gray-600">No products listed.</td></tr>
                 )}
               </tbody>
             </table>
@@ -787,7 +787,7 @@ export default function SellerDashboard(props: {
               <TrustScoreIcon className="w-14 h-14 shrink-0" />
               <div>
                 <h2 className="font-semibold text-lg">Your TrustScore badge</h2>
-                <p className="text-sm text-gray-500 mt-1">
+                <p className="text-sm text-gray-700 mt-1">
                   Install this on your site and link it back to ViralPeps to earn the{" "}
                   <span className="font-medium text-gray-700">Domain (+15)</span> signal. We verify
                   it once live.
@@ -800,7 +800,7 @@ export default function SellerDashboard(props: {
             </div>
 
             <div className="mt-6">
-              <div className="text-xs font-semibold text-gray-500 uppercase tracking-wider mb-2">
+              <div className="text-xs font-semibold text-gray-700 uppercase tracking-wider mb-2">
                 Embed code
               </div>
               <div className="relative">
@@ -814,7 +814,7 @@ export default function SellerDashboard(props: {
                   {copied ? "Copied ✓" : "Copy"}
                 </button>
               </div>
-              <p className="text-xs text-gray-400 mt-2">
+              <p className="text-xs text-gray-600 mt-2">
                 Paste it in your site&apos;s <code className="bg-gray-100 px-1 rounded">{"<head>"}</code> or
                 footer. The badge floats bottom-right and links back to your listing.
               </p>
@@ -860,7 +860,7 @@ export default function SellerDashboard(props: {
               <FileTextIcon />
             </div>
             <h2 className="font-semibold text-gray-900">Nothing to sign</h2>
-            <p className="text-sm text-gray-400 mt-1 max-w-sm mx-auto">
+            <p className="text-sm text-gray-600 mt-1 max-w-sm mx-auto">
               When we send you an order form or agreement it appears here, ready to read and sign.
             </p>
           </div>
