@@ -648,7 +648,7 @@ export default function SellerDashboard(props: {
                   <div className="text-blue-600 text-xs mt-0.5">
                     Add a COA, collect verified reviews and install your badge. Each check adds points instantly.
                   </div>
-                  <a href={`/sellers/${props.slug}?tab=profile`} className="text-blue-700 text-xs font-medium hover:underline">Edit your profile →</a>
+                  <button onClick={() => setTab("profile")} className="text-blue-700 text-xs font-medium hover:underline text-left">Edit your profile →</button>
                 </div>
               </div>
             </div>
