@@ -733,8 +733,8 @@ export default function SellerDashboard(props: {
               ) : (
                 <div className="flex items-end gap-1.5 h-36">
                   {bars.map((b) => (
-                    <div key={b.k} className="flex-1 flex flex-col items-center gap-1">
-                      <div className="w-full bg-blue-700 rounded-t" style={{ height: `${Math.max(4, (b.n / maxBar) * 100)}%` }} title={`${b.k}: ${b.n}`} />
+                    <div key={b.k} className="flex-1 h-full flex flex-col justify-end">
+                      <div className="w-full bg-blue-700 rounded-t" style={{ height: `${Math.max(6, (b.n / maxBar) * 100)}%` }} title={`${b.k}: ${b.n}`} />
                     </div>
                   ))}
                 </div>
@@ -762,7 +762,7 @@ export default function SellerDashboard(props: {
                         <span className="text-gray-900">{p.count} · {p.pct}%</span>
                       </div>
                       <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
-                        <div className="h-full rounded-full bg-gradient-to-r from-blue-800 to-emerald-500" style={{ width: `${p.pct}%` }} />
+                        <div className="h-full rounded-full bg-gradient-to-r from-blue-600 via-indigo-600 to-purple-600" style={{ width: `${p.pct}%` }} />
                       </div>
                     </div>
                   ))}
