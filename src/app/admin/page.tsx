@@ -1,6 +1,7 @@
 import { sql } from "@vercel/postgres";
 import { getTrustScore } from "@/lib/trust-score";
 import vendorsData from "@/data/vendors.json";
+import { getAffiliateRequests, type AffiliateRequest } from "@/lib/affiliate-requests";
 import AdminDashboard, { type VendorPerf, type SellerAccount } from "@/components/admin/AdminDashboard";
 
 export const dynamic = "force-dynamic";
@@ -99,5 +100,7 @@ export default async function AdminPage() {
     };
   });
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} dataRange={dataRange} />;
+  const affiliateRequests: AffiliateRequest[] = await getAffiliateRequests();
+
+  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} dataRange={dataRange} />;
 }

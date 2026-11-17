@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo, useState } from "react";
+import type { AffiliateRequest } from "@/lib/affiliate-requests";
 
 export interface VendorPerf {
   slug: string;
@@ -59,13 +60,15 @@ function band(s: number): string {
 export default function AdminDashboard({
   vendors,
   sellers,
+  affiliateRequests,
   dataRange,
 }: {
   vendors: VendorPerf[];
   sellers: SellerAccount[];
+  affiliateRequests: AffiliateRequest[];
   dataRange?: string;
 }) {
-  const [tab, setTab] = useState<"network" | "sellers">("network");
+  const [tab, setTab] = useState<"network" | "sellers" | "requests">("network");
   const [win, setWin] = useState<WinKey>("All");
   const [q, setQ] = useState("");
   const [sortKey, setSortKey] = useState<"clicks" | "sales" | "commission" | "revenue">("clicks");
@@ -134,10 +137,11 @@ export default function AdminDashboard({
           {[
             ["network", "Network performance", "📊"],
             ["sellers", "Registered sellers", "👥"],
+            ["requests", "Join requests", "🔔"],
           ].map(([id, label, icon]) => (
             <button
               key={id}
-              onClick={() => setTab(id as "network" | "sellers")}
+              onClick={() => setTab(id as "network" | "sellers" | "requests")}
               style={{
                 width: "100%", textAlign: "left", display: "flex", alignItems: "center", gap: ".5rem",
                 padding: ".55rem .7rem", borderRadius: 8, border: "none", background: tab === id ? "#eff6ff" : "transparent",
@@ -145,6 +149,11 @@ export default function AdminDashboard({
               }}
             >
               <span>{icon}</span> {label}
+              {id === "requests" && affiliateRequests.length > 0 && (
+                <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
+                  {affiliateRequests.length}
+                </span>
+              )}
             </button>
           ))}
         </nav>
@@ -234,6 +243,42 @@ export default function AdminDashboard({
                   </tbody>
                 </table>
               </div>
+            </div>
+          </>
+        ) : tab === "requests" ? (
+          <>
+            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Affiliate join requests</h1>
+            <p style={{ color: "#6b7280", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+              {affiliateRequests.length} request(s) from suppliers wanting to join the affiliate program.
+            </p>
+            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+                <thead>
+                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
+                    <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Email</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Commission</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Requested</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {affiliateRequests.length === 0 ? (
+                    <tr><td colSpan={4} style={{ padding: "1.5rem", color: "#9ca3af" }}>No join requests yet.</td></tr>
+                  ) : affiliateRequests.map((r) => (
+                    <tr key={r.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
+                      <td style={{ padding: ".5rem 1.1rem" }}>
+                        <a href={`/sellers/${r.slug}`} style={{ fontWeight: 600 }}>{r.name || r.slug}</a>
+                        <div style={{ color: "#9ca3af", fontSize: ".72rem" }}>{r.slug}</div>
+                      </td>
+                      <td style={{ padding: ".5rem .9rem", color: "#6b7280" }}>{r.email || "—"}</td>
+                      <td style={{ padding: ".5rem .9rem" }}>{r.commissionRate ?? 20}%</td>
+                      <td style={{ padding: ".5rem .9rem", color: "#6b7280" }}>
+                        {r.requestedAt ? new Date(r.requestedAt).toLocaleString("en-GB") : "—"}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
             </div>
           </>
         ) : (
