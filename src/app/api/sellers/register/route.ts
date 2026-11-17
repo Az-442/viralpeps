@@ -30,10 +30,10 @@ export async function POST(request: NextRequest) {
     const hash = hashPassword(password);
     await sql`
       INSERT INTO sellers (slug, name, email, password_hash, commission_rate, active, api_key)
-      VALUES (${slug}, ${name}, ${email}, ${hash}, 20, false, ${newApiKey(slug)})
+      VALUES (${slug}, ${name}, ${email}, ${hash}, 20, true, ${newApiKey(slug)})
     `;
 
-    return NextResponse.json({ ok: true, pending: true });
+    return NextResponse.json({ ok: true });
   } catch (err) {
     console.error("[sellers/register] error", err);
     return NextResponse.json({ ok: false, error: "server error" }, { status: 500 });

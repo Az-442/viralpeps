@@ -120,6 +120,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
       commissionRate={seller.commission_rate == null ? 20 : Number(seller.commission_rate)}
       apiKey={seller.api_key ?? ""}
       email={seller.email}
+      affiliateJoinedAt={seller.affiliate_joined_at ?? null}
       stats={{
         clicks30: t.clicks_30,
         visitors30: t.visitors_30,

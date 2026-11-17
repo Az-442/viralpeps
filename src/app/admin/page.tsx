@@ -102,5 +102,11 @@ export default async function AdminPage() {
 
   const affiliateRequests: AffiliateRequest[] = await getAffiliateRequests();
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} dataRange={dataRange} />;
+  // slug → affiliate_joined_at, so the Join requests tab can show approved state.
+  const affiliateApproved: Record<string, string | null> = {};
+  for (const s of sellersResult.rows) {
+    affiliateApproved[s.slug] = s.affiliate_joined_at ?? null;
+  }
+
+  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} dataRange={dataRange} />;
 }

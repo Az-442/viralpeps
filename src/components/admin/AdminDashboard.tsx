@@ -61,11 +61,13 @@ export default function AdminDashboard({
   vendors,
   sellers,
   affiliateRequests,
+  affiliateApproved,
   dataRange,
 }: {
   vendors: VendorPerf[];
   sellers: SellerAccount[];
   affiliateRequests: AffiliateRequest[];
+  affiliateApproved: Record<string, string | null>;
   dataRange?: string;
 }) {
   const [tab, setTab] = useState<"network" | "sellers" | "requests">("network");
@@ -73,6 +75,20 @@ export default function AdminDashboard({
   const [q, setQ] = useState("");
   const [sortKey, setSortKey] = useState<"clicks" | "sales" | "commission" | "revenue">("clicks");
   const [asc, setAsc] = useState(false);
+  const [approved, setApproved] = useState<Record<string, boolean>>({});
+
+  async function approveAffiliate(slug: string) {
+    try {
+      const r = await fetch("/api/sellers/approve-affiliate", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug }),
+      });
+      if (r.ok) setApproved((p) => ({ ...p, [slug]: true }));
+    } catch {
+      /* no-op */
+    }
+  }
 
   const rows = useMemo(() => {
     const r = vendors.map((v) => {
@@ -259,11 +275,12 @@ export default function AdminDashboard({
                     <th style={{ padding: ".55rem .9rem" }}>Email</th>
                     <th style={{ padding: ".55rem .9rem" }}>Commission</th>
                     <th style={{ padding: ".55rem .9rem" }}>Requested</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   {affiliateRequests.length === 0 ? (
-                    <tr><td colSpan={4} style={{ padding: "1.5rem", color: "#374151" }}>No join requests yet.</td></tr>
+                    <tr><td colSpan={5} style={{ padding: "1.5rem", color: "#374151" }}>No join requests yet.</td></tr>
                   ) : affiliateRequests.map((r) => (
                     <tr key={r.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
                       <td style={{ padding: ".5rem 1.1rem" }}>
@@ -274,6 +291,18 @@ export default function AdminDashboard({
                       <td style={{ padding: ".5rem .9rem" }}>{r.commissionRate ?? 20}%</td>
                       <td style={{ padding: ".5rem .9rem", color: "#111827" }}>
                         {r.requestedAt ? new Date(r.requestedAt).toLocaleString("en-GB") : "—"}
+                      </td>
+                      <td style={{ padding: ".5rem .9rem" }}>
+                        {approved[r.slug] || affiliateApproved[r.slug] ? (
+                          <span style={{ fontSize: ".72rem", padding: "2px 10px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Approved</span>
+                        ) : (
+                          <button
+                            onClick={() => approveAffiliate(r.slug)}
+                            style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", cursor: "pointer", fontWeight: 600 }}
+                          >
+                            Approve
+                          </button>
+                        )}
                       </td>
                     </tr>
                   ))}

@@ -47,6 +47,7 @@ export interface SellerRow {
   active: boolean;
   session_token: string | null;
   api_key: string | null;
+  affiliate_joined_at: string | null;
   created_at: string;
 }
 
@@ -54,7 +55,7 @@ export async function findSellerBySession(token: string | null): Promise<SellerR
   if (!token) return null;
   try {
     const r = await sql`
-      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, created_at
+      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, affiliate_joined_at, created_at
       FROM sellers WHERE session_token = ${token} AND active = true
     `;
     return (r.rows[0] as SellerRow) ?? null;
@@ -66,7 +67,7 @@ export async function findSellerBySession(token: string | null): Promise<SellerR
 export async function findSellerByEmail(email: string): Promise<SellerRow & { password_hash: string } | null> {
   try {
     const r = await sql`
-      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, created_at, password_hash
+      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, affiliate_joined_at, created_at, password_hash
       FROM sellers WHERE lower(email) = lower(${email})
     `;
     return (r.rows[0] as (SellerRow & { password_hash: string })) ?? null;

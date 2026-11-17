@@ -266,6 +266,7 @@ export default function SellerDashboard(props: {
   commissionRate: number;
   apiKey: string;
   email: string;
+  affiliateJoinedAt: string | null;
   stats: {
     clicks30: number;
     visitors30: number;
@@ -312,8 +313,17 @@ export default function SellerDashboard(props: {
   const productClicks = filteredClicks.filter((c) => c.click_type === "product").length;
 
   // Affiliate program summary (all-time, not range-filtered). All outbound
-  // clicks — product AND vendor-site — are affiliate referral traffic.
-  const affiliateClicksAll = props.clicks.filter((c) => c.click_type === "vendor-site" || c.click_type === "product").length;
+  // clicks — product AND vendor-site — are affiliate referral traffic, but only
+  // count once the supplier has been approved into the program.
+  const affiliateClicksAll = useMemo(() => {
+    if (!props.affiliateJoinedAt) return 0;
+    const since = new Date(props.affiliateJoinedAt).getTime();
+    return props.clicks.filter(
+      (c) =>
+        (c.click_type === "vendor-site" || c.click_type === "product") &&
+        new Date(c.created_at).getTime() >= since
+    ).length;
+  }, [props.clicks, props.affiliateJoinedAt]);
   const totalCommissionAll = props.sales.reduce((acc, s) => acc + Number(s.commission_amount ?? 0), 0);
 
   // Bar chart: continuous daily series over the range (accurate time axis).
