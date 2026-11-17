@@ -575,8 +575,7 @@ export default function SellerDashboard(props: {
                     <defs>
                       <linearGradient id="tsGrad" x1="0%" y1="0%" x2="100%" y2="100%">
                         <stop offset="0%" stopColor="#2563eb" />
-                        <stop offset="50%" stopColor="#4f46e5" />
-                        <stop offset="100%" stopColor="#9333ea" />
+                        <stop offset="100%" stopColor="#4f46e5" />
                       </linearGradient>
                     </defs>
                     <circle cx="50" cy="50" r="42" fill="none" stroke="#eef2f7" strokeWidth="11" />
