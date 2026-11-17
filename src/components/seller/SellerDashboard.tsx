@@ -569,7 +569,7 @@ export default function SellerDashboard(props: {
 
             {/* TrustScore */}
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mb-5">
-              <div className="bg-gradient-to-br from-indigo-600 to-blue-600 rounded-xl p-5 flex items-center gap-5">
+              <div className="bg-white border border-gray-200 rounded-xl p-5 flex items-center gap-5">
                 <div className="relative w-32 h-32 shrink-0">
                   <svg viewBox="0 0 100 100" className="w-full h-full">
                     <defs>
@@ -595,8 +595,8 @@ export default function SellerDashboard(props: {
                   </div>
                 </div>
                 <div>
-                  <div className="text-xs tracking-widest text-indigo-100 uppercase mb-1">Your TrustScore</div>
-                  <div className="text-sm text-white">
+                  <div className="text-xs tracking-widest text-gray-600 uppercase mb-1">Your TrustScore</div>
+                  <div className="text-sm text-gray-900">
                     {props.trustTicks.length ? props.trustTicks.join(" · ") : "No signals verified yet"}
                   </div>
                 </div>
