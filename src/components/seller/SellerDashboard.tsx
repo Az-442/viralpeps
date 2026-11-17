@@ -32,6 +32,7 @@ export interface SaleRow {
 export interface RankingRow {
   compoundSlug: string;
   compoundName: string;
+  dosage: string;
   price: number | null;
   priceDisplay: string;
   position: number;
@@ -40,7 +41,6 @@ export interface RankingRow {
   vsMarket: number | null;
   outOfStock: boolean;
   atRisk: boolean;
-  moveUp: string;
 }
 
 const RANGES = [
@@ -302,6 +302,7 @@ export default function SellerDashboard(props: {
   const [joinState, setJoinState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [hoverBar, setHoverBar] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
   const [hoverHeat, setHoverHeat] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
+  const [rankSearch, setRankSearch] = useState("");
 
   const cutoff = useMemo(() => {
     if (rangeDays === 0) return 0;
@@ -427,6 +428,17 @@ export default function SellerDashboard(props: {
       atRisk,
     };
   }, [props.ranking]);
+
+  const filteredRanking = useMemo(() => {
+    const q = rankSearch.trim().toLowerCase();
+    if (!q) return props.ranking;
+    return props.ranking.filter(
+      (r) =>
+        r.compoundName.toLowerCase().includes(q) ||
+        r.dosage.toLowerCase().includes(q) ||
+        r.compoundSlug.toLowerCase().includes(q)
+    );
+  }, [props.ranking, rankSearch]);
 
   const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
 
@@ -938,8 +950,18 @@ export default function SellerDashboard(props: {
                 </div>
 
                 <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-                  <div className="px-5 py-3 border-b border-gray-100">
+                  <div className="px-5 py-3 border-b border-gray-100 flex items-center justify-between gap-3">
                     <h2 className="font-semibold">Your listings</h2>
+                    <div className="relative">
+                      <input
+                        type="text"
+                        value={rankSearch}
+                        onChange={(e) => setRankSearch(e.target.value)}
+                        placeholder="Search by peptide or size…"
+                        className="text-xs border border-gray-200 rounded-lg pl-8 pr-3 py-1.5 w-56 focus:outline-none focus:border-blue-400"
+                      />
+                      <svg className="w-3.5 h-3.5 text-gray-400 absolute left-2.5 top-1/2 -translate-y-1/2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><path d="M21 21l-4.3-4.3" /></svg>
+                    </div>
                   </div>
                   <div className="overflow-x-auto">
                     <table className="w-full text-sm">
@@ -949,16 +971,16 @@ export default function SellerDashboard(props: {
                           <th className="px-5 py-2.5 font-medium">Your price</th>
                           <th className="px-5 py-2.5 font-medium">Position</th>
                           <th className="px-5 py-2.5 font-medium">Cheapest here</th>
-                          <th className="px-5 py-2.5 font-medium">Move up</th>
                           <th className="px-5 py-2.5 font-medium text-right">VS market</th>
                         </tr>
                       </thead>
                       <tbody>
-                        {props.ranking.map((r) => (
-                          <tr key={r.compoundSlug} className="border-b border-gray-50">
+                        {filteredRanking.map((r) => (
+                          <tr key={`${r.compoundSlug}-${r.dosage}-${r.priceDisplay}`} className="border-b border-gray-50">
                             <td className="px-5 py-3">
                               <div className="flex items-center gap-2">
                                 <span className="font-medium text-gray-900">{r.compoundName}</span>
+                                {r.dosage && <span className="text-[11px] px-1.5 py-0.5 rounded bg-gray-100 text-gray-700 font-medium">{r.dosage}</span>}
                                 {r.outOfStock && <span className="text-xs text-red-600 font-medium">Out of stock</span>}
                               </div>
                             </td>
@@ -968,7 +990,6 @@ export default function SellerDashboard(props: {
                               <span className="text-xs text-gray-500"> of {r.total}</span>
                             </td>
                             <td className="px-5 py-3 text-gray-700">{r.cheapest != null ? `£${r.cheapest.toFixed(2)}` : "—"}</td>
-                            <td className="px-5 py-3 text-xs text-gray-600 max-w-[260px]">{r.moveUp}</td>
                             <td className="px-5 py-3 text-right whitespace-nowrap">
                               {r.vsMarket == null ? (
                                 <span className="text-gray-400">—</span>
@@ -982,6 +1003,11 @@ export default function SellerDashboard(props: {
                             </td>
                           </tr>
                         ))}
+                        {filteredRanking.length === 0 && (
+                          <tr>
+                            <td colSpan={5} className="px-5 py-6 text-sm text-gray-600 text-center">No listings match "{rankSearch}".</td>
+                          </tr>
+                        )}
                       </tbody>
                     </table>
                   </div>
