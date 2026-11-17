@@ -111,6 +111,82 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
   const productClicks: Record<string, number> = {};
   for (const r of perProduct.rows) productClicks[r.compound_slug] = r.n;
 
+  // ── Search ranking ──────────────────────────────────────────────────────────
+  // Mirrors the comparison page default sort ("Supplier Rating"): TrustScore
+  // desc, then legacy star rating desc, then price ascending.
+  const parseP = (p: string): number | null => {
+    const n = parseFloat((p || "").replace(/[£$€,]/g, ""));
+    return isNaN(n) ? null : n;
+  };
+  type Ranking = {
+    compoundSlug: string;
+    compoundName: string;
+    price: number | null;
+    priceDisplay: string;
+    position: number;
+    total: number;
+    cheapest: number | null;
+    vsMarket: number | null;
+    outOfStock: boolean;
+    atRisk: boolean;
+    moveUp: string;
+  };
+  const ranking: Ranking[] = [];
+  for (const c of compoundsData as Compound[]) {
+    const sources = c.sources || [];
+    const mine = sources.find((s) => s.vendor === vendor.name);
+    if (!mine) continue;
+    const scored = sources.map((s) => ({
+      vendor: s.vendor,
+      price: parseP(s.price ?? ""),
+      trust: getTrustScore(s.vendor).score,
+      rating: ((vendorsData as any[]).find((v) => v.name === s.vendor)?.rating as number) || 0,
+    }));
+    scored.sort((a, b) => {
+      if (b.trust !== a.trust) return b.trust - a.trust;
+      const rd = b.rating - a.rating;
+      if (rd !== 0) return rd;
+      return (a.price ?? 0) - (b.price ?? 0);
+    });
+    const idx = scored.findIndex((x) => x.vendor === vendor.name);
+    const prices = scored.map((x) => x.price).filter((p): p is number => p != null);
+    const cheapest = prices.length ? Math.min(...prices) : null;
+    const myPrice = parseP(mine.price ?? "");
+    const vsMarket =
+      myPrice != null && cheapest != null && cheapest > 0
+        ? Math.round(((myPrice - cheapest) / cheapest) * 1000) / 10
+        : null;
+    const maxTrust = Math.max(...scored.map((x) => x.trust));
+    const myTrust = scored[idx]?.trust ?? 0;
+    const rivals = scored.filter((x) => x.vendor !== vendor.name && x.price != null);
+    const atRisk =
+      myPrice != null &&
+      rivals.some((r) => {
+        const diffPct = Math.abs(((r.price! - myPrice) / myPrice) * 100);
+        return diffPct <= 2;
+      });
+    let moveUp: string;
+    if (idx === 0) moveUp = "You're number one on this page.";
+    else if (myTrust < maxTrust)
+      moveUp = "Price alone will not move you up here — the listings above rank on supplier confidence.";
+    else if (myPrice != null && cheapest != null && myPrice > cheapest)
+      moveUp = `You're tied on trust. Lowering your price toward £${cheapest.toFixed(2)} would move you up.`;
+    else moveUp = "You're near the top — keep your listing complete.";
+    ranking.push({
+      compoundSlug: c.slug,
+      compoundName: c.name,
+      price: myPrice,
+      priceDisplay: mine.price ?? "",
+      position: idx + 1,
+      total: scored.length,
+      cheapest,
+      vsMarket,
+      outOfStock: mine.inStock === false,
+      atRisk,
+      moveUp,
+    });
+  }
+
   return (
     <SellerDashboard
       slug={slug}
@@ -133,6 +209,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
       sales={saleRows}
       products={products}
       productClicks={productClicks}
+      ranking={ranking}
     />
   );
 }

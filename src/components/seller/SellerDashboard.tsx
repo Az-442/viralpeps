@@ -29,6 +29,20 @@ export interface SaleRow {
   created_at: string;
 }
 
+export interface RankingRow {
+  compoundSlug: string;
+  compoundName: string;
+  price: number | null;
+  priceDisplay: string;
+  position: number;
+  total: number;
+  cheapest: number | null;
+  vsMarket: number | null;
+  outOfStock: boolean;
+  atRisk: boolean;
+  moveUp: string;
+}
+
 const RANGES = [
   { label: "Last 7 days", days: 7 },
   { label: "Last 30 days", days: 30 },
@@ -279,6 +293,7 @@ export default function SellerDashboard(props: {
   sales: SaleRow[];
   products: ProductRow[];
   productClicks: Record<string, number>;
+  ranking: RankingRow[];
 }) {
   const [rangeDays, setRangeDays] = useState(30);
   const [productFilter, setProductFilter] = useState<string>("all");
@@ -286,6 +301,7 @@ export default function SellerDashboard(props: {
   const [copied, setCopied] = useState(false);
   const [joinState, setJoinState] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [hoverBar, setHoverBar] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
+  const [hoverHeat, setHoverHeat] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
 
   const cutoff = useMemo(() => {
     if (rangeDays === 0) return 0;
@@ -394,6 +410,23 @@ export default function SellerDashboard(props: {
     }
     return { days, hours, grid, max, busiestDay, busiestHour };
   }, [clicksInRange]);
+
+  // Search ranking summary.
+  const rankingSummary = useMemo(() => {
+    const n = props.ranking.length;
+    if (n === 0) return { avg: 0, top3: 0, top3Pct: 0, numberOne: 0, atRisk: 0 };
+    const sum = props.ranking.reduce((a, r) => a + r.position, 0);
+    const top3 = props.ranking.filter((r) => r.position <= 3).length;
+    const numberOne = props.ranking.filter((r) => r.position === 1).length;
+    const atRisk = props.ranking.filter((r) => r.atRisk).length;
+    return {
+      avg: Math.round((sum / n) * 10) / 10,
+      top3,
+      top3Pct: Math.round((top3 / n) * 100),
+      numberOne,
+      atRisk,
+    };
+  }, [props.ranking]);
 
   const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
 
@@ -838,13 +871,25 @@ export default function SellerDashboard(props: {
                       <tr key={day}>
                         <td className="text-[10px] text-gray-600">{day}</td>
                         {heatmap.grid[di].map((n, hi) => (
-                          <td key={hi} className="h-6 rounded" style={{ background: n === 0 ? "#f3f4f6" : `rgba(15,34,56,${0.3 + (n / heatmap.max) * 0.7})` }} title={`${day} ${heatmap.hours[hi]}:00 — ${n}`} />
+                          <td
+                            key={hi}
+                            className="h-6 rounded"
+                            style={{ background: n === 0 ? "#f3f4f6" : `rgba(15,34,56,${0.3 + (n / heatmap.max) * 0.7})` }}
+                            onMouseEnter={(e) => setHoverHeat({ x: e.clientX, y: e.clientY, label: `${day} ${heatmap.hours[hi]}:00`, n })}
+                            onMouseMove={(e) => setHoverHeat({ x: e.clientX, y: e.clientY, label: `${day} ${heatmap.hours[hi]}:00`, n })}
+                            onMouseLeave={() => setHoverHeat(null)}
+                          />
                         ))}
                       </tr>
                     ))}
                   </tbody>
                 </table>
               </div>
+              {hoverHeat && (
+                <div style={{ position: "fixed", left: hoverHeat.x, top: hoverHeat.y - 34, transform: "translateX(-50%)", background: "#111827", color: "#fff", padding: "3px 9px", borderRadius: 6, fontSize: "12px", fontWeight: 600, pointerEvents: "none", zIndex: 50, whiteSpace: "nowrap", boxShadow: "0 4px 12px rgba(0,0,0,0.18)" }}>
+                  {hoverHeat.label} · {hoverHeat.n} click{hoverHeat.n === 1 ? "" : "s"}
+                </div>
+              )}
             </div>
 
             {/* Devices */}
@@ -857,10 +902,93 @@ export default function SellerDashboard(props: {
         )}
 
         {tab === "ranking" && (
-          <Placeholder
-            title="Search ranking"
-            desc="Where your listings rank for buyer searches. This is coming soon — we'll show your keyword positions here."
-          />
+          <>
+            <h1 className="text-xl font-bold mb-1">Search ranking</h1>
+            <p className="text-sm text-gray-600 mb-5">
+              Where each of your listings sits on the public comparison page for its peptide, and what it would take to move up.
+            </p>
+
+            {props.ranking.length === 0 ? (
+              <div className="bg-white border border-gray-200 rounded-xl p-10 text-center">
+                <p className="text-sm text-gray-600">You have no listings on the comparison pages yet.</p>
+              </div>
+            ) : (
+              <>
+                <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">
+                  <div className="bg-white border border-gray-200 rounded-xl p-4">
+                    <div className="text-sm text-gray-600">Average position</div>
+                    <div className="text-2xl font-bold text-gray-900 mt-1">#{rankingSummary.avg}</div>
+                    <div className="text-xs text-gray-500 mt-1">across {props.ranking.length} ranked listing{props.ranking.length === 1 ? "" : "s"}</div>
+                  </div>
+                  <div className="bg-white border border-gray-200 rounded-xl p-4">
+                    <div className="text-sm text-gray-600">In the top 3</div>
+                    <div className="text-2xl font-bold text-emerald-600 mt-1">{rankingSummary.top3}</div>
+                    <div className="text-xs text-gray-500 mt-1">{rankingSummary.top3Pct}% of your listings</div>
+                  </div>
+                  <div className="bg-white border border-gray-200 rounded-xl p-4">
+                    <div className="text-sm text-gray-600">At number one</div>
+                    <div className="text-2xl font-bold text-emerald-600 mt-1">{rankingSummary.numberOne}</div>
+                    <div className="text-xs text-gray-500 mt-1">best on the page</div>
+                  </div>
+                  <div className="bg-white border border-gray-200 rounded-xl p-4">
+                    <div className="text-sm text-gray-600">At risk</div>
+                    <div className="text-2xl font-bold text-amber-600 mt-1">{rankingSummary.atRisk}</div>
+                    <div className="text-xs text-gray-500 mt-1">a rival is within 2% of your price</div>
+                  </div>
+                </div>
+
+                <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+                  <div className="px-5 py-3 border-b border-gray-100">
+                    <h2 className="font-semibold">Your listings</h2>
+                  </div>
+                  <div className="overflow-x-auto">
+                    <table className="w-full text-sm">
+                      <thead>
+                        <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
+                          <th className="px-5 py-2.5 font-medium">Listing</th>
+                          <th className="px-5 py-2.5 font-medium">Your price</th>
+                          <th className="px-5 py-2.5 font-medium">Position</th>
+                          <th className="px-5 py-2.5 font-medium">Cheapest here</th>
+                          <th className="px-5 py-2.5 font-medium">Move up</th>
+                          <th className="px-5 py-2.5 font-medium text-right">VS market</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {props.ranking.map((r) => (
+                          <tr key={r.compoundSlug} className="border-b border-gray-50">
+                            <td className="px-5 py-3">
+                              <div className="flex items-center gap-2">
+                                <span className="font-medium text-gray-900">{r.compoundName}</span>
+                                {r.outOfStock && <span className="text-xs text-red-600 font-medium">Out of stock</span>}
+                              </div>
+                            </td>
+                            <td className="px-5 py-3 text-gray-900">{r.priceDisplay || "—"}</td>
+                            <td className="px-5 py-3">
+                              <span className="font-semibold text-gray-900">#{r.position}</span>
+                              <span className="text-xs text-gray-500"> of {r.total}</span>
+                            </td>
+                            <td className="px-5 py-3 text-gray-700">{r.cheapest != null ? `£${r.cheapest.toFixed(2)}` : "—"}</td>
+                            <td className="px-5 py-3 text-xs text-gray-600 max-w-[260px]">{r.moveUp}</td>
+                            <td className="px-5 py-3 text-right whitespace-nowrap">
+                              {r.vsMarket == null ? (
+                                <span className="text-gray-400">—</span>
+                              ) : r.vsMarket > 0 ? (
+                                <span className="text-amber-600 font-medium">+{r.vsMarket}%</span>
+                              ) : r.vsMarket < 0 ? (
+                                <span className="text-emerald-600 font-medium">{r.vsMarket}%</span>
+                              ) : (
+                                <span className="text-gray-500">0%</span>
+                              )}
+                            </td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </>
+            )}
+          </>
         )}
 
         {tab === "products" && (

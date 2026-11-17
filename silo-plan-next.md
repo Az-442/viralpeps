@@ -64,13 +64,28 @@ for HiPeptides' image URL in `dosage`, `sortByPricePerMg` + `getOxSpoke` aliases
 Build passes, `next start` sweep: all 6 spokes 200 with live price rows, hub 200 with tiles.
 Spoke word counts (this run): 1,342–1,450.
 
-**Next compound in queue: `hmg`** (Tier 1). NOTE for that run: Google UK autocomplete returned
-**zero** results for every HMG shopping modifier (`where to buy hmg uk`, `cheapest hmg uk`,
-`buy hmg online uk`, `hmg uk supplier`, `best hmg peptide`, `hmg 75iu uk`); the only live cluster
-is informational (`hmg 75iu` → peptide/injection/dosage), and it collides with firearms terms
-("hmg ammo"). Demand is thin and only 1 supplier (Arma Peptides, 2 rows, £36/£60). Consider
-skipping to `pt-141-bremelanotide`... which is already built — the real next unbuilt Tier 1
-item is none; move to Tier 2 `melanotan-ii` (silo file exists but is not wired/registered).
+## ✅ DONE — HMG SILO (commit `9c7ea760`, 10 Nov 2026)
+
+Tier 1 last item. Built per the locked SOP. HMG (menotropin) is a biological — a urinary FSH+LH
+extract — so the data layer mirrors the hCG silo (IU-dosed, per-1,000 IU, no CAS/formula/MW).
+
+- **Slug:** `hmg` (the registry slug; queue item "hmg-75iu" resolves to the `hmg` compound).
+  3 sources / 2 vendors in `compounds.json` (Arma Peptides £36 vial + £60 pen, GenoPept £35).
+- **Spokes (6):** `where-to-buy-hmg-uk`, `cheapest-hmg-uk`, `hmg-price-comparison-uk`,
+  `buy-hmg-online-uk`, `hmg-supplier-uk`, `best-hmg-peptide`.
+- **Words:** 2,786 / 2,251 / 1,921 / 1,927 / 1,977 / 1,881. Titles 44–51c. Descriptions 155–160c.
+- **Modifiers substituted (ALL 6 returned 0 UK results):** the bare "hmg" token collides with
+  Her Majesty's Government, HMG Paints, HMG-CoA and the heavy machine gun. Real demand renders
+  under `hmg 75iu`, `menotropin`, `hmg peptide uk` and `hmg injection price uk` — documented in
+  the `hmg-spokes.ts` header. Spokes kept the standard focus keywords (hCG precedent).
+- **Collision:** `kw-phase-1-list.md` has zero hmg/menotropin hits. The two informational research
+  guides (`hmg-research-guide`, `hmg-uk-price-guide`) are kept as link-targets, not competitors.
+- **Wiring:** `silos.ts` registry + `compound-guides/[slug]/page.tsx` (CompoundKey, resolveSpoke,
+  generateStaticParams, tableData per-1k-IU branch, stats, featuredSlot, spokeManifest) +
+  `compounds/[slug]/page.tsx` silo-tile block. Build passes; local `next start` sweep: all 6
+  spokes 200 with live price rows (Arma + GenoPept), hub 200 with "HMG Buying Guides" tiles.
+
+**Next in queue: `melanotan-ii`** (Tier 2, first item — silo file exists but is not wired/registered).
 
 ---
 
