@@ -343,6 +343,36 @@ export default function SellerDashboard(props: {
     [productList]
   );
 
+  // Analytics: peptides with click share.
+  const peptideBars = useMemo(() => {
+    const total = topProducts.reduce((a, p) => a + p.count, 0) || 1;
+    return topProducts
+      .filter((p) => p.count > 0)
+      .map((p) => ({ ...p, pct: Math.round((p.count / total) * 100) }));
+  }, [topProducts]);
+
+  // Analytics: clicks heatmap (day-of-week × 3-hour bucket).
+  const heatmap = useMemo(() => {
+    const days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"];
+    const hours = [0, 3, 6, 9, 12, 15, 18, 21];
+    const grid = Array.from({ length: 7 }, () => Array(8).fill(0) as number[]);
+    let max = 0;
+    let busiestDay = -1;
+    let busiestHour = -1;
+    for (const c of clicksInRange) {
+      const d = new Date(c.created_at);
+      const dow = (d.getDay() + 6) % 7;
+      const h = Math.min(7, Math.floor(d.getHours() / 3));
+      grid[dow][h]++;
+      if (grid[dow][h] > max) {
+        max = grid[dow][h];
+        busiestDay = dow;
+        busiestHour = h;
+      }
+    }
+    return { days, hours, grid, max, busiestDay, busiestHour };
+  }, [clicksInRange]);
+
   const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
 
   function copyEmbed() {
@@ -688,35 +718,95 @@ export default function SellerDashboard(props: {
 
         {tab === "analytics" && (
           <>
-            {statCards}
-            {clickActivity}
-            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-              <div className="px-5 py-3 border-b border-gray-100">
-                <h2 className="font-semibold">Top products</h2>
-                <div className="text-xs text-gray-600">by clicks this period</div>
+            <h1 className="text-xl font-bold mb-1">Analytics</h1>
+            <p className="text-sm text-gray-600 mb-5">Every click you have earned, broken down by peptide, timing and device.</p>
+
+            {/* Clicks over time */}
+            <div className="bg-white border border-gray-200 rounded-xl p-5 mb-4">
+              <div className="flex items-center justify-between mb-1">
+                <h2 className="font-semibold">Clicks over time</h2>
+                <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-semibold">{clicksInRange.length} clicks</span>
               </div>
-              {topProducts.length === 0 ? (
-                <p className="px-5 py-6 text-sm text-gray-600">No product clicks yet.</p>
+              <div className="text-xs text-gray-600 mb-3">Grouped by day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</div>
+              {bars.length === 0 ? (
+                <p className="text-sm text-gray-600 py-6">No clicks in this period.</p>
               ) : (
-                <table className="w-full text-sm">
+                <div className="flex items-end gap-1.5 h-36">
+                  {bars.map((b) => (
+                    <div key={b.k} className="flex-1 flex flex-col items-center gap-1">
+                      <div className="w-full bg-blue-700 rounded-t" style={{ height: `${Math.max(4, (b.n / maxBar) * 100)}%` }} title={`${b.k}: ${b.n}`} />
+                    </div>
+                  ))}
+                </div>
+              )}
+              <div className="flex flex-wrap gap-x-5 gap-y-1 mt-4 pt-3 border-t border-gray-100 text-xs text-gray-600">
+                <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-blue-700 inline-block" /> Comparison pages {productClicks}</span>
+                <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-teal-400 inline-block" /> Featured spots 0</span>
+                <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-amber-400 inline-block" /> Banners 0</span>
+                <span className="flex items-center gap-1.5 text-gray-400">⟳ Previous period 0</span>
+              </div>
+            </div>
+
+            {/* Peptides and sizes */}
+            <div className="bg-white border border-gray-200 rounded-xl p-5 mb-4">
+              <h2 className="font-semibold">Peptides and sizes</h2>
+              <div className="text-xs text-gray-600 mb-4">Which molecules drive your demand.</div>
+              {peptideBars.length === 0 ? (
+                <p className="text-sm text-gray-600 py-4">No product clicks yet.</p>
+              ) : (
+                <div className="space-y-4">
+                  {peptideBars.map((p) => (
+                    <div key={p.slug}>
+                      <div className="flex items-center justify-between text-sm mb-1">
+                        <span className="font-medium text-gray-900">› {p.name}</span>
+                        <span className="text-gray-900">{p.count} · {p.pct}%</span>
+                      </div>
+                      <div className="h-2.5 bg-gray-100 rounded-full overflow-hidden">
+                        <div className="h-full rounded-full bg-gradient-to-r from-blue-800 to-emerald-500" style={{ width: `${p.pct}%` }} />
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            {/* When buyers click */}
+            <div className="bg-white border border-gray-200 rounded-xl p-5 mb-4">
+              <h2 className="font-semibold">When buyers click</h2>
+              <div className="text-xs text-gray-600 mb-3">
+                {heatmap.max > 0
+                  ? `Busiest: ${heatmap.days[heatmap.busiestDay]} ${heatmap.hours[heatmap.busiestHour]}:00 (${heatmap.max} click${heatmap.max === 1 ? "" : "s"})`
+                  : "No clicks in this period."}
+              </div>
+              <div className="overflow-x-auto">
+                <table className="w-full border-separate border-spacing-1">
                   <thead>
-                    <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
-                      <th className="px-5 py-2 font-medium">Product</th>
-                      <th className="px-5 py-2 font-medium">Clicks</th>
+                    <tr>
+                      <th className="text-[10px] font-normal text-gray-500 text-left w-10"></th>
+                      {heatmap.hours.map((h) => (
+                        <th key={h} className="text-[10px] font-normal text-gray-500">{h}</th>
+                      ))}
                     </tr>
                   </thead>
                   <tbody>
-                    {topProducts.map((p) => (
-                      <tr key={p.slug} className="border-b border-gray-50">
-                        <td className="px-5 py-2">
-                          <a href={`/compounds/${p.slug}`} className="hover:underline">{p.name}</a>
-                        </td>
-                        <td className="px-5 py-2">{p.count}</td>
+                    {heatmap.days.map((day, di) => (
+                      <tr key={day}>
+                        <td className="text-[10px] text-gray-600">{day}</td>
+                        {heatmap.grid[di].map((n, hi) => (
+                          <td key={hi} className="h-6 rounded" style={{ background: n === 0 ? "#f3f4f6" : `rgba(15,34,56,${0.3 + (n / heatmap.max) * 0.7})` }} title={`${day} ${heatmap.hours[hi]}:00 — ${n}`} />
+                        ))}
                       </tr>
                     ))}
                   </tbody>
                 </table>
-              )}
+              </div>
+            </div>
+
+            {/* Devices */}
+            <div className="bg-white border border-gray-200 rounded-xl p-5">
+              <h2 className="font-semibold">Devices</h2>
+              <div className="text-xs text-gray-600 mb-3">How buyers reach you.</div>
+              <p className="text-sm text-gray-600">Device tracking is not yet captured — coming soon.</p>
             </div>
           </>
         )}
