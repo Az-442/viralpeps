@@ -1,12 +1,16 @@
 "use client";
 
 import { useState } from "react";
+import { usePathname } from "next/navigation";
 
 export default function BestOffersBanner() {
+  const pathname = usePathname();
   const [visible, setVisible] = useState(true);
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
+  // Hide on the supplier portal — the sign-up banner is for public visitors only.
+  if (pathname?.startsWith("/sellers")) return null;
   if (!visible) return null;
 
   const handleSubscribe = async () => {

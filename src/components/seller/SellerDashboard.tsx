@@ -562,11 +562,18 @@ export default function SellerDashboard(props: {
                     ["Domain (badge)", "+15"],
                     ["Entity audit", "+15"],
                   ].map(([label, pts]) => {
-                    const has = props.trustTicks.some((t) => label.toLowerCase().startsWith(t.toLowerCase()) || t.toLowerCase().startsWith(label.toLowerCase()));
+                    const has = props.trustTicks.some((t) => {
+                      const tl = t.toLowerCase();
+                      const ll = (label as string).toLowerCase();
+                      if (ll === "entity audit") {
+                        return tl.includes("registered") || tl.includes("sole trader") || tl.includes("entity");
+                      }
+                      return ll.startsWith(tl) || tl.startsWith(ll);
+                    });
                     return (
                       <li key={label} className="flex items-center justify-between">
                         <span className="flex items-center gap-2">
-                          <span className={has ? "text-emerald-500" : "text-gray-300"}>{has ? "✓" : "–"}</span>
+                          <span className={has ? "text-emerald-500" : "text-rose-500"}>{has ? "✓" : "✕"}</span>
                           {label}
                         </span>
                         <span className="text-gray-400 text-xs">{pts}</span>
