@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
+import { allowClickDurable } from "@/lib/click-rate-limit";
 
 export const runtime = "nodejs";
 
@@ -26,6 +27,22 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ ok: true, skipped: "bot" });
     }
 
+    const ip =
+      request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
+      request.headers.get("x-real-ip") ||
+      "0.0.0.0";
+
+    // Durable rate limit — skip the write if the visitor/IP is over a ceiling.
+    const verdict = await allowClickDurable({
+      visitor: visitorId(request.headers),
+      ip,
+      vendorSlug,
+      compoundSlug: typeof compoundSlug === "string" ? compoundSlug : undefined,
+    });
+    if (!verdict.allow) {
+      return NextResponse.json({ ok: true, skipped: verdict.reason });
+    }
+
     // Await so the GitHub write completes on Vercel (un-awaited work can be
     // terminated once the response is returned). Log failures are swallowed.
     await logClick({
@@ -36,6 +53,7 @@ export async function POST(request: NextRequest) {
       destUrl: typeof destUrl === "string" ? destUrl : undefined,
       refPage: typeof refPage === "string" ? refPage : undefined,
       visitorId: visitorId(request.headers),
+      ip,
     });
 
     return NextResponse.json({ ok: true });

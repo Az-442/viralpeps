@@ -27,6 +27,7 @@ export interface ClickRow {
   destUrl?: string; // exact URL left to (for direct /go/{vendor} and /go/{vendor}/{compound})
   refPage?: string; // page the click happened on (referrer)
   visitorId?: string; // anonymous, one-way hash — lets us count unique humans
+  ip?: string; // client IP (first x-forwarded-for hop) — for durable per-IP rate limiting
 }
 
 /**
@@ -41,11 +42,11 @@ export async function logClick(row: ClickRow): Promise<boolean> {
     await sql`
       INSERT INTO clicks (
         click_type, vendor_slug, vendor_name, compound_slug,
-        dest_url, ref_page, visitor_id
+        dest_url, ref_page, visitor_id, ip
       ) VALUES (
         ${row.type}, ${row.vendorSlug}, ${row.vendorName ?? null},
         ${row.compoundSlug ?? null}, ${row.destUrl ?? null},
-        ${row.refPage ?? null}, ${row.visitorId ?? null}
+        ${row.refPage ?? null}, ${row.visitorId ?? null}, ${row.ip ?? null}
       )
     `;
 

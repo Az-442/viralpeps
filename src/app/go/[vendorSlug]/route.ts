@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
-import { allowClick } from "@/lib/click-rate-limit";
+import { allowClickDurable } from "@/lib/click-rate-limit";
 import { isVendorDead, bestAlternativeVendor } from "@/lib/vendor-alternative";
 
 export const runtime = "nodejs";
@@ -31,7 +31,7 @@ export async function GET(
         request.headers.get("x-forwarded-for")?.split(",")[0]?.trim() ||
         request.headers.get("x-real-ip") ||
         "0.0.0.0";
-      const verdict = allowClick(vid, ip, `site:${vendorSlug}`);
+      const verdict = await allowClickDurable({ visitor: vid, ip, vendorSlug });
       if (verdict.allow) {
         await logClick({
           type: "vendor-site",
@@ -40,6 +40,7 @@ export async function GET(
           destUrl: vendor.website,
           refPage: request.headers.get("referer") || undefined,
           visitorId: vid,
+          ip,
         });
       }
     }
