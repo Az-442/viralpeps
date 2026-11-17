@@ -311,6 +311,10 @@ export default function SellerDashboard(props: {
   const websiteClicks = filteredClicks.filter((c) => c.click_type === "vendor-site").length;
   const productClicks = filteredClicks.filter((c) => c.click_type === "product").length;
 
+  // Affiliate program summary (all-time, not range-filtered).
+  const affiliateClicksAll = props.clicks.filter((c) => c.click_type === "vendor-site").length;
+  const totalCommissionAll = props.sales.reduce((acc, s) => acc + Number(s.commission_amount ?? 0), 0);
+
   // Bar chart: clicks per day over the range (max 30 bars).
   const bars = useMemo(() => {
     const days = rangeDays === 0 ? 30 : rangeDays;
@@ -559,17 +563,17 @@ export default function SellerDashboard(props: {
                 </button>
               </div>
               <p className="text-sm text-gray-500">
-                Earn {props.commissionRate}% commission on every sale you refer. Your affiliate
-                clicks and payouts will be tracked here once you join.
+                Pay only for the sales we actually send you. No monthly fees, no minimums.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-4">
                 <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
                   <div className="text-xs text-gray-500">Affiliate clicks</div>
-                  <div className="text-2xl font-bold mt-1 text-gray-300">—</div>
+                  <div className="text-2xl font-bold mt-1">{affiliateClicksAll}</div>
                 </div>
                 <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
-                  <div className="text-xs text-gray-500">Commission earned</div>
-                  <div className="text-2xl font-bold mt-1 text-gray-300">—</div>
+                  <div className="text-xs text-gray-500">Total commissions</div>
+                  <div className="text-2xl font-bold mt-1">{fmtMoney(totalCommissionAll)}</div>
+                  <div className="text-xs text-gray-400 mt-0.5">across all referred sales</div>
                 </div>
               </div>
             </div>
@@ -667,7 +671,7 @@ export default function SellerDashboard(props: {
                     </tr>
                   </thead>
                   <tbody>
-                    {filteredClicks.slice(0, 15).map((c, i) => (
+                    {filteredClicks.slice(0, 5).map((c, i) => (
                       <tr key={i} className="border-b border-gray-50">
                         <td className="px-5 py-2">{c.compound_slug || "—"}</td>
                         <td className="px-5 py-2">
