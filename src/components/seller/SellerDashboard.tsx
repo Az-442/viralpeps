@@ -741,20 +741,22 @@ export default function SellerDashboard(props: {
               {bars.length === 0 ? (
                 <p className="text-sm text-gray-600 py-6">No clicks in this period.</p>
               ) : (
-                <div className="flex items-end gap-1 h-36">
-                  {bars.map((b) => (
-                    <div key={b.k} className="flex-1 h-full flex flex-col justify-end">
-                      <div className="w-full bg-blue-700 rounded-t" style={{ height: b.n === 0 ? "0px" : `${Math.max(6, (b.n / maxBar) * 100)}%` }} title={`${b.label}: ${b.n} click${b.n === 1 ? "" : "s"}`} />
-                    </div>
-                  ))}
-                </div>
-                <div className="flex gap-1 mt-1.5">
-                  {bars.map((b, i) => (
-                    <div key={b.k} className="flex-1 text-center text-[9px] text-gray-500 truncate">
-                      {i % Math.max(1, Math.ceil(bars.length / 8)) === 0 ? b.label : ""}
-                    </div>
-                  ))}
-                </div>
+                <>
+                  <div className="flex items-end gap-1 h-36">
+                    {bars.map((b) => (
+                      <div key={b.k} className="flex-1 h-full flex flex-col justify-end">
+                        <div className="w-full bg-blue-700 rounded-t" style={{ height: b.n === 0 ? "0px" : `${Math.max(6, (b.n / maxBar) * 100)}%` }} title={`${b.label}: ${b.n} click${b.n === 1 ? "" : "s"}`} />
+                      </div>
+                    ))}
+                  </div>
+                  <div className="flex gap-1 mt-1.5">
+                    {bars.map((b, i) => (
+                      <div key={b.k} className="flex-1 text-center text-[9px] text-gray-500 truncate">
+                        {i % Math.max(1, Math.ceil(bars.length / 8)) === 0 ? b.label : ""}
+                      </div>
+                    ))}
+                  </div>
+                </>
               )}
               <div className="flex flex-wrap gap-x-5 gap-y-1 mt-4 pt-3 border-t border-gray-100 text-xs text-gray-600">
                 <span className="flex items-center gap-1.5"><span className="w-2 h-2 rounded-full bg-blue-700 inline-block" /> Comparison pages {productClicks}</span>
