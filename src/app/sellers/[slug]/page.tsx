@@ -80,14 +80,21 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
     created_at: toIso(s.created_at),
   })) as unknown as SaleRow[];
 
-  type Source = { vendor: string; url?: string; price?: string; inStock?: boolean; image?: string };
+  type Source = { vendor: string; url?: string; price?: string; inStock?: boolean; image?: string; dosage?: string };
   type Compound = { name: string; slug: string; sources: Source[] };
+  const vendorAuto = (vendor._autoChecks as { coa?: boolean; checkedAt?: string } | undefined) ?? {};
+  const vendorCoa = vendorAuto.coa === true;
+  const vendorCheckedAt = vendorAuto.checkedAt ?? "";
   const products: Array<{
     compoundSlug: string;
     compoundName: string;
+    dosage: string;
     price: string;
     inStock: boolean;
     url: string;
+    image?: string;
+    coa: boolean;
+    checkedAt: string;
   }> = [];
   for (const c of compoundsData as Compound[]) {
     for (const s of c.sources || []) {
@@ -95,9 +102,13 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
         products.push({
           compoundSlug: c.slug,
           compoundName: c.name,
+          dosage: String(s.dosage ?? "").trim(),
           price: s.price ?? "",
           inStock: s.inStock !== false,
           url: s.url ?? "",
+          image: s.image,
+          coa: vendorCoa,
+          checkedAt: vendorCheckedAt,
         });
       }
     }

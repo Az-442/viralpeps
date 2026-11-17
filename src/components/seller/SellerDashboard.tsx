@@ -3,6 +3,7 @@
 import { useState, useMemo, type ReactNode } from "react";
 import SellerProfile from "./SellerProfile";
 import TrustScoreIcon from "../TrustScoreIcon";
+import SellerSidebar from "./SellerSidebar";
 
 export interface ClickRow {
   click_type: string;
@@ -15,9 +16,13 @@ export interface ClickRow {
 export interface ProductRow {
   compoundSlug: string;
   compoundName: string;
+  dosage: string;
   price: string;
   inStock: boolean;
   url: string;
+  image?: string;
+  coa: boolean;
+  checkedAt: string;
 }
 
 export interface SaleRow {
@@ -41,6 +46,41 @@ export interface RankingRow {
   vsMarket: number | null;
   outOfStock: boolean;
   atRisk: boolean;
+}
+
+function productKey(p: ProductRow): string {
+  return `${p.compoundSlug}__${p.dosage}`;
+}
+
+function perMg(p: ProductRow): string | null {
+  const n = parseFloat(p.price.replace(/[£$€,]/g, ""));
+  const m = (p.dosage || "").match(/([\d.]+)\s*mg/i);
+  if (isNaN(n) || !m) return null;
+  const mg = parseFloat(m[1]);
+  if (mg <= 0) return null;
+  return `£${(n / mg).toFixed(2)} / mg`;
+}
+
+function checkedAgo(iso: string): string {
+  if (!iso) return "—";
+  const t = new Date(iso).getTime();
+  if (isNaN(t)) return "—";
+  const diff = Date.now() - t;
+  const m = Math.floor(diff / 60000);
+  if (m < 1) return "just now";
+  if (m < 60) return `${m}m ago`;
+  const h = Math.floor(m / 60);
+  if (h < 24) return `${h}h ago`;
+  const d = Math.floor(h / 24);
+  return `${d}d ago`;
+}
+
+function hostOf(url: string): string {
+  try {
+    return new URL(url).hostname.replace(/^www\./, "");
+  } catch {
+    return "";
+  }
 }
 
 const RANGES = [
@@ -303,6 +343,11 @@ export default function SellerDashboard(props: {
   const [hoverBar, setHoverBar] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
   const [hoverHeat, setHoverHeat] = useState<{ x: number; y: number; label: string; n: number } | null>(null);
   const [rankSearch, setRankSearch] = useState("");
+  const [productSearch, setProductSearch] = useState("");
+  const [stockFilter, setStockFilter] = useState("all");
+  const [coaFilter, setCoaFilter] = useState("all");
+  const [visibleFilter, setVisibleFilter] = useState("all");
+  const [hiddenProducts, setHiddenProducts] = useState<Set<string>>(new Set());
 
   const cutoff = useMemo(() => {
     if (rangeDays === 0) return 0;
@@ -440,6 +485,33 @@ export default function SellerDashboard(props: {
     );
   }, [props.ranking, rankSearch]);
 
+  const inStockCount = props.products.filter((p) => p.inStock).length;
+  const oosCount = props.products.length - inStockCount;
+  const noCoaCount = props.products.filter((p) => !p.coa).length;
+  const filteredProducts = useMemo(() => {
+    const q = productSearch.trim().toLowerCase();
+    return props.products.filter((p) => {
+      const key = productKey(p);
+      if (q && !`${p.compoundName} ${p.dosage}`.toLowerCase().includes(q)) return false;
+      if (stockFilter === "in" && !p.inStock) return false;
+      if (stockFilter === "out" && p.inStock) return false;
+      if (coaFilter === "with" && !p.coa) return false;
+      if (coaFilter === "without" && p.coa) return false;
+      if (visibleFilter === "live" && hiddenProducts.has(key)) return false;
+      if (visibleFilter === "hidden" && !hiddenProducts.has(key)) return false;
+      return true;
+    });
+  }, [props.products, productSearch, stockFilter, coaFilter, visibleFilter, hiddenProducts]);
+
+  function toggleHidden(key: string) {
+    setHiddenProducts((prev) => {
+      const next = new Set(prev);
+      if (next.has(key)) next.delete(key);
+      else next.add(key);
+      return next;
+    });
+  }
+
   const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
 
   function copyEmbed() {
@@ -504,84 +576,7 @@ export default function SellerDashboard(props: {
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       {/* ── Sidebar ── */}
-      <aside className="fixed inset-y-0 left-0 w-64 bg-white border-r border-gray-200 flex flex-col overflow-y-auto">
-        {/* Brand */}
-        <div className="px-4 py-5 border-b border-gray-100">
-          <div className="flex items-center gap-2">
-            <BrandHexagon />
-            <div>
-              <div className="font-semibold text-sm leading-tight">Supplier Portal</div>
-              <div className="text-[10px] tracking-widest text-gray-600">VIRALPEPS</div>
-            </div>
-          </div>
-        </div>
-
-        {/* Supplier selection */}
-        <div className="px-3 pt-3">
-          <div className="bg-gray-50 border border-gray-100 rounded-lg px-3 py-2.5 flex items-center gap-2.5">
-            <div className="w-7 h-7 rounded-full bg-blue-600 text-white text-[11px] font-semibold flex items-center justify-center shrink-0">
-              {props.name.charAt(0)}
-            </div>
-            <div className="min-w-0">
-              <div className="text-sm font-medium text-gray-800 truncate">{props.name}</div>
-              <a
-                href={`/vendors/${props.slug}`}
-                className="text-[11px] text-blue-600 hover:underline inline-flex items-center gap-0.5"
-              >
-                View public listing <span aria-hidden>↗</span>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        {/* Nav */}
-        <nav className="flex-1 px-2 py-3 text-sm">
-          {NAV_SECTIONS.map((section) => (
-            <div key={section.label} className="mt-2 first:mt-0">
-              <div className="px-3 pb-1 text-[10px] font-semibold tracking-widest text-gray-600 uppercase">
-                {section.label}
-              </div>
-              {section.items.map(({ id, label, Icon }) => (
-                <button
-                  key={id}
-                  onClick={() => setTab(id)}
-                  className={`w-full flex items-center gap-2.5 px-3 py-2 rounded-lg text-left ${
-                    tab === id ? "bg-blue-50 text-blue-700 font-medium" : "text-gray-900 hover:bg-gray-50"
-                  }`}
-                >
-                  <Icon /> {label}
-                </button>
-              ))}
-            </div>
-          ))}
-        </nav>
-
-        {/* Get Featured CTA */}
-        <div className="px-3 pb-2">
-          <a
-            href="/contact"
-            className="flex items-center justify-center gap-1.5 bg-[#0b1a2e] text-white text-sm font-medium px-3 py-2.5 rounded-lg hover:bg-[#12243c]"
-          >
-            <span className="text-amber-400"><SparklesIcon /></span>
-            Get Featured
-          </a>
-        </div>
-
-        {/* Footer */}
-        <div className="px-3 py-3 border-t border-gray-100 text-xs text-gray-700 space-y-1">
-          <a href="/contact" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-700">
-            <LifeBuoyIcon /> Support
-          </a>
-          <a href="/" className="flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-gray-700">
-            <ArrowLeftIcon /> Back to Site
-          </a>
-          <form action="/api/sellers/logout" method="POST">
-            <button className="w-full flex items-center gap-2 px-2 py-1.5 rounded-lg hover:bg-gray-50 text-left text-gray-600">
-              Sign out
-            </button>
-          </form>
-        </div>
-      </aside>
+      <SellerSidebar name={props.name} slug={props.slug} active={tab} onSelect={(id) => setTab(id as Tab)} />
 
       {/* ── Main ── */}
       <div className="ml-64 p-6">
@@ -1018,53 +1013,157 @@ export default function SellerDashboard(props: {
         )}
 
         {tab === "products" && (
-          <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
-            <div className="px-5 py-3 border-b border-gray-100 flex items-center justify-between">
+          <>
+            <div className="flex items-start justify-between gap-4 mb-5">
               <div>
-                <h2 className="font-semibold">Your products</h2>
-                <div className="text-xs text-gray-600">as listed on the comparison pages</div>
+                <h1 className="text-xl font-bold mb-1">Products</h1>
+                <p className="text-sm text-gray-700">
+                  Everything you have listed with us. Prices are read from your own product pages, so the way to change one is to change it on your site.
+                </p>
               </div>
-              <select
-                value={productFilter}
-                onChange={(e) => setProductFilter(e.target.value)}
-                className="text-xs border border-gray-200 rounded-lg px-2 py-1.5"
-              >
-                <option value="all">All products</option>
-                {productList.map((p) => (
-                  <option key={p.slug} value={p.slug}>{p.name}</option>
-                ))}
+              <div className="flex gap-2 shrink-0">
+                <button className="text-sm border border-gray-300 rounded-lg px-3 py-2 font-medium text-gray-900 bg-white">↑ Import CSV</button>
+                <button className="text-sm bg-[#0d3b66] text-white rounded-lg px-3 py-2 font-medium">+ Add product</button>
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">
+              <div className="bg-white border border-gray-200 rounded-xl p-4">
+                <div className="flex items-center gap-2 text-gray-700 text-sm">
+                  <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" /><path d="M3.27 6.96 12 12.01l8.73-5.05" /><path d="M12 22.08V12" /></svg>
+                  <span>Listings</span>
+                </div>
+                <div className="text-2xl font-bold text-gray-900 mt-1.5">{props.products.length}</div>
+              </div>
+              <div className="bg-white border border-gray-200 rounded-xl p-4">
+                <div className="flex items-center gap-2 text-gray-700 text-sm">
+                  <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z" /><circle cx="12" cy="12" r="3" /></svg>
+                  <span>Live on the site</span>
+                </div>
+                <div className="text-2xl font-bold text-emerald-600 mt-1.5">{inStockCount}</div>
+              </div>
+              <div className="bg-white border border-gray-200 rounded-xl p-4">
+                <div className="flex items-center gap-2 text-gray-700 text-sm">
+                  <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10" /><path d="M15 9l-6 6M9 9l6 6" /></svg>
+                  <span>Out of stock</span>
+                </div>
+                <div className="text-2xl font-bold text-rose-600 mt-1.5">{oosCount}</div>
+              </div>
+              <div className="bg-white border border-gray-200 rounded-xl p-4">
+                <div className="flex items-center gap-2 text-gray-700 text-sm">
+                  <svg className="w-4 h-4 text-blue-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" /><path d="M14 2v6h6" /></svg>
+                  <span>Without a lab report</span>
+                </div>
+                <div className="text-2xl font-bold text-amber-600 mt-1.5">{noCoaCount}</div>
+              </div>
+            </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl p-3 flex flex-wrap gap-3 mb-4">
+              <div className="relative flex-1 min-w-[220px]">
+                <svg className="w-4 h-4 text-gray-400 absolute left-3 top-1/2 -translate-y-1/2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="11" cy="11" r="8" /><path d="M21 21l-4.3-4.3" /></svg>
+                <input
+                  type="text"
+                  value={productSearch}
+                  onChange={(e) => setProductSearch(e.target.value)}
+                  placeholder="Search by peptide name..."
+                  className="w-full text-sm border border-gray-200 rounded-lg pl-9 pr-3 py-2 focus:outline-none focus:border-blue-400"
+                />
+              </div>
+              <select value={stockFilter} onChange={(e) => setStockFilter(e.target.value)} className="text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-900">
+                <option value="all">Any stock</option>
+                <option value="in">In stock</option>
+                <option value="out">Out of stock</option>
+              </select>
+              <select value={coaFilter} onChange={(e) => setCoaFilter(e.target.value)} className="text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-900">
+                <option value="all">Any lab report</option>
+                <option value="with">With lab report</option>
+                <option value="without">Without lab report</option>
+              </select>
+              <select value={visibleFilter} onChange={(e) => setVisibleFilter(e.target.value)} className="text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-900">
+                <option value="all">Live and hidden</option>
+                <option value="live">Live only</option>
+                <option value="hidden">Hidden only</option>
               </select>
             </div>
-            <table className="w-full text-sm">
-              <thead>
-                <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
-                  <th className="px-5 py-2 font-medium">Product</th>
-                  <th className="px-5 py-2 font-medium">Price</th>
-                  <th className="px-5 py-2 font-medium">Stock</th>
-                  <th className="px-5 py-2 font-medium">Clicks</th>
-                </tr>
-              </thead>
-              <tbody>
-                {props.products.filter((p) => productFilter === "all" || p.compoundSlug === productFilter).map((p, i) => (
-                  <tr key={i} className="border-b border-gray-50">
-                    <td className="px-5 py-2">
-                      <a href={`/compounds/${p.compoundSlug}`} className="hover:underline">{p.compoundName}</a>
-                    </td>
-                    <td className="px-5 py-2">{p.price || "—"}</td>
-                    <td className="px-5 py-2">
-                      <span className={`text-xs px-2 py-0.5 rounded-full ${p.inStock ? "bg-emerald-50 text-emerald-700" : "bg-rose-50 text-rose-600"}`}>
-                        {p.inStock ? "In Stock" : "Out of Stock"}
-                      </span>
-                    </td>
-                    <td className="px-5 py-2">{props.productClicks[p.compoundSlug] ?? 0}</td>
-                  </tr>
-                ))}
-                {props.products.length === 0 && (
-                  <tr><td colSpan={4} className="px-5 py-6 text-gray-600">No products listed.</td></tr>
-                )}
-              </tbody>
-            </table>
-          </div>
+
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <div className="overflow-x-auto">
+                <table className="w-full text-sm">
+                  <thead>
+                    <tr className="text-left text-xs text-gray-600 border-b border-gray-100">
+                      <th className="px-5 py-3 font-medium">Product</th>
+                      <th className="px-5 py-3 font-medium">Price</th>
+                      <th className="px-5 py-3 font-medium">Stock</th>
+                      <th className="px-5 py-3 font-medium">Lab report</th>
+                      <th className="px-5 py-3 font-medium">Price checked</th>
+                      <th className="px-5 py-3 font-medium">Visible</th>
+                      <th className="px-5 py-3 font-medium text-right">Edit</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {filteredProducts.map((p) => {
+                      const key = productKey(p);
+                      const hidden = hiddenProducts.has(key);
+                      const pmg = perMg(p);
+                      return (
+                        <tr key={key} className="border-b border-gray-50">
+                          <td className="px-5 py-3">
+                            <div className="flex items-center gap-3">
+                              {p.image ? (
+                                <img src={p.image} alt="" className="w-10 h-10 rounded-lg object-cover border border-gray-200" onError={(e) => ((e.target as HTMLImageElement).style.display = "none")} />
+                              ) : (
+                                <div className="w-10 h-10 rounded-lg border border-gray-200 bg-gray-100 flex items-center justify-center text-[8px] text-gray-500 text-center leading-tight px-0.5">
+                                  {p.inStock ? "" : "OUT OF STOCK"}
+                                </div>
+                              )}
+                              <div>
+                                <div className="font-medium text-gray-900">{p.compoundName} {p.dosage && <span className="text-gray-600">{p.dosage}</span>}</div>
+                                <a href={p.url} target="_blank" rel="noopener" className="text-xs text-blue-600 hover:underline">{hostOf(p.url) || "supplier site"} ↗</a>
+                              </div>
+                            </div>
+                          </td>
+                          <td className="px-5 py-3 text-gray-900">
+                            {p.price || "—"}
+                            {pmg && <span className="text-xs text-gray-600"> ({pmg})</span>}
+                          </td>
+                          <td className="px-5 py-3">
+                            <span className={`text-xs font-medium px-2 py-1 rounded-full ${p.inStock ? "bg-emerald-50 text-emerald-700" : "bg-rose-50 text-rose-600"}`}>
+                              • {p.inStock ? "In Stock" : "Out of Stock"}
+                            </span>
+                          </td>
+                          <td className="px-5 py-3">
+                            {p.coa ? (
+                              <button className="text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg px-2.5 py-1">View COA</button>
+                            ) : (
+                              <button className="text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-lg px-2.5 py-1">+ Add a COA</button>
+                            )}
+                          </td>
+                          <td className="px-5 py-3 text-gray-700">{checkedAgo(p.checkedAt)}</td>
+                          <td className="px-5 py-3">
+                            <button
+                              onClick={() => toggleHidden(key)}
+                              className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${hidden ? "bg-gray-300" : "bg-gray-900"}`}
+                              aria-label={hidden ? "Hidden" : "Visible"}
+                            >
+                              <span className={`inline-block h-3.5 w-3.5 transform rounded-full bg-white shadow transition-transform ${hidden ? "translate-x-1" : "translate-x-4"}`} />
+                            </button>
+                          </td>
+                          <td className="px-5 py-3 text-right">
+                            <a href={`/sellers/${props.slug}/products/${p.compoundSlug}/edit?dosage=${encodeURIComponent(p.dosage)}`} className="text-xs font-medium text-gray-900 hover:underline">
+                              Edit <span className="align-middle">✎</span>
+                            </a>
+                          </td>
+                        </tr>
+                      );
+                    })}
+                    {filteredProducts.length === 0 && (
+                      <tr><td colSpan={7} className="px-5 py-8 text-sm text-gray-600 text-center">No products match your filters.</td></tr>
+                    )}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </>
         )}
 
         {tab === "badge" && (
