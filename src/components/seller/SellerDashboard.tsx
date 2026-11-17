@@ -311,8 +311,9 @@ export default function SellerDashboard(props: {
   const websiteClicks = filteredClicks.filter((c) => c.click_type === "vendor-site").length;
   const productClicks = filteredClicks.filter((c) => c.click_type === "product").length;
 
-  // Affiliate program summary (all-time, not range-filtered).
-  const affiliateClicksAll = props.clicks.filter((c) => c.click_type === "vendor-site").length;
+  // Affiliate program summary (all-time, not range-filtered). All outbound
+  // clicks — product AND vendor-site — are affiliate referral traffic.
+  const affiliateClicksAll = props.clicks.filter((c) => c.click_type === "vendor-site" || c.click_type === "product").length;
   const totalCommissionAll = props.sales.reduce((acc, s) => acc + Number(s.commission_amount ?? 0), 0);
 
   // Bar chart: continuous daily series over the range (accurate time axis).
