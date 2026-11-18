@@ -22,7 +22,6 @@ export default function EditProduct(props: {
   const [format, setFormat] = useState("Vial");
   const [active, setActive] = useState(true);
   const [labTested, setLabTested] = useState(props.coa);
-  const [reportMode, setReportMode] = useState<"link" | "upload">("link");
   const [provider, setProvider] = useState(props.provider);
   const [resultsUrl, setResultsUrl] = useState(props.coaUrl);
   const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">("idle");
@@ -136,12 +135,8 @@ export default function EditProduct(props: {
           <p className="text-xs text-gray-600 mt-1">Tick if this product has been third-party lab tested.</p>
 
           <div className="mt-4">
-            <p className="text-sm text-gray-700 mb-1.5">How would you like to provide the test results?</p>
-            <p className="text-xs text-gray-600 mb-2">Optional, but a linked or uploaded report is what turns your Lab tested badge into proof buyers can check.</p>
-            <div className="inline-flex rounded-lg border border-gray-200 overflow-hidden">
-              <button onClick={() => setReportMode("link")} className={`px-3 py-2 text-sm font-medium ${reportMode === "link" ? "bg-white text-gray-900" : "bg-gray-100 text-gray-600"}`}>Link to online results</button>
-              <button onClick={() => setReportMode("upload")} className={`px-3 py-2 text-sm font-medium ${reportMode === "upload" ? "bg-white text-gray-900" : "bg-gray-100 text-gray-600"}`}>Upload a certificate</button>
-            </div>
+            <p className="text-sm text-gray-700 mb-1.5">Link to online results</p>
+            <p className="text-xs text-gray-600 mb-2">Optional, but a linked report is what turns your Lab tested badge into proof buyers can check. Link to the certificate on your own site.</p>
           </div>
 
           <label className="block text-sm text-gray-700 mb-1 mt-4">Testing Provider <span className="text-gray-500 font-normal">(Optional)</span></label>
