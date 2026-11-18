@@ -85,6 +85,19 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
   const vendorAuto = (vendor._autoChecks as { coa?: boolean; checkedAt?: string } | undefined) ?? {};
   const vendorCoa = vendorAuto.coa === true;
   const vendorCheckedAt = vendorAuto.checkedAt ?? "";
+
+  // Saved per-product COAs (from the coas table).
+  const coaRows = await sql`
+    SELECT compound_slug, dosage, lab_tested, coa_url FROM coas WHERE vendor_slug = ${slug}
+  `;
+  const coaByKey = new Map<string, { lab_tested: boolean; coa_url: string }>();
+  for (const r of coaRows.rows) {
+    coaByKey.set(`${r.compound_slug}__${r.dosage}`, {
+      lab_tested: (r.lab_tested as boolean) === true,
+      coa_url: (r.coa_url as string) ?? "",
+    });
+  }
+
   const products: Array<{
     compoundSlug: string;
     compoundName: string;
@@ -94,20 +107,24 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
     url: string;
     image?: string;
     coa: boolean;
+    coaUrl: string;
     checkedAt: string;
   }> = [];
   for (const c of compoundsData as Compound[]) {
     for (const s of c.sources || []) {
       if (s.vendor === vendor.name) {
+        const dosage = String(s.dosage ?? "").trim();
+        const savedCoa = coaByKey.get(`${c.slug}__${dosage}`);
         products.push({
           compoundSlug: c.slug,
           compoundName: c.name,
-          dosage: String(s.dosage ?? "").trim(),
+          dosage,
           price: s.price ?? "",
           inStock: s.inStock !== false,
           url: s.url ?? "",
           image: s.image,
-          coa: vendorCoa,
+          coa: (savedCoa?.lab_tested === true) || vendorCoa,
+          coaUrl: savedCoa?.coa_url ?? "",
           checkedAt: vendorCheckedAt,
         });
       }

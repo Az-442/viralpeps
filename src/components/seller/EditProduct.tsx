@@ -7,12 +7,15 @@ import SellerSidebar from "./SellerSidebar";
 export default function EditProduct(props: {
   slug: string;
   name: string;
+  compoundSlug: string;
   compoundName: string;
   dosage: string;
   url: string;
   price: string;
   inStock: boolean;
   coa: boolean;
+  coaUrl: string;
+  provider: string;
 }) {
   const [productUrl, setProductUrl] = useState(props.url);
   const [stock, setStock] = useState(props.inStock ? "In Stock" : "Out of Stock");
@@ -20,8 +23,30 @@ export default function EditProduct(props: {
   const [active, setActive] = useState(true);
   const [labTested, setLabTested] = useState(props.coa);
   const [reportMode, setReportMode] = useState<"link" | "upload">("link");
-  const [provider, setProvider] = useState("");
-  const [resultsUrl, setResultsUrl] = useState("");
+  const [provider, setProvider] = useState(props.provider);
+  const [resultsUrl, setResultsUrl] = useState(props.coaUrl);
+  const [saveState, setSaveState] = useState<"idle" | "saving" | "saved" | "error">("idle");
+
+  async function saveCoa() {
+    setSaveState("saving");
+    try {
+      const res = await fetch("/api/sellers/coa", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          compoundSlug: props.compoundSlug,
+          dosage: props.dosage,
+          labTested,
+          provider: provider || null,
+          coaUrl: resultsUrl || null,
+        }),
+      });
+      const data = await res.json();
+      setSaveState(data.ok ? "saved" : "error");
+    } catch {
+      setSaveState("error");
+    }
+  }
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -102,7 +127,7 @@ export default function EditProduct(props: {
         </div>
 
         {/* Lab Testing */}
-        <div className="bg-white border border-gray-200 rounded-xl p-5">
+        <div id="lab-testing" className="bg-white border border-gray-200 rounded-xl p-5">
           <h2 className="font-semibold mb-4">Lab Testing</h2>
           <label className="flex items-center gap-2.5 cursor-pointer">
             <input type="checkbox" checked={labTested} onChange={(e) => setLabTested(e.target.checked)} className="h-4 w-4 text-gray-900" />
@@ -129,6 +154,18 @@ export default function EditProduct(props: {
 
           <label className="block text-sm text-gray-700 mb-1">Results URL <span className="text-gray-500 font-normal">(Optional)</span></label>
           <input type="text" value={resultsUrl} onChange={(e) => setResultsUrl(e.target.value)} placeholder="https://..." className="w-full text-sm border border-gray-200 rounded-lg px-3 py-2 text-gray-900" />
+
+          <div className="flex items-center gap-3 mt-5">
+            <button
+              onClick={saveCoa}
+              disabled={saveState === "saving"}
+              className="text-sm bg-[#0d3b66] text-white rounded-lg px-4 py-2 font-medium disabled:opacity-60"
+            >
+              {saveState === "saving" ? "Saving…" : "Save COA"}
+            </button>
+            {saveState === "saved" && <span className="text-sm text-emerald-600 font-medium">Saved ✓</span>}
+            {saveState === "error" && <span className="text-sm text-rose-600 font-medium">Save failed — try again.</span>}
+          </div>
         </div>
       </div>
         </div>

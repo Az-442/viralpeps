@@ -1,5 +1,6 @@
 import { redirect, notFound } from "next/navigation";
 import { cookies } from "next/headers";
+import { sql } from "@vercel/postgres";
 import { findSellerBySession } from "@/lib/seller-auth";
 import vendorsData from "@/data/vendors.json";
 import compoundsData from "@/data/compounds.json";
@@ -42,16 +43,29 @@ export default async function EditProductPage({
 
   const auto = (vendor._autoChecks as { coa?: boolean } | undefined) ?? {};
 
+  const coaRows = await sql`
+    SELECT lab_tested, provider, coa_url FROM coas
+    WHERE vendor_slug = ${slug} AND compound_slug = ${compoundSlug} AND dosage = ${wantedDosage}
+  `;
+  const saved = coaRows.rows[0];
+  const savedLabTested = (saved?.lab_tested as boolean) === true;
+  const savedProvider = (saved?.provider as string) ?? "";
+  const savedCoaUrl = (saved?.coa_url as string) ?? "";
+  const initialLabTested = saved ? savedLabTested : auto.coa === true;
+
   return (
     <EditProduct
       slug={slug}
       name={vendor.name}
+      compoundSlug={compoundSlug}
       compoundName={compound.name}
       dosage={wantedDosage}
       url={source.url ?? ""}
       price={source.price ?? ""}
       inStock={source.inStock !== false}
-      coa={auto.coa === true}
+      coa={initialLabTested}
+      coaUrl={savedCoaUrl}
+      provider={savedProvider}
     />
   );
 }

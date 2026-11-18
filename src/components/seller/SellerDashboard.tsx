@@ -22,6 +22,7 @@ export interface ProductRow {
   url: string;
   image?: string;
   coa: boolean;
+  coaUrl: string;
   checkedAt: string;
 }
 
@@ -1105,6 +1106,7 @@ export default function SellerDashboard(props: {
                       const key = productKey(p);
                       const hidden = hiddenProducts.has(key);
                       const pmg = perMg(p);
+                      const editUrl = `/sellers/${props.slug}/products/${p.compoundSlug}/edit?dosage=${encodeURIComponent(p.dosage)}`;
                       return (
                         <tr key={key} className="border-b border-gray-50">
                           <td className="px-5 py-3">
@@ -1133,9 +1135,18 @@ export default function SellerDashboard(props: {
                           </td>
                           <td className="px-5 py-3">
                             {p.coa ? (
-                              <button className="text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg px-2.5 py-1">View COA</button>
+                              <a
+                                href={p.coaUrl || `${editUrl}#lab-testing`}
+                                target={p.coaUrl ? "_blank" : undefined}
+                                rel={p.coaUrl ? "noopener" : undefined}
+                                className="inline-block text-xs font-medium text-emerald-700 bg-emerald-50 border border-emerald-200 rounded-lg px-2.5 py-1 hover:underline"
+                              >
+                                View COA
+                              </a>
                             ) : (
-                              <button className="text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-lg px-2.5 py-1">+ Add a COA</button>
+                              <a href={`${editUrl}#lab-testing`} className="inline-block text-xs font-medium text-blue-700 bg-blue-50 border border-blue-200 rounded-lg px-2.5 py-1 hover:underline">
+                                + Add a COA
+                              </a>
                             )}
                           </td>
                           <td className="px-5 py-3 text-gray-700">{checkedAgo(p.checkedAt)}</td>
@@ -1149,7 +1160,7 @@ export default function SellerDashboard(props: {
                             </button>
                           </td>
                           <td className="px-5 py-3 text-right">
-                            <a href={`/sellers/${props.slug}/products/${p.compoundSlug}/edit?dosage=${encodeURIComponent(p.dosage)}`} className="text-xs font-medium text-gray-900 hover:underline">
+                            <a href={editUrl} className="text-xs font-medium text-gray-900 hover:underline">
                               Edit <span className="align-middle">✎</span>
                             </a>
                           </td>
