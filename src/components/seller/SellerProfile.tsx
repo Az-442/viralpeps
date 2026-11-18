@@ -68,7 +68,7 @@ export default function SellerProfile(props: {
       <div className="bg-white border border-gray-200 rounded-xl p-5">
         <div className="flex items-center justify-between mb-1">
           <h2 className="font-semibold">Company details</h2>
-          <span className="text-xs text-emerald-600">self-edit, no approval</span>
+          <span className="text-xs text-emerald-600">contact self-edit · entity/payment need review</span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-3">
           <div>

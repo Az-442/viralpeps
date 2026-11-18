@@ -57,10 +57,19 @@ export async function PUT(request: NextRequest) {
   const sets = cols.map((c, i) => `${c} = $${i + 2}`).join(", ");
   const vals = cols.map((c) => updates[c]);
   const params = [seller.slug, ...vals];
+
+  // Entity + payment are score-affecting and admin-gated: a new claim puts the
+  // profile back into review and clears any prior verified value until approved.
+  const isScoreClaim =
+    updates.entity_type !== undefined || updates.payment_method !== undefined;
+  const reviewClause = isScoreClaim
+    ? `, review_status = 'pending', entity_type_verified = NULL, payment_method_verified = NULL`
+    : "";
+
   await sql.query(
-    `UPDATE seller_profiles SET ${sets}, updated_at = now() WHERE seller_slug = $1`,
+    `UPDATE seller_profiles SET ${sets}${reviewClause}, updated_at = now() WHERE seller_slug = $1`,
     params
   );
 
-  return NextResponse.json({ ok: true });
+  return NextResponse.json({ ok: true, review: isScoreClaim ? "pending" : null });
 }

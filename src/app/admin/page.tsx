@@ -108,5 +108,34 @@ export default async function AdminPage() {
     affiliateApproved[s.slug] = s.affiliate_joined_at ?? null;
   }
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} dataRange={dataRange} />;
+  // Pending profile reviews (score-affecting entity/payment claims awaiting approval).
+  const reviewResult = await sql`
+    SELECT
+      p.seller_slug AS slug,
+      s.name,
+      p.entity_type,
+      p.payment_method,
+      p.entity_type_verified,
+      p.payment_method_verified,
+      p.review_status,
+      p.updated_at
+    FROM seller_profiles p
+    JOIN sellers s ON s.slug = p.seller_slug
+    WHERE p.review_status IS NOT NULL AND p.review_status <> 'none'
+    ORDER BY
+      CASE p.review_status WHEN 'pending' THEN 0 ELSE 1 END,
+      p.updated_at DESC
+  `;
+  const profileReviews = (reviewResult.rows as Record<string, unknown>[]).map((x) => ({
+    slug: String(x.slug ?? ""),
+    name: String(x.name ?? ""),
+    entityType: (x.entity_type as string) ?? null,
+    paymentMethod: (x.payment_method as string) ?? null,
+    entityTypeVerified: (x.entity_type_verified as string) ?? null,
+    paymentMethodVerified: (x.payment_method_verified as string) ?? null,
+    status: (x.review_status as string) ?? null,
+    updatedAt: x.updated_at ? new Date(x.updated_at as any).toISOString() : null,
+  }));
+
+  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} dataRange={dataRange} />;
 }

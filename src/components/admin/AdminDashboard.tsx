@@ -36,6 +36,17 @@ export interface SellerAccount {
   commission: number;
 }
 
+export interface ProfileReview {
+  slug: string;
+  name: string;
+  entityType: string | null;
+  paymentMethod: string | null;
+  entityTypeVerified: string | null;
+  paymentMethodVerified: string | null;
+  status: string | null;
+  updatedAt: string | null;
+}
+
 const WINDOWS = [
   { key: "7", label: "Last 7 days" },
   { key: "30", label: "Last 30 days" },
@@ -62,20 +73,23 @@ export default function AdminDashboard({
   sellers,
   affiliateRequests,
   affiliateApproved,
+  profileReviews,
   dataRange,
 }: {
   vendors: VendorPerf[];
   sellers: SellerAccount[];
   affiliateRequests: AffiliateRequest[];
   affiliateApproved: Record<string, string | null>;
+  profileReviews: ProfileReview[];
   dataRange?: string;
 }) {
-  const [tab, setTab] = useState<"network" | "sellers" | "requests">("network");
+  const [tab, setTab] = useState<"network" | "sellers" | "requests" | "reviews">("network");
   const [win, setWin] = useState<WinKey>("All");
   const [q, setQ] = useState("");
   const [sortKey, setSortKey] = useState<"clicks" | "sales" | "commission" | "revenue">("clicks");
   const [asc, setAsc] = useState(false);
   const [approved, setApproved] = useState<Record<string, boolean>>({});
+  const [reviewDecided, setReviewDecided] = useState<Record<string, string>>({});
 
   async function approveAffiliate(slug: string) {
     try {
@@ -85,6 +99,19 @@ export default function AdminDashboard({
         body: JSON.stringify({ slug }),
       });
       if (r.ok) setApproved((p) => ({ ...p, [slug]: true }));
+    } catch {
+      /* no-op */
+    }
+  }
+
+  async function reviewAction(slug: string, action: "approve" | "reject") {
+    try {
+      const r = await fetch("/api/sellers/profile-review", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug, action }),
+      });
+      if (r.ok) setReviewDecided((p) => ({ ...p, [slug]: action }));
     } catch {
       /* no-op */
     }
@@ -154,10 +181,11 @@ export default function AdminDashboard({
             ["network", "Network performance", "📊"],
             ["sellers", "Registered sellers", "👥"],
             ["requests", "Join requests", "🔔"],
+            ["reviews", "Profile review", "🛡️"],
           ].map(([id, label, icon]) => (
             <button
               key={id}
-              onClick={() => setTab(id as "network" | "sellers" | "requests")}
+              onClick={() => setTab(id as "network" | "sellers" | "requests" | "reviews")}
               style={{
                 width: "100%", textAlign: "left", display: "flex", alignItems: "center", gap: ".5rem",
                 padding: ".55rem .7rem", borderRadius: 8, border: "none", background: tab === id ? "#eff6ff" : "transparent",
@@ -168,6 +196,11 @@ export default function AdminDashboard({
               {id === "requests" && affiliateRequests.length > 0 && (
                 <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
                   {affiliateRequests.length}
+                </span>
+              )}
+              {id === "reviews" && profileReviews.filter((r) => r.status === "pending").length > 0 && (
+                <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
+                  {profileReviews.filter((r) => r.status === "pending").length}
                 </span>
               )}
             </button>
@@ -306,6 +339,72 @@ export default function AdminDashboard({
                       </td>
                     </tr>
                   ))}
+                </tbody>
+              </table>
+            </div>
+          </>
+        ) : tab === "reviews" ? (
+          <>
+            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Profile review</h1>
+            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+              Score-affecting claims (entity type + payment method) awaiting your approval. Approve to apply them to the TrustScore.
+            </p>
+            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+                <thead>
+                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
+                    <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Claimed entity</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Claimed payment</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Status</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {profileReviews.length === 0 ? (
+                    <tr><td colSpan={5} style={{ padding: "1.5rem", color: "#374151" }}>No profile claims yet.</td></tr>
+                  ) : profileReviews.map((r) => {
+                    const decided = reviewDecided[r.slug] || r.status;
+                    return (
+                      <tr key={r.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
+                        <td style={{ padding: ".5rem 1.1rem" }}>
+                          <span style={{ fontWeight: 600 }}>{r.name || r.slug}</span>
+                          <div style={{ color: "#374151", fontSize: ".72rem" }}>{r.slug}</div>
+                        </td>
+                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{r.entityType || "—"}</td>
+                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{r.paymentMethod || "—"}</td>
+                        <td style={{ padding: ".5rem .9rem" }}>
+                          {decided === "pending" ? (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef3c7", color: "#b45309", fontWeight: 600 }}>Pending</span>
+                          ) : decided === "approved" ? (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Approved</span>
+                          ) : (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef2f2", color: "#b91c1c", fontWeight: 600 }}>Rejected</span>
+                          )}
+                        </td>
+                        <td style={{ padding: ".5rem .9rem" }}>
+                          {decided === "pending" ? (
+                            <div style={{ display: "flex", gap: ".4rem" }}>
+                              <button
+                                onClick={() => reviewAction(r.slug, "approve")}
+                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", cursor: "pointer", fontWeight: 600 }}
+                              >
+                                Approve
+                              </button>
+                              <button
+                                onClick={() => reviewAction(r.slug, "reject")}
+                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", cursor: "pointer", fontWeight: 600 }}
+                              >
+                                Reject
+                              </button>
+                            </div>
+                          ) : (
+                            <span style={{ color: "#374151", fontSize: ".75rem" }}>—</span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
                 </tbody>
               </table>
             </div>
