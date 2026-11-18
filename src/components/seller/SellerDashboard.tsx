@@ -1022,10 +1022,6 @@ export default function SellerDashboard(props: {
                   Everything you have listed with us. Prices are read from your own product pages, so the way to change one is to change it on your site.
                 </p>
               </div>
-              <div className="flex gap-2 shrink-0">
-                <button className="text-sm border border-gray-300 rounded-lg px-3 py-2 font-medium text-gray-900 bg-white">↑ Import CSV</button>
-                <button className="text-sm bg-[#0d3b66] text-white rounded-lg px-3 py-2 font-medium">+ Add product</button>
-              </div>
             </div>
 
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-3 mb-5">
