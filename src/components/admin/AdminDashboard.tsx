@@ -47,6 +47,16 @@ export interface ProfileReview {
   updatedAt: string | null;
 }
 
+export interface ClaimRequest {
+  id: number;
+  slug: string;
+  name: string;
+  email: string;
+  domainMatch: boolean;
+  status: string;
+  createdAt: string | null;
+}
+
 const WINDOWS = [
   { key: "7", label: "Last 7 days" },
   { key: "30", label: "Last 30 days" },
@@ -74,6 +84,7 @@ export default function AdminDashboard({
   affiliateRequests,
   affiliateApproved,
   profileReviews,
+  claims,
   dataRange,
 }: {
   vendors: VendorPerf[];
@@ -81,9 +92,10 @@ export default function AdminDashboard({
   affiliateRequests: AffiliateRequest[];
   affiliateApproved: Record<string, string | null>;
   profileReviews: ProfileReview[];
+  claims: ClaimRequest[];
   dataRange?: string;
 }) {
-  const [tab, setTab] = useState<"network" | "sellers" | "requests" | "reviews">("network");
+  const [tab, setTab] = useState<"network" | "sellers" | "requests" | "reviews" | "claims">("network");
   const [win, setWin] = useState<WinKey>("All");
   const [q, setQ] = useState("");
   const [sortKey, setSortKey] = useState<"clicks" | "sales" | "commission" | "revenue">("clicks");
@@ -112,6 +124,21 @@ export default function AdminDashboard({
         body: JSON.stringify({ slug, action }),
       });
       if (r.ok) setReviewDecided((p) => ({ ...p, [slug]: action }));
+    } catch {
+      /* no-op */
+    }
+  }
+
+  const [claimDecided, setClaimDecided] = useState<Record<number, string>>({});
+
+  async function claimAction(id: number, action: "approve" | "reject") {
+    try {
+      const r = await fetch("/api/claim-listing/decide", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, action }),
+      });
+      if (r.ok) setClaimDecided((p) => ({ ...p, [id]: action }));
     } catch {
       /* no-op */
     }
@@ -181,11 +208,12 @@ export default function AdminDashboard({
             ["network", "Network performance", "📊"],
             ["sellers", "Registered sellers", "👥"],
             ["requests", "Join requests", "🔔"],
+            ["claims", "Claim requests", "🏷️"],
             ["reviews", "Profile review", "🛡️"],
           ].map(([id, label, icon]) => (
             <button
               key={id}
-              onClick={() => setTab(id as "network" | "sellers" | "requests" | "reviews")}
+              onClick={() => setTab(id as "network" | "sellers" | "requests" | "reviews" | "claims")}
               style={{
                 width: "100%", textAlign: "left", display: "flex", alignItems: "center", gap: ".5rem",
                 padding: ".55rem .7rem", borderRadius: 8, border: "none", background: tab === id ? "#eff6ff" : "transparent",
@@ -201,6 +229,11 @@ export default function AdminDashboard({
               {id === "reviews" && profileReviews.filter((r) => r.status === "pending").length > 0 && (
                 <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
                   {profileReviews.filter((r) => r.status === "pending").length}
+                </span>
+              )}
+              {id === "claims" && claims.filter((c) => c.status === "pending").length > 0 && (
+                <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
+                  {claims.filter((c) => c.status === "pending").length}
                 </span>
               )}
             </button>
@@ -400,6 +433,74 @@ export default function AdminDashboard({
                             </div>
                           ) : (
                             <span style={{ color: "#374151", fontSize: ".75rem" }}>—</span>
+                          )}
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </>
+        ) : tab === "claims" ? (
+          <>
+            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Claim requests</h1>
+            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+              Suppliers claiming ownership of an existing listing. Approving creates their seller account.
+            </p>
+            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
+              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+                <thead>
+                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
+                    <th style={{ padding: ".55rem 1.1rem" }}>Listing</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Email</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Domain</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Requested</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {claims.length === 0 ? (
+                    <tr><td colSpan={5} style={{ padding: "1.5rem", color: "#374151" }}>No claim requests yet.</td></tr>
+                  ) : claims.map((c) => {
+                    const decided = claimDecided[c.id] || c.status;
+                    return (
+                      <tr key={c.id} style={{ borderBottom: "1px solid #f3f4f6" }}>
+                        <td style={{ padding: ".5rem 1.1rem" }}>
+                          <span style={{ fontWeight: 600 }}>{c.name || c.slug}</span>
+                          <div style={{ color: "#374151", fontSize: ".72rem" }}>{c.slug}</div>
+                        </td>
+                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{c.email}</td>
+                        <td style={{ padding: ".5rem .9rem" }}>
+                          {c.domainMatch ? (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ match</span>
+                          ) : (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef3c7", color: "#b45309", fontWeight: 600 }}>verify</span>
+                          )}
+                        </td>
+                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>
+                          {c.createdAt ? new Date(c.createdAt).toLocaleString("en-GB") : "—"}
+                        </td>
+                        <td style={{ padding: ".5rem .9rem" }}>
+                          {decided === "pending" ? (
+                            <div style={{ display: "flex", gap: ".4rem" }}>
+                              <button
+                                onClick={() => claimAction(c.id, "approve")}
+                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", cursor: "pointer", fontWeight: 600 }}
+                              >
+                                Approve
+                              </button>
+                              <button
+                                onClick={() => claimAction(c.id, "reject")}
+                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", cursor: "pointer", fontWeight: 600 }}
+                              >
+                                Reject
+                              </button>
+                            </div>
+                          ) : decided === "approved" ? (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Approved</span>
+                          ) : (
+                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef2f2", color: "#b91c1c", fontWeight: 600 }}>Rejected</span>
                           )}
                         </td>
                       </tr>

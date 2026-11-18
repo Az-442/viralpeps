@@ -74,6 +74,9 @@ function LoginForm() {
             {busy ? "Signing in…" : "Sign in"}
           </button>
           <p className="text-xs text-gray-400 text-center">
+            Already listed? <a href="/sellers/claim" className="text-blue-600 hover:underline">Claim your listing</a>
+          </p>
+          <p className="text-xs text-gray-400 text-center">
             Not listed yet? <a href="/vendors/register" className="text-blue-600 hover:underline">Register as a supplier</a>
           </p>
         </form>

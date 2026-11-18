@@ -137,5 +137,23 @@ export default async function AdminPage() {
     updatedAt: x.updated_at ? new Date(x.updated_at as any).toISOString() : null,
   }));
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} dataRange={dataRange} />;
+  // Listing claim requests (suppliers claiming ownership of an existing listing).
+  const claimsResult = await sql`
+    SELECT id, slug, name, email, email_domain_match, status, created_at
+    FROM listing_claims
+    ORDER BY
+      CASE status WHEN 'pending' THEN 0 ELSE 1 END,
+      created_at DESC
+  `;
+  const claims = (claimsResult.rows as Record<string, unknown>[]).map((x) => ({
+    id: Number(x.id),
+    slug: String(x.slug ?? ""),
+    name: String(x.name ?? ""),
+    email: String(x.email ?? ""),
+    domainMatch: x.email_domain_match === true,
+    status: String(x.status ?? "pending"),
+    createdAt: x.created_at ? new Date(x.created_at as any).toISOString() : null,
+  }));
+
+  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} claims={claims} dataRange={dataRange} />;
 }
