@@ -97,7 +97,6 @@ type Tab =
   | "ranking"
   | "products"
   | "badge"
-  | "price-feed"
   | "affiliate"
   | "profile"
   | "invoices"
@@ -264,7 +263,6 @@ const NAV_SECTIONS = [
     items: [
       { id: "products", label: "Products", Icon: PackageIcon },
       { id: "badge", label: "Website Badge", Icon: BadgeIcon },
-      { id: "price-feed", label: "Price Feed", Icon: FileTextIcon },
     ],
   },
   {
@@ -320,6 +318,7 @@ export default function SellerDashboard(props: {
   trustTicks: string[];
   commissionRate: number;
   apiKey: string;
+  badgeToken: string;
   email: string;
   affiliateJoinedAt: string | null;
   stats: {
@@ -513,7 +512,9 @@ export default function SellerDashboard(props: {
     });
   }
 
-  const embedSnippet = `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
+  const embedSnippet = props.badgeToken
+    ? `<script src="https://www.viralpeps.co.uk/trust-score.js" data-token="${props.badgeToken}" data-position="bottom-right" defer></script>`
+    : `<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="${props.slug}" data-position="bottom-right" defer></script>`;
 
   function copyEmbed() {
     navigator.clipboard?.writeText(embedSnippet).then(() => {
@@ -1212,13 +1213,6 @@ export default function SellerDashboard(props: {
               </p>
             </div>
           </div>
-        )}
-
-        {tab === "price-feed" && (
-          <Placeholder
-            title="Price feed"
-            desc="A live price export (CSV/JSON) of your listed products for your own site and ad tools. Coming soon."
-          />
         )}
 
         {tab === "affiliate" && (

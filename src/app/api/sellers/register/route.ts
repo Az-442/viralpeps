@@ -1,6 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@vercel/postgres";
-import { hashPassword, newApiKey } from "@/lib/seller-auth";
+import { hashPassword, newApiKey, newBadgeToken } from "@/lib/seller-auth";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -29,8 +29,8 @@ export async function POST(request: NextRequest) {
 
     const hash = hashPassword(password);
     await sql`
-      INSERT INTO sellers (slug, name, email, password_hash, commission_rate, active, api_key)
-      VALUES (${slug}, ${name}, ${email}, ${hash}, 20, true, ${newApiKey(slug)})
+      INSERT INTO sellers (slug, name, email, password_hash, commission_rate, active, api_key, badge_token)
+      VALUES (${slug}, ${name}, ${email}, ${hash}, 20, true, ${newApiKey(slug)}, ${newBadgeToken()})
     `;
 
     return NextResponse.json({ ok: true });

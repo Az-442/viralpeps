@@ -2,7 +2,10 @@
  *
  * How to install on YOUR site (footer):
  *   <script src="https://www.viralpeps.co.uk/trust-score.js"
- *           data-supplier="YOUR-SLUG" data-position="bottom-right" defer></script>
+ *           data-token="YOUR-UNIQUE-TOKEN" data-position="bottom-right" defer></script>
+ *
+ * Each supplier gets a unique per-profile token (shown in their dashboard).
+ * Legacy installs using data-supplier="SLUG" still work unchanged.
  *
  * Renders a small floating badge (bottom-right by default) that expands on
  * hover to show your independent TrustScore + verified ticks, and links back
@@ -40,18 +43,27 @@
  */
 (function () {
   var script = document.currentScript;
+  var token = (script && script.getAttribute("data-token")) || "";
   var supplier = (script && script.getAttribute("data-supplier")) || "";
   var position = (script && script.getAttribute("data-position")) || "bottom-right";
 
-  if (!supplier) {
-    console.warn("[TrustScore] Missing data-supplier attribute. Example:",
-      '<script src="https://www.viralpeps.co.uk/trust-score.js" data-supplier="uk-peptides" defer></script>');
+  if (!token && !supplier) {
+    console.warn("[TrustScore] Missing data-token / data-supplier attribute. Example:",
+      '<script src="https://www.viralpeps.co.uk/trust-score.js" data-token="YOUR-TOKEN" defer></script>');
     return;
   }
 
   var BASE = "https://www.viralpeps.co.uk";
-  var PROFILE_URL = BASE + "/vendors/" + encodeURIComponent(supplier);
-  var API = BASE + "/api/trust-score?slug=" + encodeURIComponent(supplier);
+  var API = token
+    ? BASE + "/api/trust-score?token=" + encodeURIComponent(token)
+    : BASE + "/api/trust-score?slug=" + encodeURIComponent(supplier);
+
+  // Profile URL for the crawlable backlink. Known immediately for legacy
+  // data-supplier installs; for data-token installs it is resolved by the API
+  // (the token is opaque, so the slug is not visible client-side).
+  var PROFILE_URL = supplier
+    ? BASE + "/vendors/" + encodeURIComponent(supplier)
+    : "";
 
   function injectStaticBacklink(scoreText) {
     // Real, crawlable <a href> in normal document flow. rel="noopener" only —
@@ -128,14 +140,19 @@
   styleEl.textContent = css;
   (document.head || document.documentElement).appendChild(styleEl);
 
-  // Static backlink first — it must not depend on the API call succeeding.
-  injectStaticBacklink(null);
+  // Static backlink first (legacy slug installs have the URL up-front). For
+  // token installs it is injected once the API returns the profile URL.
+  if (PROFILE_URL) injectStaticBacklink(null);
 
   // Fetch the score
   fetch(API)
     .then(function (r) { return r.json(); })
     .then(function (data) {
       if (data.error) { console.warn("[TrustScore]", data.error); return; }
+      if (!PROFILE_URL && data.profileUrl) {
+        PROFILE_URL = data.profileUrl;
+        injectStaticBacklink(null);
+      }
       render(data);
     })
     .catch(function (e) { console.warn("[TrustScore] Could not load score:", e); });

@@ -220,6 +220,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
       trustTicks={trust.ticks}
       commissionRate={seller.commission_rate == null ? 20 : Number(seller.commission_rate)}
       apiKey={seller.api_key ?? ""}
+      badgeToken={seller.badge_token ?? ""}
       email={seller.email}
       affiliateJoinedAt={seller.affiliate_joined_at ?? null}
       stats={{

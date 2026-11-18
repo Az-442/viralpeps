@@ -38,6 +38,11 @@ export function newApiKey(slug: string): string {
     .slice(0, 32);
 }
 
+/** Opaque per-seller badge token — unique install code for the TrustScore widget. */
+export function newBadgeToken(): string {
+  return randomBytes(16).toString("hex");
+}
+
 export interface SellerRow {
   id: number;
   slug: string;
@@ -47,6 +52,7 @@ export interface SellerRow {
   active: boolean;
   session_token: string | null;
   api_key: string | null;
+  badge_token: string | null;
   affiliate_joined_at: string | null;
   created_at: string;
 }
@@ -55,7 +61,7 @@ export async function findSellerBySession(token: string | null): Promise<SellerR
   if (!token) return null;
   try {
     const r = await sql`
-      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, affiliate_joined_at, created_at
+      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, badge_token, affiliate_joined_at, created_at
       FROM sellers WHERE session_token = ${token} AND active = true
     `;
     return (r.rows[0] as SellerRow) ?? null;
@@ -67,10 +73,23 @@ export async function findSellerBySession(token: string | null): Promise<SellerR
 export async function findSellerByEmail(email: string): Promise<SellerRow & { password_hash: string } | null> {
   try {
     const r = await sql`
-      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, affiliate_joined_at, created_at, password_hash
+      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, badge_token, affiliate_joined_at, created_at, password_hash
       FROM sellers WHERE lower(email) = lower(${email})
     `;
     return (r.rows[0] as (SellerRow & { password_hash: string })) ?? null;
+  } catch {
+    return null;
+  }
+}
+
+/** Resolve a badge token to its seller slug (for the widget's ?token= lookup). */
+export async function findSellerByBadgeToken(token: string | null): Promise<{ slug: string } | null> {
+  if (!token) return null;
+  try {
+    const r = await sql`
+      SELECT slug FROM sellers WHERE badge_token = ${token} AND active = true
+    `;
+    return (r.rows[0] as { slug: string }) ?? null;
   } catch {
     return null;
   }

@@ -162,7 +162,6 @@ const NAV_SECTIONS = [
     items: [
       { id: "products", label: "Products", Icon: PackageIcon },
       { id: "badge", label: "Website Badge", Icon: BadgeIcon },
-      { id: "price-feed", label: "Price Feed", Icon: FileTextIcon },
     ],
   },
   {

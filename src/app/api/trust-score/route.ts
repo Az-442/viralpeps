@@ -1,8 +1,10 @@
 import { NextRequest, NextResponse } from "next/server";
 import vendors from "@/data/vendors.json";
 import { getTrustScore } from "@/lib/trust-score";
+import { findSellerByBadgeToken } from "@/lib/seller-auth";
 
 export const dynamic = "force-dynamic";
+export const runtime = "nodejs";
 
 // CORS headers so the TrustScore embed can fetch from ANY supplier's domain.
 const CORS = {
@@ -20,12 +22,19 @@ const CORS = {
  */
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
-  const slug = searchParams.get("slug") || "";
+  let slug = searchParams.get("slug") || "";
+  const token = searchParams.get("token") || "";
+
+  // New path: a unique per-profile badge token resolves to the seller slug.
+  if (!slug && token) {
+    const resolved = await findSellerByBadgeToken(token);
+    slug = resolved?.slug ?? "";
+  }
 
   const vendor = (vendors as any[]).find((v) => v.slug === slug);
   if (!vendor) {
     return NextResponse.json(
-      { error: "Supplier not found — check the ?slug= parameter." },
+      { error: "Supplier not found — check the ?slug= or ?token= parameter." },
       { status: 404, headers: CORS }
     );
   }
