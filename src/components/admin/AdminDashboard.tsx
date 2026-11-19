@@ -1,6 +1,7 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { Fragment, useMemo, useState } from "react";
+import { useRouter } from "next/navigation";
 import type { AffiliateRequest } from "@/lib/affiliate-requests";
 
 export interface VendorPerf {
@@ -34,6 +35,16 @@ export interface SellerAccount {
   clicks: number;
   sales: number;
   commission: number;
+  commissionRate: number;
+  affiliateJoinedAt: string | null;
+  apiKey: string | null;
+  badgeToken: string | null;
+  createdAt: string | null;
+  entityType: string | null;
+  entityTypeVerified: string | null;
+  paymentMethod: string | null;
+  paymentMethodVerified: string | null;
+  reviewStatus: string | null;
 }
 
 export interface ProfileReview {
@@ -130,6 +141,8 @@ export default function AdminDashboard({
   }
 
   const [claimDecided, setClaimDecided] = useState<Record<number, string>>({});
+  const [sellerOpen, setSellerOpen] = useState<string | null>(null);
+  const router = useRouter();
 
   async function claimAction(id: number, action: "approve" | "reject") {
     try {
@@ -521,32 +534,58 @@ export default function AdminDashboard({
                     <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
                     <th style={{ padding: ".55rem .9rem" }}>TrustScore</th>
                     <th style={{ padding: ".55rem .9rem" }}>Status</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Affiliate</th>
                     <th style={{ padding: ".55rem .9rem" }}>Clicks</th>
                     <th style={{ padding: ".55rem .9rem" }}>Sales</th>
                     <th style={{ padding: ".55rem .9rem" }}>Commission</th>
                     <th style={{ padding: ".55rem .9rem" }}>Email</th>
+                    <th style={{ padding: ".55rem .9rem" }}>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   {sellers.length === 0 ? (
-                    <tr><td colSpan={7} style={{ padding: "1.5rem", color: "#374151" }}>No sellers registered yet.</td></tr>
+                    <tr><td colSpan={9} style={{ padding: "1.5rem", color: "#374151" }}>No sellers registered yet.</td></tr>
                   ) : sellers.map((s) => (
-                    <tr key={s.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
+                    <Fragment key={s.slug}>
+                    <tr style={{ borderBottom: "1px solid #f3f4f6", background: s.active ? undefined : "#fffbeb" }}>
                       <td style={{ padding: ".5rem 1.1rem" }}>
                         <a href={`/vendors/${s.slug}`} style={{ fontWeight: 600 }}>{s.name || s.slug}</a>
                         <div style={{ color: "#374151", fontSize: ".72rem" }}>{s.slug}</div>
                       </td>
                       <td style={{ padding: ".5rem .9rem" }}><span style={{ fontWeight: 700, color: band(s.trust) }}>{s.trust}</span></td>
                       <td style={{ padding: ".5rem .9rem" }}>
-                        <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: s.active ? "#ecfdf5" : "#fef3c7", color: s.active ? "#047857" : "#b45309" }}>
-                          {s.active ? "Active" : "Pending"}
+                        <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: s.active ? "#ecfdf5" : "#fef2f2", color: s.active ? "#047857" : "#b91c1c", fontWeight: 600 }}>
+                          {s.active ? "Active" : "Suspended"}
                         </span>
+                      </td>
+                      <td style={{ padding: ".5rem .9rem" }}>
+                        {s.affiliateJoinedAt ? (
+                          <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Joined</span>
+                        ) : (
+                          <span style={{ fontSize: ".72rem", color: "#374151" }}>—</span>
+                        )}
                       </td>
                       <td style={{ padding: ".5rem .9rem" }}>{s.clicks}</td>
                       <td style={{ padding: ".5rem .9rem" }}>{s.sales}</td>
                       <td style={{ padding: ".5rem .9rem" }}>{fmtMoney(s.commission)}</td>
                       <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{s.email ?? "—"}</td>
+                      <td style={{ padding: ".5rem .9rem" }}>
+                        <button
+                          onClick={() => setSellerOpen(sellerOpen === s.slug ? null : s.slug)}
+                          style={{ fontSize: ".72rem", padding: "4px 10px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", cursor: "pointer", fontWeight: 600 }}
+                        >
+                          {sellerOpen === s.slug ? "Close" : "Manage"}
+                        </button>
+                      </td>
                     </tr>
+                    {sellerOpen === s.slug && (
+                      <tr>
+                        <td colSpan={9} style={{ padding: ".9rem 1.1rem 1.2rem", background: "#f9fafb", borderBottom: "1px solid #e5e7eb" }}>
+                          <SellerManagePanel seller={s} onDone={() => router.refresh()} />
+                        </td>
+                      </tr>
+                    )}
+                    </Fragment>
                   ))}
                 </tbody>
               </table>
@@ -554,6 +593,171 @@ export default function AdminDashboard({
           </>
         )}
       </div>
+    </div>
+  );
+}
+
+// ── Seller management panel ─────────────────────────────────────────────────
+// Full owner control over a registered seller: suspend/activate, edit profile +
+// commission, reset password, rotate API key / badge token, force-verify entity
+// + payment, revoke affiliate, delete account. Every action hits /api/admin/sellers.
+
+function SellerManagePanel({ seller, onDone }: { seller: SellerAccount; onDone: () => void }) {
+  const [busy, setBusy] = useState<string | null>(null);
+  const [msg, setMsg] = useState<string | null>(null);
+  const [err, setErr] = useState<string | null>(null);
+
+  const [name, setName] = useState(seller.name);
+  const [email, setEmail] = useState(seller.email);
+  const [rate, setRate] = useState(String(seller.commissionRate ?? 20));
+  const [password, setPassword] = useState("");
+
+  async function call(action: string, extra: Record<string, unknown> = {}) {
+    setBusy(action);
+    setMsg(null);
+    setErr(null);
+    try {
+      const r = await fetch("/api/admin/sellers", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ slug: seller.slug, action, ...extra }),
+      });
+      const data = await r.json().catch(() => ({}));
+      if (!r.ok || !data.ok) {
+        setErr(data.error || `failed (${r.status})`);
+      } else {
+        if (data.api_key || data.badge_token) {
+          setMsg(
+            [
+              data.api_key ? `New API key: ${data.api_key}` : "",
+              data.badge_token ? `New badge token: ${data.badge_token}` : "",
+            ].filter(Boolean).join(" · ")
+          );
+        } else {
+          setMsg("Done");
+        }
+        onDone();
+      }
+    } catch {
+      setErr("network error");
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  const btn = (label: string, action: string, opts?: { danger?: boolean; extra?: Record<string, unknown>; confirm?: string }) => (
+    <button
+      key={action + label}
+      disabled={busy !== null}
+      onClick={() => {
+        if (opts?.confirm && !window.confirm(opts.confirm)) return;
+        call(action, opts?.extra);
+      }}
+      style={{
+        fontSize: ".74rem",
+        padding: "5px 11px",
+        borderRadius: 8,
+        cursor: busy ? "default" : "pointer",
+        fontWeight: 600,
+        opacity: busy && busy !== action ? 0.5 : 1,
+        border: opts?.danger ? "1px solid #fecaca" : "1px solid #d1d5db",
+        background: opts?.danger ? "#fef2f2" : "#fff",
+        color: opts?.danger ? "#b91c1c" : "#111827",
+      }}
+    >
+      {busy === action ? "…" : label}
+    </button>
+  );
+
+  const rowStyle: React.CSSProperties = { display: "flex", flexWrap: "wrap", gap: ".4rem", marginBottom: ".7rem" };
+  const labelStyle: React.CSSProperties = { fontSize: ".7rem", fontWeight: 700, color: "#374151", textTransform: "uppercase", letterSpacing: ".04em", marginBottom: ".25rem" };
+  const inputStyle: React.CSSProperties = { fontSize: ".8rem", padding: "5px 8px", border: "1px solid #d1d5db", borderRadius: 8, color: "#111827", background: "#fff" };
+
+  return (
+    <div style={{ display: "grid", gap: ".8rem", maxWidth: 980 }}>
+      <div style={rowStyle}>
+        <div style={{ flex: "1 1 200px" }}>
+          <div style={labelStyle}>Name</div>
+          <input value={name} onChange={(e) => setName(e.target.value)} style={{ ...inputStyle, width: "100%" }} />
+        </div>
+        <div style={{ flex: "1 1 220px" }}>
+          <div style={labelStyle}>Email</div>
+          <input value={email} onChange={(e) => setEmail(e.target.value)} style={{ ...inputStyle, width: "100%" }} />
+        </div>
+        <div style={{ flex: "0 0 130px" }}>
+          <div style={labelStyle}>Commission %</div>
+          <input value={rate} onChange={(e) => setRate(e.target.value)} inputMode="decimal" style={{ ...inputStyle, width: "100%" }} />
+        </div>
+        <div style={{ display: "flex", alignItems: "flex-end" }}>
+          <button
+            disabled={busy !== null}
+            onClick={() => call("edit", { fields: { name, email, commission_rate: Number(rate) } })}
+            style={{ fontSize: ".74rem", padding: "6px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", fontWeight: 600, cursor: "pointer" }}
+          >
+            {busy === "edit" ? "Saving…" : "Save profile"}
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div style={labelStyle}>Account</div>
+        <div style={rowStyle}>
+          {seller.active
+            ? btn("Suspend access", "suspend", { danger: true, confirm: "Suspend this seller? They will be logged out immediately." })
+            : btn("Reactivate", "activate")}
+          {btn("Rotate API key + badge", "rotate", { extra: { what: "both" }, confirm: "Rotate both credentials? The seller's current ones stop working." })}
+          {btn("Rotate API key only", "rotate", { extra: { what: "api_key" } })}
+          {btn("Rotate badge only", "rotate", { extra: { what: "badge_token" } })}
+          {seller.affiliateJoinedAt
+            ? btn("Revoke affiliate", "revoke-affiliate", { danger: true, confirm: "Revoke affiliate status for this seller?" })
+            : null}
+          {btn("Delete account", "delete", { danger: true, confirm: "Permanently delete this seller and their profile? This cannot be undone." })}
+        </div>
+      </div>
+
+      <div>
+        <div style={labelStyle}>Password</div>
+        <div style={rowStyle}>
+          <input
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            placeholder="New password (min 8 chars)"
+            style={{ ...inputStyle, flex: "0 0 240px" }}
+          />
+          <button
+            disabled={busy !== null || password.length < 8}
+            onClick={() => { call("reset-password", { password }); setPassword(""); }}
+            style={{ fontSize: ".74rem", padding: "6px 12px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", fontWeight: 600, cursor: password.length < 8 ? "default" : "pointer", opacity: password.length < 8 ? 0.5 : 1 }}
+          >
+            {busy === "reset-password" ? "…" : "Reset password"}
+          </button>
+        </div>
+      </div>
+
+      <div>
+        <div style={labelStyle}>Score-affecting verified flags (manual override)</div>
+        <div style={rowStyle}>
+          <span style={{ fontSize: ".75rem", color: "#111827", alignSelf: "center" }}>
+            Entity: <strong>{seller.entityTypeVerified || "—"}</strong> · Payment: <strong>{seller.paymentMethodVerified || "—"}</strong>
+          </span>
+        </div>
+        <div style={rowStyle}>
+          {btn("Set Ltd", "set-verified", { extra: { entityType: "ltd" } })}
+          {btn("Set Sole trader", "set-verified", { extra: { entityType: "sole_trader" } })}
+          {btn("Set Card", "set-verified", { extra: { paymentMethod: "card" } })}
+          {btn("Set Bank", "set-verified", { extra: { paymentMethod: "bank" } })}
+          {btn("Set Crypto", "set-verified", { extra: { paymentMethod: "crypto" } })}
+        </div>
+      </div>
+
+      <div style={{ fontSize: ".75rem", color: "#111827" }}>
+        <div>API key: <code style={{ fontSize: ".72rem" }}>{seller.apiKey || "—"}</code></div>
+        <div>Badge token: <code style={{ fontSize: ".72rem" }}>{seller.badgeToken || "—"}</code></div>
+        <div>Registered: {seller.createdAt ? new Date(seller.createdAt).toLocaleString("en-GB") : "—"}</div>
+      </div>
+
+      {msg && <div style={{ fontSize: ".75rem", color: "#047857", fontWeight: 600, wordBreak: "break-all" }}>{msg}</div>}
+      {err && <div style={{ fontSize: ".75rem", color: "#b91c1c", fontWeight: 600 }}>{err}</div>}
     </div>
   );
 }

@@ -79,7 +79,8 @@ export default async function AdminPage() {
   });
 
   const sellersResult = await sql`
-    SELECT s.*, p.coa_verified, p.reviews_verified, p.updated_at AS profile_updated
+    SELECT s.*, p.coa_verified, p.reviews_verified, p.entity_type, p.entity_type_verified,
+           p.payment_method, p.payment_method_verified, p.review_status, p.updated_at AS profile_updated
     FROM sellers s
     LEFT JOIN seller_profiles p ON p.seller_slug = s.slug
     ORDER BY s.active DESC, s.created_at DESC
@@ -97,6 +98,16 @@ export default async function AdminPage() {
       clicks: c.clicks_all ?? 0,
       sales: sl.sales_all ?? 0,
       commission: sl.commission_all ?? 0,
+      commissionRate: s.commission_rate ?? 20,
+      affiliateJoinedAt: s.affiliate_joined_at ?? null,
+      apiKey: s.api_key ?? null,
+      badgeToken: s.badge_token ?? null,
+      createdAt: s.created_at ? new Date(s.created_at as any).toISOString() : null,
+      entityType: (s.entity_type as string) ?? null,
+      entityTypeVerified: (s.entity_type_verified as string) ?? null,
+      paymentMethod: (s.payment_method as string) ?? null,
+      paymentMethodVerified: (s.payment_method_verified as string) ?? null,
+      reviewStatus: (s.review_status as string) ?? null,
     };
   });
 
