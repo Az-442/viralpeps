@@ -79,5 +79,14 @@
     "compoundSlug": "klow",
     "destUrl": "https://optimuslabs.co.uk/product/klow-80mg/",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-21T06:32:09.983Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "nad-500mg",
+    "destUrl": "https://pslabs.uk/products/nad-500mg",
+    "visitorId": "8b883ded37918646"
   }
 ]
