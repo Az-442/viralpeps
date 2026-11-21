@@ -88,5 +88,14 @@
     "compoundSlug": "nad-500mg",
     "destUrl": "https://pslabs.uk/products/nad-500mg",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-21T06:45:10.060Z",
+    "type": "product",
+    "vendorSlug": "phoenix-biolabs",
+    "vendorName": "Phoenix BioLabs",
+    "compoundSlug": "klow",
+    "destUrl": "https://phoenixbiolabs.net/shop/klow-blend-tested-99/",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
