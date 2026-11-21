@@ -376,5 +376,13 @@
     "compoundSlug": "5-amino-1mq",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/5-amino-1mq-10mg/",
     "visitorId": "bd2d21339a004da8"
+  },
+  {
+    "ts": "2026-11-21T13:14:09.272Z",
+    "type": "vendor-site",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "destUrl": "https://optimuslabs.co.uk",
+    "visitorId": "e2bd67a544eb9f58"
   }
 ]
