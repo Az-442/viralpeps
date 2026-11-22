@@ -771,5 +771,14 @@
     "compoundSlug": "kpv",
     "destUrl": "https://pgnalabs.co.uk/product/kpv",
     "visitorId": "e2bd67a544eb9f58"
+  },
+  {
+    "ts": "2026-11-22T17:21:55.526Z",
+    "type": "vendor-site",
+    "vendorSlug": "prime-peptides",
+    "vendorName": "Prime Peptides",
+    "destUrl": "https://www.prime-peptides.co.uk",
+    "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/prime-peptides",
+    "visitorId": "57dee06311064be9"
   }
 ]
