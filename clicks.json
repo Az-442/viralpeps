@@ -600,5 +600,14 @@
     "destUrl": "https://ultimatepeptides.co.uk",
     "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/ultimate-peptides",
     "visitorId": "c63228b45d983b40"
+  },
+  {
+    "ts": "2026-11-22T08:30:33.174Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "visitorId": "cb4024650f182fb9"
   }
 ]
