@@ -1005,5 +1005,14 @@
     "compoundSlug": "klow",
     "destUrl": "https://pslabs.uk/products/klow-80mg",
     "visitorId": "99c42d87e06de76b"
+  },
+  {
+    "ts": "2026-11-22T23:22:21.307Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "bacteriostatic-water",
+    "destUrl": "https://chiltonlabs.co.uk/product/bacteriostatic-water/",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
