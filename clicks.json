@@ -555,5 +555,14 @@
     "compoundSlug": "vesugen",
     "destUrl": "https://midshirelabs.co.uk/products/vesugen/",
     "visitorId": "fff8da59c8f5f3fd"
+  },
+  {
+    "ts": "2026-11-22T03:16:54.378Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "igf-1-lr3",
+    "destUrl": "https://chiltonlabs.co.uk/product/igf-1-lr3-1mg-vial/",
+    "visitorId": "cb4024650f182fb9"
   }
 ]
