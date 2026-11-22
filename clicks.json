@@ -546,5 +546,14 @@
     "compoundSlug": "adamax",
     "destUrl": "https://midshirelabs.co.uk/products/adamax/",
     "visitorId": "cb4024650f182fb9"
+  },
+  {
+    "ts": "2026-11-22T03:05:49.485Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "vesugen",
+    "destUrl": "https://midshirelabs.co.uk/products/vesugen/",
+    "visitorId": "fff8da59c8f5f3fd"
   }
 ]
