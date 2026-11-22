@@ -618,5 +618,14 @@
     "destUrl": "https://biopeptides-uk.com",
     "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/bio-peptides-uk",
     "visitorId": "1340a677e6184f4c"
+  },
+  {
+    "ts": "2026-11-22T10:04:21.416Z",
+    "type": "product",
+    "vendorSlug": "pyrox-labs",
+    "vendorName": "Pyrox Labs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
+    "visitorId": "fff8da59c8f5f3fd"
   }
 ]
