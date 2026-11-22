@@ -717,5 +717,14 @@
     "compoundSlug": "semaglutide",
     "destUrl": "https://cmsrlabs.co/product/semaglutide-10mg/",
     "visitorId": "0dd8f320aff10d1e"
+  },
+  {
+    "ts": "2026-11-22T15:40:11.957Z",
+    "type": "product",
+    "vendorSlug": "cmsr-labs",
+    "vendorName": "CMSR Labs",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://cmsrlabs.co/product/tesamorelin-5mg/",
+    "visitorId": "fff8da59c8f5f3fd"
   }
 ]
