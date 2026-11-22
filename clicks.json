@@ -780,5 +780,14 @@
     "destUrl": "https://www.prime-peptides.co.uk",
     "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/prime-peptides",
     "visitorId": "57dee06311064be9"
+  },
+  {
+    "ts": "2026-11-22T17:32:22.115Z",
+    "type": "product",
+    "vendorSlug": "pure-peptides-uk",
+    "vendorName": "Pure Peptides UK",
+    "compoundSlug": "premium-mod-grf-5mg",
+    "destUrl": "https://purepeptidesuk.com/product/premium-mod-grf-5mg/",
+    "visitorId": "99c42d87e06de76b"
   }
 ]
