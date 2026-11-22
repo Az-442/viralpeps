@@ -978,5 +978,14 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://optimuslabs.co.uk/product/nad/",
     "visitorId": "fff8da59c8f5f3fd"
+  },
+  {
+    "ts": "2026-11-22T22:52:28.676Z",
+    "type": "product",
+    "vendorSlug": "pgna-labs",
+    "vendorName": "PGNA Labs",
+    "compoundSlug": "bpc-157-tb-500",
+    "destUrl": "https://pgnalabs.co.uk/product/bpc-tb-10mg",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
