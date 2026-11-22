@@ -627,5 +627,14 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://pyroxlabs.co.uk/product/tz2-60mg/",
     "visitorId": "fff8da59c8f5f3fd"
+  },
+  {
+    "ts": "2026-11-22T11:07:50.575Z",
+    "type": "product",
+    "vendorSlug": "peptigen-labs",
+    "vendorName": "Peptigen Labs",
+    "compoundSlug": "epitalon",
+    "destUrl": "https://peptigenlabs.co.uk/products/PL-EPI-10",
+    "visitorId": "0dd8f320aff10d1e"
   }
 ]
