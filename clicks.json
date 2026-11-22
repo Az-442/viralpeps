@@ -969,5 +969,14 @@
     "compoundSlug": "cortagen-research-peptide",
     "destUrl": "https://midshirelabs.co.uk/products/cortagen/",
     "visitorId": "bd2d21339a004da8"
+  },
+  {
+    "ts": "2026-11-22T22:45:16.855Z",
+    "type": "product",
+    "vendorSlug": "optimus-labs",
+    "vendorName": "Optimus Labs",
+    "compoundSlug": "nad-plus",
+    "destUrl": "https://optimuslabs.co.uk/product/nad/",
+    "visitorId": "fff8da59c8f5f3fd"
   }
 ]
