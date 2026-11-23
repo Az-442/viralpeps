@@ -1347,5 +1347,14 @@
     "compoundSlug": "ss-31",
     "destUrl": "https://midshirelabs.co.uk/products/ss31/",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-23T20:20:45.319Z",
+    "type": "vendor-site",
+    "vendorSlug": "research-peptide-uk",
+    "vendorName": "Research Peptides UK",
+    "destUrl": "https://researchpeptide.co.uk",
+    "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/research-peptide-uk",
+    "visitorId": "c63228b45d983b40"
   }
 ]
