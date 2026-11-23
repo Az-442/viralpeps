@@ -1203,5 +1203,14 @@
     "compoundSlug": "klow",
     "destUrl": "https://www.peptifyuk.com/product/klow-blend-80mg",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-23T09:18:41.657Z",
+    "type": "product",
+    "vendorSlug": "global-bio-research",
+    "vendorName": "Global Bio Research",
+    "compoundSlug": "tesamorelin",
+    "destUrl": "https://globalbioresearch.co/shop/tesamorelin",
+    "visitorId": "0dd8f320aff10d1e"
   }
 ]
