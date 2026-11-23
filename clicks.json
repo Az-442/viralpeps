@@ -1167,5 +1167,14 @@
     "compoundSlug": "retatrutide",
     "destUrl": "https://pslabs.uk/products/rt-glp3",
     "visitorId": "bd2d21339a004da8"
+  },
+  {
+    "ts": "2026-11-23T07:00:09.501Z",
+    "type": "vendor-site",
+    "vendorSlug": "eva-peptide",
+    "vendorName": "Eva Peptide UK",
+    "destUrl": "https://evapeptide.co.uk",
+    "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/eva-peptide",
+    "visitorId": "57dee06311064be9"
   }
 ]
