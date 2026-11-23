@@ -1302,5 +1302,14 @@
     "compoundSlug": "klow",
     "destUrl": "https://peptideslabuk.com/product/klow-80mg/",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-23T14:21:14.775Z",
+    "type": "product",
+    "vendorSlug": "helix-core",
+    "vendorName": "HelixCore",
+    "compoundSlug": "thymosin-alpha-1",
+    "destUrl": "https://helixcore.co.uk/products/thymosin-alpha-1",
+    "visitorId": "fff8da59c8f5f3fd"
   }
 ]
