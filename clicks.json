@@ -1158,5 +1158,14 @@
     "compoundSlug": "adamax",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/adamax-5mg/",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-23T03:54:58.365Z",
+    "type": "product",
+    "vendorSlug": "ps-labs",
+    "vendorName": "PS Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://pslabs.uk/products/rt-glp3",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
