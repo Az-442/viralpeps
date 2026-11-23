@@ -1086,5 +1086,14 @@
     "compoundSlug": "ghrp-2",
     "destUrl": "https://chiltonlabs.co.uk/product/ghrp-2-5mg-vial/",
     "visitorId": "bd2d21339a004da8"
+  },
+  {
+    "ts": "2026-11-23T01:44:58.380Z",
+    "type": "product",
+    "vendorSlug": "express-peptides",
+    "vendorName": "Express Peptides",
+    "compoundSlug": "hexarelin",
+    "destUrl": "https://www.expresspeptides.co.uk/product/hexarelin-acetate/vial",
+    "visitorId": "cb4024650f182fb9"
   }
 ]
