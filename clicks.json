@@ -1059,5 +1059,14 @@
     "compoundSlug": "testagen",
     "destUrl": "https://www.buyreta.co.uk/product/testagen-uk",
     "visitorId": "bd2d21339a004da8"
+  },
+  {
+    "ts": "2026-11-23T01:03:30.131Z",
+    "type": "product",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.apexbiolabs.co.uk/product/tirzepatide-20mg/",
+    "visitorId": "cb4024650f182fb9"
   }
 ]
