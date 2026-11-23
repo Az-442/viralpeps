@@ -1275,5 +1275,14 @@
     "compoundSlug": "klow",
     "destUrl": "https://xlpeptides.com/product/klow-peptide-blend/",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-23T13:08:10.983Z",
+    "type": "product",
+    "vendorSlug": "uk-peptide-lab",
+    "vendorName": "UK Peptide Lab",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://ukpeptidelab.co.uk/product/pt-141",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
