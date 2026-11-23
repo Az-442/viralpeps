@@ -1176,5 +1176,14 @@
     "destUrl": "https://evapeptide.co.uk",
     "refPage": "https://viralpeps-kq2x2cv06-team-az.vercel.app/vendors/eva-peptide",
     "visitorId": "57dee06311064be9"
+  },
+  {
+    "ts": "2026-11-23T07:35:16.580Z",
+    "type": "product",
+    "vendorSlug": "ol-research",
+    "vendorName": "OL Research",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://olresearch.co.uk/product/pt-141-10mg/",
+    "visitorId": "8b883ded37918646"
   }
 ]
