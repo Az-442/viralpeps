@@ -1410,5 +1410,14 @@
     "compoundSlug": "nad-plus",
     "destUrl": "https://www.kensingtonlabs.co.uk/product/nad-100mg/",
     "visitorId": "99c42d87e06de76b"
+  },
+  {
+    "ts": "2026-11-24T00:24:11.785Z",
+    "type": "product",
+    "vendorSlug": "chilton-labs",
+    "vendorName": "Chilton Labs",
+    "compoundSlug": "pt-141-bremelanotide",
+    "destUrl": "https://chiltonlabs.co.uk/product/pt-141-10mg/",
+    "visitorId": "99c42d87e06de76b"
   }
 ]
