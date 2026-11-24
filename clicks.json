@@ -1659,5 +1659,14 @@
     "vendorName": "APEX Biolabs",
     "destUrl": "https://www.apexbiolabs.co.uk",
     "visitorId": "bd2d21339a004da8"
+  },
+  {
+    "ts": "2026-11-24T20:19:18.389Z",
+    "type": "product",
+    "vendorSlug": "nilah-labs",
+    "vendorName": "Nilah Labs",
+    "compoundSlug": "retatrutide",
+    "destUrl": "https://nilahlabs.co.uk/products/glp-3-rt",
+    "visitorId": "0dd8f320aff10d1e"
   }
 ]
