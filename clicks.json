@@ -1607,5 +1607,14 @@
     "compoundSlug": "tirzepatide",
     "destUrl": "https://www.northpeptidesuk.com/products/tirzepatide/",
     "visitorId": "99c42d87e06de76b"
+  },
+  {
+    "ts": "2026-11-24T16:49:43.177Z",
+    "type": "product",
+    "vendorSlug": "midshire-labs",
+    "vendorName": "Midshire Labs",
+    "compoundSlug": "ara-290",
+    "destUrl": "https://midshirelabs.co.uk/products/ara-290/",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
