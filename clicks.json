@@ -1651,5 +1651,13 @@
     "compoundSlug": "bpc-157",
     "destUrl": "https://biopeptides-uk.com/product/bpc-157-10mg/",
     "visitorId": "fff8da59c8f5f3fd"
+  },
+  {
+    "ts": "2026-11-24T19:53:52.891Z",
+    "type": "vendor-site",
+    "vendorSlug": "apex-biolabs",
+    "vendorName": "APEX Biolabs",
+    "destUrl": "https://www.apexbiolabs.co.uk",
+    "visitorId": "bd2d21339a004da8"
   }
 ]
