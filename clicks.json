@@ -1598,5 +1598,14 @@
     "vendorName": "Pure Peptides UK",
     "destUrl": "https://purepeptidesuk.com",
     "visitorId": "8b883ded37918646"
+  },
+  {
+    "ts": "2026-11-24T15:48:58.525Z",
+    "type": "product",
+    "vendorSlug": "north-peptides-uk",
+    "vendorName": "North Peptides UK",
+    "compoundSlug": "tirzepatide",
+    "destUrl": "https://www.northpeptidesuk.com/products/tirzepatide/",
+    "visitorId": "99c42d87e06de76b"
   }
 ]
