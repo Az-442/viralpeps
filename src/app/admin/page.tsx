@@ -19,6 +19,9 @@ export default async function AdminPage() {
     : "—";
 
   // Per-vendor click aggregates across four date windows.
+  // is_bot rows are excluded — they are identified non-human traffic
+  // (honeypot hits + retro-scored sequential crawlers) and must never
+  // inflate a supplier's reported click count.
   const clicks = await sql`
     SELECT
       vendor_slug,
@@ -26,7 +29,7 @@ export default async function AdminPage() {
       count(*) FILTER (WHERE created_at > now() - interval '90 days')::int AS clicks_90,
       count(*) FILTER (WHERE created_at > now() - interval '30 days')::int AS clicks_30,
       count(*) FILTER (WHERE created_at > now() - interval '7 days')::int AS clicks_7
-    FROM clicks GROUP BY vendor_slug
+    FROM clicks WHERE is_bot = false GROUP BY vendor_slug
   `;
   const clickMap: Record<string, any> = {};
   for (const r of clicks.rows) clickMap[r.vendor_slug] = r;

@@ -28,6 +28,9 @@ export interface ClickRow {
   refPage?: string; // page the click happened on (referrer)
   visitorId?: string; // anonymous, one-way hash — lets us count unique humans
   ip?: string; // client IP (first x-forwarded-for hop) — for durable per-IP rate limiting
+  isBot?: boolean; // true = identified non-human (blocklisted/honeypot/rate-tripped).
+                   // Row is still written as an audit trail but is excluded from
+                   // every dashboard/stat query, so it never inflates a count.
 }
 
 /**
@@ -42,11 +45,12 @@ export async function logClick(row: ClickRow): Promise<boolean> {
     await sql`
       INSERT INTO clicks (
         click_type, vendor_slug, vendor_name, compound_slug,
-        dest_url, ref_page, visitor_id, ip
+        dest_url, ref_page, visitor_id, ip, is_bot
       ) VALUES (
         ${row.type}, ${row.vendorSlug}, ${row.vendorName ?? null},
         ${row.compoundSlug ?? null}, ${row.destUrl ?? null},
-        ${row.refPage ?? null}, ${row.visitorId ?? null}, ${row.ip ?? null}
+        ${row.refPage ?? null}, ${row.visitorId ?? null}, ${row.ip ?? null},
+        ${row.isBot === true}
       )
     `;
 

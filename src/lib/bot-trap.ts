@@ -34,7 +34,7 @@ import { createHash } from "crypto";
 import { sql } from "@vercel/postgres";
 
 /** Honeypot URL. Deliberately plausible to a scraper, useless to a human. */
-export const HONEYPOT_PATH = "/go/__hp";
+export const HONEYPOT_PATH = "/go/hp-8f2c1a";
 
 /** Hash used for blocklisting an IP or visitor — one-way, salted. */
 export function trapHash(value: string): string {

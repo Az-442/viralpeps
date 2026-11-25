@@ -35,17 +35,18 @@ export async function GET(
       const verdict = await allowClickDurable({ visitor: vid, ip, vendorSlug });
       // A honeypot hit is a positive bot identification — permanent, header-proof.
       const banned = await isBlocklisted(vid, ip);
-      if (verdict.allow && !banned) {
-        await logClick({
-          type: "vendor-site",
-          vendorSlug,
-          vendorName: vendor.name,
-          destUrl: vendor.website,
-          refPage: request.headers.get("referer") || undefined,
-          visitorId: vid,
-          ip,
-        });
-      }
+      // Always write the row; is_bot marks it as excluded from every count.
+      // Keeping the row preserves the audit trail without polluting stats.
+      await logClick({
+        type: "vendor-site",
+        vendorSlug,
+        vendorName: vendor.name,
+        destUrl: vendor.website,
+        refPage: request.headers.get("referer") || undefined,
+        visitorId: vid,
+        ip,
+        isBot: banned || !verdict.allow,
+      });
     }
   } catch {
     /* never block the redirect on a logging failure */

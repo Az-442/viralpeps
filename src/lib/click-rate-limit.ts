@@ -30,6 +30,7 @@
 //   global   — 600/min, 10000/hour (NEW: site-wide sanity ceiling)
 
 import { sql } from "@vercel/postgres";
+import { isBlocklisted } from "./bot-trap";
 
 /** One attributed click per (visitor, destination) inside this window. */
 export const DEBOUNCE_MS = 30 * 60 * 1000; // 30 minutes
@@ -48,7 +49,7 @@ export const GLOBAL_MAX_PER_HOUR = 10000;
 
 export type RateVerdict =
   | { allow: true }
-  | { allow: false; reason: "debounced" | "visitor-rate" | "ip-rate" | "global-rate" };
+  | { allow: false; reason: "debounced" | "visitor-rate" | "ip-rate" | "global-rate" | "blocklisted" };
 
 export interface RateInput {
   visitor: string;
@@ -69,29 +70,42 @@ export async function allowClickDurable(input: RateInput): Promise<RateVerdict> 
   if (!input.visitor) return { allow: false, reason: "visitor-rate" };
 
   try {
+    // Permanent deny list first — a visitor or IP that has ever tripped the
+    // honeypot or been retro-scored as a crawler never counts again, no matter
+    // how slowly it moves. This is the check that a header heuristic cannot do.
+    if (await isBlocklisted(input.visitor, input.ip))
+      return { allow: false, reason: "blocklisted" };
+
     const r = await sql`
       SELECT
         (SELECT count(*)::int FROM clicks
           WHERE visitor_id = ${input.visitor}
             AND vendor_slug = ${input.vendorSlug}
             AND coalesce(compound_slug, '') = coalesce(${input.compoundSlug ?? null}, '')
-            AND created_at > now() - interval '30 minutes') AS debounced,
+            AND created_at > now() - interval '30 minutes'
+            AND is_bot = false) AS debounced,
         (SELECT count(*)::int FROM clicks
           WHERE visitor_id = ${input.visitor}
-            AND created_at > now() - interval '1 minute') AS v_min,
+            AND created_at > now() - interval '1 minute'
+            AND is_bot = false) AS v_min,
         (SELECT count(*)::int FROM clicks
           WHERE visitor_id = ${input.visitor}
-            AND created_at > now() - interval '1 hour') AS v_hour,
+            AND created_at > now() - interval '1 hour'
+            AND is_bot = false) AS v_hour,
         (SELECT count(*)::int FROM clicks
           WHERE ip = ${input.ip}
-            AND created_at > now() - interval '1 minute') AS ip_min,
+            AND created_at > now() - interval '1 minute'
+            AND is_bot = false) AS ip_min,
         (SELECT count(*)::int FROM clicks
           WHERE ip = ${input.ip}
-            AND created_at > now() - interval '1 hour') AS ip_hour,
+            AND created_at > now() - interval '1 hour'
+            AND is_bot = false) AS ip_hour,
         (SELECT count(*)::int FROM clicks
-          WHERE created_at > now() - interval '1 minute') AS g_min,
+          WHERE created_at > now() - interval '1 minute'
+            AND is_bot = false) AS g_min,
         (SELECT count(*)::int FROM clicks
-          WHERE created_at > now() - interval '1 hour') AS g_hour
+          WHERE created_at > now() - interval '1 hour'
+            AND is_bot = false) AS g_hour
     `;
     const c = r.rows[0] as Record<string, number>;
 

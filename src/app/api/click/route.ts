@@ -41,16 +41,12 @@ export async function POST(request: NextRequest) {
       vendorSlug,
       compoundSlug: typeof compoundSlug === "string" ? compoundSlug : undefined,
     });
-    if (!verdict.allow) {
-      return NextResponse.json({ ok: true, skipped: verdict.reason });
-    }
     // A honeypot hit is a positive bot identification — permanent, header-proof.
-    if (await isBlocklisted(vid, ip)) {
-      return NextResponse.json({ ok: true, skipped: "blocklisted" });
-    }
+    const banned = await isBlocklisted(vid, ip);
+    const counted = verdict.allow && !banned;
 
-    // Await so the GitHub write completes on Vercel (un-awaited work can be
-    // terminated once the response is returned). Log failures are swallowed.
+    // Always write the row; is_bot marks it as excluded from every count so
+    // the audit trail survives without polluting stats.
     await logClick({
       type: clickType,
       vendorSlug,
@@ -58,9 +54,15 @@ export async function POST(request: NextRequest) {
       compoundSlug: typeof compoundSlug === "string" ? compoundSlug : undefined,
       destUrl: typeof destUrl === "string" ? destUrl : undefined,
       refPage: typeof refPage === "string" ? refPage : undefined,
-      visitorId: visitorId(request.headers),
+      visitorId: vid,
       ip,
+      isBot: !counted,
     });
+
+    if (!counted) {
+      const reason = banned ? "blocklisted" : !verdict.allow ? verdict.reason : "rate";
+      return NextResponse.json({ ok: true, skipped: reason });
+    }
 
     return NextResponse.json({ ok: true });
   } catch {

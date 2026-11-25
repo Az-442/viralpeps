@@ -39,7 +39,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
 
   const clicks = await sql`
     SELECT click_type, compound_slug, ref_page, visitor_id, created_at
-    FROM clicks WHERE vendor_slug = ${slug}
+    FROM clicks WHERE vendor_slug = ${slug} AND is_bot = false
     ORDER BY created_at DESC LIMIT 500
   `;
   const clickRows = (clicks.rows as Array<{
@@ -62,7 +62,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
       count(DISTINCT visitor_id)::int AS visitors_all,
       count(*) FILTER (WHERE created_at > now() - interval '30 days')::int AS clicks_30,
       count(DISTINCT visitor_id) FILTER (WHERE created_at > now() - interval '30 days')::int AS visitors_30
-    FROM clicks WHERE vendor_slug = ${slug}
+    FROM clicks WHERE vendor_slug = ${slug} AND is_bot = false
   `;
   const t = totals.rows[0];
 
@@ -133,7 +133,7 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
 
   const perProduct = await sql`
     SELECT compound_slug, count(*)::int AS n
-    FROM clicks WHERE vendor_slug = ${slug} AND compound_slug IS NOT NULL
+    FROM clicks WHERE vendor_slug = ${slug} AND compound_slug IS NOT NULL AND is_bot = false
     GROUP BY compound_slug
   `;
   const productClicks: Record<string, number> = {};
