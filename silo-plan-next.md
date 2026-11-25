@@ -85,7 +85,29 @@ extract — so the data layer mirrors the hCG silo (IU-dosed, per-1,000 IU, no C
   `compounds/[slug]/page.tsx` silo-tile block. Build passes; local `next start` sweep: all 6
   spokes 200 with live price rows (Arma + GenoPept), hub 200 with "HMG Buying Guides" tiles.
 
-**Next in queue: `melanotan-ii`** (Tier 2, first item — silo file exists but is not wired/registered).
+## ✅ DONE — MELANOTAN II SILO (commit `dbe35d5f`, 25 Nov 2026)
+
+6 spokes live at `/compound-guides/{where-to-buy-melanotan-ii-uk, cheapest-melanotan-ii-uk,
+melanotan-ii-price-comparison-uk, buy-melanotan-ii-peptide, melanotan-ii-supplier-guide-uk,
+best-melanotan-ii-peptide}`.
+
+- Words: 1,488 / 1,377 / 1,414 / 1,322 / 1,306 / 1,340. Max n-gram overlap 3.1% (limit 5%).
+- Descriptions 154–160 chars; titles 50–57 chars.
+- Data layer (`melanotan-ii-silo.ts`) was orphaned from a previous run — kept, unchanged.
+  It yields 68 sources → 65 vendors after de-dupe. Full comparison table renders 65 rows.
+- Files touched: `src/data/melanotan-ii-spokes.ts` (new), `src/data/silos.ts`,
+  `compound-guides/[slug]/page.tsx`, `compounds/[slug]/page.tsx`.
+- **DEMAND FINDING (important for future Tier 2 picks):** the ROMAN-NUMERAL form
+  `melanotan ii` returns an EMPTY autocomplete array for every shopping modifier. The
+  digit form `melanotan 2` carries all demand — but even then 5 of 6 generic modifiers
+  return zero (`where to buy melanotan 2 uk`, `cheapest`, `price comparison`,
+  `buy online`, `uk supplier`). Only `best melanotan 2` → `best melanotan 2 peptide` survived.
+  All 6 spokes were substituted onto live disambiguated clusters
+  (`melanotan 2 uk peptides`, `melanotan 2 peptide uk price`, `melanotan 2 buy online`,
+  `melanotan 2 peptide pen uk`, `melanotan 2 vs 1` / `vs pt 141`,
+  `where to buy melanotan 2 nasal spray uk`), each documented in the file header.
+
+**Next in queue: `fragment-176-191`** (Tier 2 — next unregistered after melanotan-ii).
 
 ---
 
