@@ -2276,6 +2276,18 @@ export const guides: ResearchArticle[] = [
     minutes: 11,
     tags: ["mazdutide", "price-comparison", "cost-per-mg", "certificate-of-analysis", "uk", "research-hub"],
   },
+
+  {
+    title: "Survodutide vs Mazdutide: Two Glucagon Dual Agonists",
+    desc: "Survodutide vs mazdutide: SYNCHRONIZE-1 ran 76 weeks, GLORY-1 ran 48. What the estimands hide, where liver data favours one, and why no winner exists.",
+    category: "Guide",
+    section: "comparisons",
+    compound: "Survodutide",
+    slug: "survodutide-vs-mazdutide",
+    image: "survodutide-vs-mazdutide",
+    minutes: 12,
+    tags: ["survodutide", "mazdutide", "comparison", "glp-1", "glucagon", "dual-agonist", "estimand", "liver", "incretin"],
+  },
   {
     title: "Gonadorelin Research Guide: GnRH Pharmacology",
     desc: "The native GnRH decapeptide, PubChem-verified identity, and why delivery pattern rather than dose decides whether it drives or suppresses the reproductive axis.",

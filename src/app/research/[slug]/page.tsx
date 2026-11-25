@@ -29,6 +29,7 @@ import { glutathioneContent } from "@/data/research-content-glutathione";
 import { glutathionePriceContent } from "@/data/research-content-glutathione-price";
 import { humaninContent } from "@/data/research-content-humanin";
 import { humaninPriceContent } from "@/data/research-content-humanin-price";
+import { survodutideVsMazdutideContent } from "@/data/research-content-survodutide";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -56,6 +57,7 @@ const EXTRA_CONTENT = {
   ...glutathionePriceContent,
   ...humaninContent,
   ...humaninPriceContent,
+  ...survodutideVsMazdutideContent,
 };
 import compounds from "@/data/compounds.json";
 
