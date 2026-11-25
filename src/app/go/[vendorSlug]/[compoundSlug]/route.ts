@@ -4,6 +4,7 @@ import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
 import { allowClickDurable } from "@/lib/click-rate-limit";
+import { isBlocklisted } from "@/lib/bot-trap";
 import { isVendorDead, bestAlternativeForCompound } from "@/lib/vendor-alternative";
 
 export const runtime = "nodejs";
@@ -66,7 +67,9 @@ export async function GET(
       // product collapse to one, and durable per-IP/global ceilings stop
       // scrapers across every serverless instance.
       const verdict = await allowClickDurable({ visitor: vid, ip, vendorSlug, compoundSlug: compound.slug });
-      if (verdict.allow) {
+      // A honeypot hit is a positive bot identification — permanent, header-proof.
+      const banned = await isBlocklisted(vid, ip);
+      if (verdict.allow && !banned) {
         await logClick({
           type: "product",
           vendorSlug,

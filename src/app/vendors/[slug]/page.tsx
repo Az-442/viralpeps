@@ -4,6 +4,7 @@ import vendors from "@/data/vendors.json";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import HoneypotLink from "@/components/HoneypotLink";
 import ProductImage from "@/components/ProductImage";
 import VendorLogo from "@/components/VendorLogo";
 import TrustScoreIcon from "@/components/TrustScoreIcon";
@@ -622,6 +623,7 @@ export default async function VendorPage({ params }: { params: Promise<{ slug: s
         </div>
       </div>
 
+      <HoneypotLink />
       <Footer />
     </div>
   );

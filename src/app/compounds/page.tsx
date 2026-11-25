@@ -6,6 +6,7 @@ import { useRouter } from "next/navigation";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import HoneypotLink from "@/components/HoneypotLink";
 import { PEPTIDE_COUNT, SUPPLIER_COUNT, TOTAL_PRODUCTS } from "@/data/stats";
 import { HOMEPAGE_CATEGORY_GROUPS, CATEGORY_LABELS } from "@/data/categories";
 import { JsonLd, itemList } from "@/components/JsonLd";
@@ -560,6 +561,7 @@ export default function CompoundsPage() {
         </div>
       </section>
 
+      <HoneypotLink />
       <Footer />
     </div>
   );

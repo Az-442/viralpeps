@@ -3,6 +3,7 @@ import vendorsData from "@/data/vendors.json";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
 import { allowClickDurable } from "@/lib/click-rate-limit";
+import { isBlocklisted } from "@/lib/bot-trap";
 import { isVendorDead, bestAlternativeVendor } from "@/lib/vendor-alternative";
 
 export const runtime = "nodejs";
@@ -32,7 +33,9 @@ export async function GET(
         request.headers.get("x-real-ip") ||
         "0.0.0.0";
       const verdict = await allowClickDurable({ visitor: vid, ip, vendorSlug });
-      if (verdict.allow) {
+      // A honeypot hit is a positive bot identification — permanent, header-proof.
+      const banned = await isBlocklisted(vid, ip);
+      if (verdict.allow && !banned) {
         await logClick({
           type: "vendor-site",
           vendorSlug,

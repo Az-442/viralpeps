@@ -4,6 +4,7 @@ import compounds from "@/data/compounds.json";
 import vendors from "@/data/vendors.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import HoneypotLink from "@/components/HoneypotLink";
 import ProductImage from "@/components/ProductImage";
 import BreadcrumbList from "@/components/BreadcrumbList";
 import CompoundPageClient from "./CompoundPageClient";
@@ -954,6 +955,7 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         );
       })()}
 
+      <HoneypotLink />
       <Footer />
     </div>
   );

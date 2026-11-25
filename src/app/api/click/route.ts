@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { logClick } from "@/lib/click-logger";
 import { detectBot, visitorId } from "@/lib/click-guard";
 import { allowClickDurable } from "@/lib/click-rate-limit";
+import { isBlocklisted } from "@/lib/bot-trap";
 
 export const runtime = "nodejs";
 
@@ -33,14 +34,19 @@ export async function POST(request: NextRequest) {
       "0.0.0.0";
 
     // Durable rate limit — skip the write if the visitor/IP is over a ceiling.
+    const vid = visitorId(request.headers);
     const verdict = await allowClickDurable({
-      visitor: visitorId(request.headers),
+      visitor: vid,
       ip,
       vendorSlug,
       compoundSlug: typeof compoundSlug === "string" ? compoundSlug : undefined,
     });
     if (!verdict.allow) {
       return NextResponse.json({ ok: true, skipped: verdict.reason });
+    }
+    // A honeypot hit is a positive bot identification — permanent, header-proof.
+    if (await isBlocklisted(vid, ip)) {
+      return NextResponse.json({ ok: true, skipped: "blocklisted" });
     }
 
     // Await so the GitHub write completes on Vercel (un-awaited work can be

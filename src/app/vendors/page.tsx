@@ -6,6 +6,7 @@ import vendors from "@/data/vendors.json";
 import compounds from "@/data/compounds.json";
 import HeaderNav from "@/components/HeaderNav";
 import Footer from "@/components/Footer";
+import HoneypotLink from "@/components/HoneypotLink";
 import VendorLogo from "@/components/VendorLogo";
 import { PEPTIDE_COUNT } from "@/data/stats";
 import { ALL_VENDOR_STATS, ALL_VISIBLE_COUNTS } from "@/data/vendor-stats";
@@ -338,6 +339,7 @@ export default function VendorsPage() {
         </div>
       </div>
 
+      <HoneypotLink />
       <Footer />
     </div>
   );
