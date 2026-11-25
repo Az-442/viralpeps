@@ -15,7 +15,7 @@
 export default function HoneypotLink() {
   return (
     <a
-      href="/go/__hp"
+      href="/go/hp-8f2c1a"
       aria-hidden="true"
       tabIndex={-1}
       rel="nofollow noindex"
