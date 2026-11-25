@@ -228,12 +228,21 @@ import {
   sortByPricePerMg as cjcIpaSortByPricePerMg,
   sortByTrust as cjcIpaSortByTrust,
 } from "@/data/cjc-1295-ipamorelin-silo";
+import {
+  getMt2Rows,
+  getMt2Stats,
+  MT2_SPOKES,
+  sortByPrice as mt2SortByPrice,
+  sortByPricePerMg as mt2SortByPricePerMg,
+  sortByTrust as mt2SortByTrust,
+} from "@/data/melanotan-ii-silo";
+import { spokes as mt2Spokes, getSpoke as getMt2Spoke } from "@/data/melanotan-ii-spokes";
 
 export const dynamic = "force-static";
 export const dynamicParams = true;
 export const revalidate = 86400;
 
-type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg" | "cjc-1295" | "oxytocin-nasal-spray" | "cjc-1295-ipamorelin-blend" | "hmg";
+type CompoundKey = "retatrutide" | "tirzepatide" | "semaglutide" | "semax" | "selank" | "ipamorelin" | "mots-c" | "bpc-157" | "ghk-cu" | "tb-500" | "igf-1-lr3" | "tesamorelin" | "nad-plus" | "bacteriostatic-water" | "ss-31" | "sermorelin" | "aod-9604" | "pt-141-bremelanotide" | "mazdutide" | "survodutide" | "hcg" | "cjc-1295" | "oxytocin-nasal-spray" | "cjc-1295-ipamorelin-blend" | "hmg" | "melanotan-ii";
 
 const COMPOUND_NAMES: Record<CompoundKey, string> = {
   retatrutide: "Retatrutide",
@@ -261,6 +270,7 @@ const COMPOUND_NAMES: Record<CompoundKey, string> = {
   "oxytocin-nasal-spray": "Oxytocin Nasal Spray",
   "cjc-1295-ipamorelin-blend": "CJC-1295 + Ipamorelin",
   hmg: "HMG",
+  "melanotan-ii": "Melanotan II",
 };
 
 /** Resolve which compound a spoke slug belongs to. */
@@ -315,6 +325,8 @@ function resolveSpoke(slug: string) {
   if (cjcIpa) return { spoke: cjcIpa, compound: "cjc-1295-ipamorelin-blend" as const };
   const hmg = getHmgSpoke(slug);
   if (hmg) return { spoke: hmg, compound: "hmg" as const };
+  const mt2 = getMt2Spoke(slug);
+  if (mt2) return { spoke: mt2, compound: "melanotan-ii" as const };
   return null;
 }
 
@@ -345,6 +357,7 @@ export async function generateStaticParams() {
     ...oxSpokes.map((s) => ({ slug: s.slug })),
     ...cjcIpaSpokes.map((s) => ({ slug: s.slug })),
     ...hmgSpokes.map((s) => ({ slug: s.slug })),
+    ...mt2Spokes.map((s) => ({ slug: s.slug })),
   ];
 }
 
@@ -744,6 +757,20 @@ function tableData(compound: CompoundKey, spoke: Spoke) {
     const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
     return { rows, bestKey };
   }
+  if (compound === "melanotan-ii") {
+    const all = getMt2Rows();
+    let sorted = mt2SortByPrice(all);
+    let bestKey: string | null = sorted[0]?.key ?? null;
+    if (spoke.tableMode === "perMg" || spoke.tableMode === "full") {
+      sorted = mt2SortByPricePerMg(all);
+      bestKey = sorted[0]?.key ?? null;
+    } else if (spoke.tableMode === "trust") {
+      sorted = mt2SortByTrust(all);
+      bestKey = null;
+    }
+    const rows = spoke.rowLimit > 0 ? sorted.slice(0, spoke.rowLimit) : sorted;
+    return { rows, bestKey };
+  }
   const all = getTrizRows();
   let sorted = trizSortByPrice(all);
   let bestKey: string | null = sorted[0]?.key ?? null;
@@ -814,6 +841,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? getCjcIpaStats()
                                     : compound === "hmg"
                                       ? getHmgStats()
+                                    : compound === "melanotan-ii"
+                                      ? getMt2Stats()
                                     : getTrizStats();
   const { rows, bestKey } = tableData(compound, spoke);
 
@@ -850,6 +879,7 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
         case "oxytocin-nasal-spray": return getOxRows();
         case "cjc-1295-ipamorelin-blend": return getCjcIpaRows();
         case "hmg": return getHmgRows();
+        case "melanotan-ii": return getMt2Rows();
         default: return rows;
       }
     })();
@@ -934,6 +964,8 @@ export default async function CompoundGuidePage({ params }: { params: Promise<{ 
                                       ? HCG_SPOKES
                                     : compound === "hmg"
                                       ? HMG_SPOKES
+                                    : compound === "melanotan-ii"
+                                      ? MT2_SPOKES
                                     : TIRZ_SPOKES;
   const siblings: SiloSpoke[] = spokeManifest.filter((s) => s.slug !== slug) as unknown as SiloSpoke[];
 

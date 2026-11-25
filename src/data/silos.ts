@@ -47,6 +47,7 @@ import {
   type CjcIpaStats,
 } from "@/data/cjc-1295-ipamorelin-silo";
 import { HMG_SPOKES, getHmgStats, type HmgStats } from "@/data/hmg-silo";
+import { MT2_SPOKES, getMt2Stats, type Mt2Stats } from "@/data/melanotan-ii-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -289,6 +290,14 @@ export const SILOS: Silo[] = [
     spokes: HMG_SPOKES as unknown as SiloSpoke[],
     getStats: () => getHmgStats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "melanotan-ii",
+    name: "Melanotan II",
+    blurb:
+      "Melanotan II (MT-2) buying guides — verified UK suppliers, lowest price per mg, full market comparison, supplier vetting and the UK prescription-only position.",
+    spokes: MT2_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getMt2Stats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -314,3 +323,4 @@ export type { SurvStats };
 export type { CjcStats };
 export type { OxStats };
 export type { HmgStats };
+export type { Mt2Stats };

@@ -891,6 +891,14 @@ export default async function CompoundPage({ params }: { params: Promise<{ slug:
         </div>
       )}
 
+      {slug === "melanotan-ii" && activeSilo && (
+        <div className="bg-amber-50 border-t border-gray-100 py-12">
+          <div className="max-w-[76rem] mx-auto px-4">
+            <SiloTiles silo={activeSilo} />
+          </div>
+        </div>
+      )}
+
       {/* ===== RESEARCH LIBRARY — compound-specific only ===== */}
       {(() => {
         const compoundNameLower = compound.name.toLowerCase();
