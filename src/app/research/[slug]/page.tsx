@@ -30,6 +30,8 @@ import { glutathionePriceContent } from "@/data/research-content-glutathione-pri
 import { humaninContent } from "@/data/research-content-humanin";
 import { humaninPriceContent } from "@/data/research-content-humanin-price";
 import { survodutideVsMazdutideContent } from "@/data/research-content-survodutide";
+import { tirzepatideVsMazdutideContent } from "@/data/research-content-tirzepatide-vs-mazdutide";
+import { mazdutideVsSemaglutideContent } from "@/data/research-content-mazdutide-vs-semaglutide";
 
 const EXTRA_CONTENT = {
   ...dsipContent,
@@ -58,6 +60,8 @@ const EXTRA_CONTENT = {
   ...humaninContent,
   ...humaninPriceContent,
   ...survodutideVsMazdutideContent,
+  ...tirzepatideVsMazdutideContent,
+  ...mazdutideVsSemaglutideContent,
 };
 import compounds from "@/data/compounds.json";
 

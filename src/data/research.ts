@@ -2288,6 +2288,30 @@ export const guides: ResearchArticle[] = [
     minutes: 12,
     tags: ["survodutide", "mazdutide", "comparison", "glp-1", "glucagon", "dual-agonist", "estimand", "liver", "incretin"],
   },
+
+  {
+    title: "Tirzepatide vs Mazdutide: GIP/GLP-1 Against GLP-1/Glucagon",
+    desc: "Tirzepatide vs mazdutide: 20.9% at 72 weeks is not comparable with 14.01% at 48. Why the estimands differ, and the one near-matched trial pair nobody quotes.",
+    category: "Guide",
+    section: "comparisons",
+    compound: "Tirzepatide",
+    slug: "tirzepatide-vs-mazdutide",
+    image: "tirzepatide-vs-mazdutide",
+    minutes: 12,
+    tags: ["tirzepatide", "mazdutide", "comparison", "gip", "glp-1", "glucagon", "dual-agonist", "estimand", "surmount", "glory"],
+  },
+
+  {
+    title: "Mazdutide vs Semaglutide: Why DREAMS-3 Cannot Settle It",
+    desc: "Mazdutide vs semaglutide: the DREAMS-3 head-to-head has published no efficacy result. What GLORY-1 and STEP 1 really show, and why the dose chosen matters.",
+    category: "Guide",
+    section: "comparisons",
+    compound: "Mazdutide",
+    slug: "mazdutide-vs-semaglutide",
+    image: "mazdutide-vs-semaglutide",
+    minutes: 12,
+    tags: ["mazdutide", "semaglutide", "comparison", "glp-1", "glucagon", "dreams-3", "estimand", "glory", "step-1"],
+  },
   {
     title: "Gonadorelin Research Guide: GnRH Pharmacology",
     desc: "The native GnRH decapeptide, PubChem-verified identity, and why delivery pattern rather than dose decides whether it drives or suppresses the reproductive axis.",
