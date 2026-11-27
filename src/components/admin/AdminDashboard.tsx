@@ -254,6 +254,18 @@ export default function AdminDashboard({
         </nav>
         <div style={{ padding: ".8rem 1.1rem", borderTop: "1px solid #f3f4f6", fontSize: ".72rem", color: "#374151" }}>
           <a href="/" style={{ color: "#2563eb", textDecoration: "none" }}>Back to site ↗</a>
+          <button
+            onClick={async () => {
+              await fetch("/api/owner/logout", { method: "POST" });
+              window.location.href = "/admin/login";
+            }}
+            style={{
+              marginTop: ".55rem", width: "100%", textAlign: "left", background: "transparent",
+              border: "none", padding: 0, color: "#b91c1c", cursor: "pointer", fontSize: ".72rem",
+            }}
+          >
+            Sign out
+          </button>
         </div>
       </aside>
 

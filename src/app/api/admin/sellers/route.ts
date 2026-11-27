@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@vercel/postgres";
 import { hashPassword, newApiKey, newBadgeToken } from "@/lib/seller-auth";
+import { getOwnerFromRequest } from "@/lib/owner-auth";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -28,6 +29,15 @@ function bad(msg: string, status = 400) {
 }
 
 export async function POST(request: NextRequest) {
+  // ── OWNER GATE ──────────────────────────────────────────────────────────
+  // This endpoint reads and rotates every seller's api_key / badge_token and
+  // can delete accounts. It must never be reachable without an owner session.
+  const owner = await getOwnerFromRequest(request);
+  if (!owner) {
+    return NextResponse.json({ ok: false, error: "unauthorised" }, { status: 401 });
+  }
+  // ────────────────────────────────────────────────────────────────────────
+
   try {
     const body = await request.json().catch(() => null);
     if (!body || typeof body !== "object") return bad("invalid json");

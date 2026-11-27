@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@vercel/postgres";
 import { newApiKey, newBadgeToken } from "@/lib/seller-auth";
+import { getOwnerFromRequest } from "@/lib/owner-auth";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -8,6 +9,14 @@ export const dynamic = "force-dynamic";
 // POST /api/claim-listing/decide — { id, action: "approve" | "reject" }
 // Approve creates the seller account (active, with api_key + badge_token) from the claim.
 export async function POST(request: NextRequest) {
+  // ── OWNER GATE ──────────────────────────────────────────────────────────
+  // Approving a claim mints a live seller account with API + badge tokens.
+  // Owner-only.
+  const owner = await getOwnerFromRequest(request);
+  if (!owner) {
+    return NextResponse.json({ ok: false, error: "unauthorised" }, { status: 401 });
+  }
+  // ────────────────────────────────────────────────────────────────────────
   try {
     const body = await request.json();
     const id = Number(body?.id);

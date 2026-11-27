@@ -1,14 +1,29 @@
 import { sql } from "@vercel/postgres";
+import { cookies } from "next/headers";
+import { redirect } from "next/navigation";
 import { getTrustScore } from "@/lib/trust-score";
 import vendorsData from "@/data/vendors.json";
 import { getAffiliateRequests, type AffiliateRequest } from "@/lib/affiliate-requests";
 import AdminDashboard, { type VendorPerf, type SellerAccount } from "@/components/admin/AdminDashboard";
+import { getOwnerFromRequest } from "@/lib/owner-auth";
 
 export const dynamic = "force-dynamic";
 
 type Vendor = { slug: string; name: string };
 
 export default async function AdminPage() {
+  // ── OWNER GATE ──────────────────────────────────────────────────────────
+  // Nothing below runs unless a valid owner session exists. Without this the
+  // page exposes every seller's api_key and badge_token to anyone who loads
+  // /admin, and allows account deletion. Redirect, never render.
+  const cookieStore = await cookies();
+  const owner = await getOwnerFromRequest({ cookies: { get: (n: string) => cookieStore.get(n) } });
+  if (!owner) {
+    // Distinguish "no owner exists yet" (first-run) from "not signed in".
+    redirect("/admin/login");
+  }
+  // ────────────────────────────────────────────────────────────────────────
+
   // Data window (first/last click) so the owner knows the covered period.
   const range = await sql`
     SELECT min(created_at) AS min_ts, max(created_at) AS max_ts FROM clicks
