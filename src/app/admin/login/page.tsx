@@ -31,10 +31,6 @@ function OwnerLoginForm() {
     setError(null);
 
     if (isSetup) {
-      if (password.length < 12) {
-        setError("Password must be at least 12 characters");
-        return;
-      }
       if (password !== confirm) {
         setError("Passwords do not match");
         return;
@@ -125,7 +121,7 @@ function OwnerLoginForm() {
               value={password}
               onChange={(e) => setPassword(e.target.value)}
               className="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder={isSetup ? "Minimum 12 characters" : ""}
+              placeholder=""
             />
           </div>
 

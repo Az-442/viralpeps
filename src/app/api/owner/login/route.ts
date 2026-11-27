@@ -33,12 +33,6 @@ export async function POST(request: NextRequest) {
         { status: 400 },
       );
     }
-    if (password.length < 12) {
-      return NextResponse.json(
-        { ok: false, error: "Password must be at least 12 characters" },
-        { status: 400 },
-      );
-    }
 
     // ---- first-run setup -------------------------------------------------
     if (wantsSetup) {
