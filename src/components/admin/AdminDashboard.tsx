@@ -4,6 +4,7 @@ import { Fragment, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { AffiliateRequest } from "@/lib/affiliate-requests";
 import AdminSidebar from "./AdminSidebar";
+import DateRangeFilter, { presetRange, type DateRange } from "../shared/DateRangeFilter";
 
 export interface VendorPerf {
   slug: string;
@@ -25,6 +26,9 @@ export interface VendorPerf {
   revenue90: number;
   revenue30: number;
   revenue7: number;
+  /** Raw per-event series so the client can compute ANY custom date window. */
+  clickTs?: number[];
+  saleEvents?: { t: number; commission: number; value: number }[];
 }
 
 export interface SellerAccount {
@@ -69,15 +73,6 @@ export interface ClaimRequest {
   createdAt: string | null;
 }
 
-const WINDOWS = [
-  { key: "7", label: "Last 7 days" },
-  { key: "30", label: "Last 30 days" },
-  { key: "90", label: "Last 90 days" },
-  { key: "All", label: "All time" },
-] as const;
-
-type WinKey = (typeof WINDOWS)[number]["key"];
-
 function fmtMoney(n: number): string {
   return n.toLocaleString("en-GB", { style: "currency", currency: "GBP" });
 }
@@ -110,7 +105,7 @@ export default function AdminDashboard({
   ownerName?: string;
 }) {
   const [tab, setTab] = useState<"network" | "sellers" | "requests" | "reviews" | "claims">("network");
-  const [win, setWin] = useState<WinKey>("All");
+  const [range, setRange] = useState<DateRange>(presetRange("30"));
   const [q, setQ] = useState("");
   const [sortKey, setSortKey] = useState<"clicks" | "sales" | "commission" | "revenue">("clicks");
   const [asc, setAsc] = useState(false);
@@ -162,10 +157,26 @@ export default function AdminDashboard({
 
   const rows = useMemo(() => {
     const r = vendors.map((v) => {
-      const clicks = win === "7" ? v.clicks7 : win === "30" ? v.clicks30 : win === "90" ? v.clicks90 : v.clicksAll;
-      const sales = win === "7" ? v.sales7 : win === "30" ? v.sales30 : win === "90" ? v.sales90 : v.salesAll;
-      const commission = win === "7" ? v.commission7 : win === "30" ? v.commission30 : win === "90" ? v.commission90 : v.commissionAll;
-      const revenue = win === "7" ? v.revenue7 : win === "30" ? v.revenue30 : win === "90" ? v.revenue90 : v.revenueAll;
+      // Presets use the server-side aggregates; a custom window is computed
+      // from the raw per-event series shipped alongside them.
+      let clicks: number;
+      let sales: number;
+      let commission: number;
+      let revenue: number;
+      if (range.key === "custom") {
+        const inWin = (t: number) => t >= range.from && t <= range.to;
+        clicks = (v.clickTs ?? []).filter(inWin).length;
+        const ev = (v.saleEvents ?? []).filter((e) => inWin(e.t));
+        sales = ev.length;
+        commission = ev.reduce((a, e) => a + e.commission, 0);
+        revenue = ev.reduce((a, e) => a + e.value, 0);
+      } else {
+        const k = range.key === "all" ? "All" : range.key;
+        clicks = k === "7" ? v.clicks7 : k === "30" ? v.clicks30 : k === "90" ? v.clicks90 : v.clicksAll;
+        sales = k === "7" ? v.sales7 : k === "30" ? v.sales30 : k === "90" ? v.sales90 : v.salesAll;
+        commission = k === "7" ? v.commission7 : k === "30" ? v.commission30 : k === "90" ? v.commission90 : v.commissionAll;
+        revenue = k === "7" ? v.revenue7 : k === "30" ? v.revenue30 : k === "90" ? v.revenue90 : v.revenueAll;
+      }
       return { ...v, clicks, sales, commission, revenue };
     });
     let out = r;
@@ -178,7 +189,7 @@ export default function AdminDashboard({
       return asc ? -d : d;
     });
     return out;
-  }, [vendors, win, q, sortKey, asc]);
+  }, [vendors, range, q, sortKey, asc]);
 
   const totals = useMemo(() => {
     return rows.reduce(
@@ -275,19 +286,7 @@ export default function AdminDashboard({
                 placeholder="Search supplier…"
                 className="px-3 py-2 border border-gray-200 rounded-lg text-sm w-60 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
-              {WINDOWS.map((w) => (
-                <button
-                  key={w.key}
-                  onClick={() => setWin(w.key)}
-                  className={`px-3 py-1.5 rounded-full border text-sm ${
-                    win === w.key
-                      ? "bg-blue-600 border-blue-600 text-white"
-                      : "bg-white border-gray-200 text-gray-900 hover:bg-gray-50"
-                  }`}
-                >
-                  {w.label}
-                </button>
-              ))}
+              <DateRangeFilter value={range} onChange={setRange} variant="light" />
             </div>
 
             {/* Table */}

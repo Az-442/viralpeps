@@ -4,6 +4,7 @@
 
 import { createHash, randomBytes, scryptSync, timingSafeEqual } from "crypto";
 import { sql } from "@vercel/postgres";
+import { resolveSession } from "@/lib/session";
 
 const KEY_LEN = 64;
 
@@ -60,9 +61,13 @@ export interface SellerRow {
 export async function findSellerBySession(token: string | null): Promise<SellerRow | null> {
   if (!token) return null;
   try {
+    // Sessions live in auth_sessions (not on the sellers row) so one login
+    // never evicts another browser's live session.
+    const sid = await resolveSession("seller", token);
+    if (!sid) return null;
     const r = await sql`
       SELECT id, slug, name, email, commission_rate, active, session_token, api_key, badge_token, affiliate_joined_at, created_at
-      FROM sellers WHERE session_token = ${token} AND active = true
+      FROM sellers WHERE id = ${sid} AND active = true
     `;
     return (r.rows[0] as SellerRow) ?? null;
   } catch {

@@ -49,6 +49,17 @@ export default async function AdminPage() {
   const clickMap: Record<string, any> = {};
   for (const r of clicks.rows) clickMap[r.vendor_slug] = r;
 
+  // Raw per-event timestamps so the owner dashboard can compute an arbitrary
+  // custom date window client-side (presets keep using the aggregates above).
+  const rawClicks = await sql`
+    SELECT vendor_slug, extract(epoch from created_at) * 1000 AS t
+    FROM clicks WHERE is_bot = false
+  `;
+  const clickSeries: Record<string, number[]> = {};
+  for (const r of rawClicks.rows) {
+    (clickSeries[r.vendor_slug] ||= []).push(Math.round(Number(r.t)));
+  }
+
   // Per-vendor sales / commission / revenue across four date windows.
   const sales = await sql`
     SELECT
@@ -69,6 +80,22 @@ export default async function AdminPage() {
   `;
   const salesMap: Record<string, any> = {};
   for (const r of sales.rows) salesMap[r.vendor_slug] = r;
+
+  const rawSales = await sql`
+    SELECT vendor_slug,
+           extract(epoch from created_at) * 1000 AS t,
+           COALESCE(commission_amount, 0)::float AS commission,
+           COALESCE(order_value, 0)::float AS value
+    FROM sales
+  `;
+  const saleSeries: Record<string, { t: number; commission: number; value: number }[]> = {};
+  for (const r of rawSales.rows) {
+    (saleSeries[r.vendor_slug] ||= []).push({
+      t: Math.round(Number(r.t)),
+      commission: Number(r.commission),
+      value: Number(r.value),
+    });
+  }
 
   const vendors: VendorPerf[] = (vendorsData as Vendor[]).map((v) => {
     const c = clickMap[v.slug] ?? {};
@@ -93,6 +120,8 @@ export default async function AdminPage() {
       revenue90: s.revenue_90 ?? 0,
       revenue30: s.revenue_30 ?? 0,
       revenue7: s.revenue_7 ?? 0,
+      clickTs: clickSeries[v.slug] ?? [],
+      saleEvents: saleSeries[v.slug] ?? [],
     };
   });
 

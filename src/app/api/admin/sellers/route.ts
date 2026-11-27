@@ -2,6 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@vercel/postgres";
 import { hashPassword, newApiKey, newBadgeToken } from "@/lib/seller-auth";
 import { getOwnerFromRequest } from "@/lib/owner-auth";
+import { revokeAllSessions } from "@/lib/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -56,7 +57,7 @@ export async function POST(request: NextRequest) {
       case "suspend": {
         await sql`UPDATE sellers SET active = false WHERE slug = ${slug}`;
         // Killing the session forces an immediate logout.
-        await sql`UPDATE sellers SET session_token = NULL WHERE slug = ${slug}`;
+        await revokeAllSessions("seller", Number(seller.id));
         return NextResponse.json({ ok: true });
       }
 
@@ -71,7 +72,7 @@ export async function POST(request: NextRequest) {
       }
 
       case "delete": {
-        await sql`UPDATE sellers SET session_token = NULL WHERE slug = ${slug}`;
+        await revokeAllSessions("seller", Number(seller.id));
         await sql`DELETE FROM seller_profiles WHERE seller_slug = ${slug}`;
         await sql`DELETE FROM sellers WHERE slug = ${slug}`;
         return NextResponse.json({ ok: true });
@@ -80,7 +81,9 @@ export async function POST(request: NextRequest) {
       case "reset-password": {
         const password = String((body as Record<string, unknown>).password ?? "");
         if (password.length < 8) return bad("password must be at least 8 characters");
-        await sql`UPDATE sellers SET password_hash = ${hashPassword(password)}, session_token = NULL WHERE slug = ${slug}`;
+        await sql`UPDATE sellers SET password_hash = ${hashPassword(password)} WHERE slug = ${slug}`;
+        // A password reset is the one place every existing session SHOULD die.
+        await revokeAllSessions("seller", Number(seller.id));
         return NextResponse.json({ ok: true });
       }
 

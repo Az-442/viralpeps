@@ -1,6 +1,7 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@vercel/postgres";
-import { findSellerByEmail, newSessionToken, verifyPassword } from "@/lib/seller-auth";
+import { findSellerByEmail, verifyPassword } from "@/lib/seller-auth";
+import { createSession, SESSION_MAX_AGE } from "@/lib/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -26,8 +27,9 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ ok: false, error: "Account pending approval" }, { status: 403 });
     }
 
-    const token = newSessionToken();
-    await sql`UPDATE sellers SET session_token = ${token} WHERE id = ${seller.id}`;
+    // Sessions live in their own table so logging in here never evicts a live
+    // session in another browser (that was causing constant sign-outs).
+    const token = await createSession("seller", seller.id);
 
     const res = NextResponse.json({ ok: true, slug: seller.slug, name: seller.name });
     res.cookies.set(COOKIE, token, {
@@ -35,7 +37,7 @@ export async function POST(request: NextRequest) {
       sameSite: "lax",
       secure: process.env.NODE_ENV === "production",
       path: "/",
-      maxAge: 60 * 60 * 24 * 7, // 7 days
+      maxAge: SESSION_MAX_AGE.seller,
     });
     return res;
   } catch (err) {

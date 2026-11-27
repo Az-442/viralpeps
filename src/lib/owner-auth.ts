@@ -6,11 +6,12 @@
 
 import { createHash, randomBytes, scryptSync, timingSafeEqual } from "crypto";
 import { sql } from "@vercel/postgres";
+import { resolveSession } from "@/lib/session";
 
 const KEY_LEN = 64;
 
 export const OWNER_COOKIE = "vp_owner_session";
-export const OWNER_SESSION_DAYS = 7;
+export const OWNER_SESSION_DAYS = 30;
 
 export interface OwnerRow {
   id: number;
@@ -77,13 +78,14 @@ export async function findOwnerBySession(token: string | null): Promise<OwnerRow
   if (!token) return null;
   try {
     await ensureOwnerTable();
+    // auth_sessions is the source of truth so a fresh login elsewhere does not
+    // invalidate the cookie already sitting in the user's browser.
+    const sid = await resolveSession("owner", token);
+    if (!sid) return null;
     const r = await sql`
       SELECT id, email, name, password_hash, active, created_at, last_login_at
       FROM owners
-      WHERE session_token = ${token}
-        AND active = true
-        AND session_expires IS NOT NULL
-        AND session_expires > now()
+      WHERE id = ${sid} AND active = true
     `;
     return (r.rows[0] as OwnerRow) ?? null;
   } catch {

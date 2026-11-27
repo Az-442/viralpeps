@@ -7,9 +7,9 @@ import {
   ensureOwnerTable,
   findOwnerByEmail,
   hashPassword,
-  newSessionToken,
   verifyPassword,
 } from "@/lib/owner-auth";
+import { createSession } from "@/lib/session";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -63,14 +63,8 @@ export async function POST(request: NextRequest) {
       return NextResponse.json({ ok: false, error: "Account disabled" }, { status: 403 });
     }
 
-    const token = newSessionToken();
-    await sql`
-      UPDATE owners
-      SET session_token = ${token},
-          session_expires = now() + (${OWNER_SESSION_DAYS} || ' days')::interval,
-          last_login_at = now()
-      WHERE id = ${owner.id}
-    `;
+    const token = await createSession("owner", owner.id);
+    await sql`UPDATE owners SET last_login_at = now() WHERE id = ${owner.id}`;
 
     const res = NextResponse.json({ ok: true, email: owner.email, name: owner.name });
     res.cookies.set(OWNER_COOKIE, token, {

@@ -4,6 +4,7 @@ import { useState, useMemo, type ReactNode } from "react";
 import SellerProfile from "./SellerProfile";
 import TrustScoreIcon from "../TrustScoreIcon";
 import SellerSidebar from "./SellerSidebar";
+import DateRangeFilter, { DEFAULT_RANGE, type DateRange } from "../shared/DateRangeFilter";
 
 export interface ClickRow {
   click_type: string;
@@ -83,13 +84,6 @@ function hostOf(url: string): string {
     return "";
   }
 }
-
-const RANGES = [
-  { label: "Last 7 days", days: 7 },
-  { label: "Last 30 days", days: 30 },
-  { label: "Last 90 days", days: 90 },
-  { label: "All time", days: 0 },
-] as const;
 
 type Tab =
   | "dashboard"
@@ -335,7 +329,8 @@ export default function SellerDashboard(props: {
   productClicks: Record<string, number>;
   ranking: RankingRow[];
 }) {
-  const [rangeDays, setRangeDays] = useState(30);
+  const [range, setRange] = useState<DateRange>(DEFAULT_RANGE);
+  const rangeDays = range.key === "all" ? 0 : range.key === "custom" ? 0 : Number(range.key);
   const [productFilter, setProductFilter] = useState<string>("all");
   const [tab, setTab] = useState<Tab>("dashboard");
   const [copied, setCopied] = useState(false);
@@ -350,13 +345,23 @@ export default function SellerDashboard(props: {
   const [hiddenProducts, setHiddenProducts] = useState<Set<string>>(new Set());
 
   const cutoff = useMemo(() => {
+    if (range.key === "custom") return range.from;
     if (rangeDays === 0) return 0;
     return Date.now() - rangeDays * 24 * 3600 * 1000;
-  }, [rangeDays]);
+  }, [rangeDays, range]);
+
+  const cutoffEnd = useMemo(() => {
+    if (range.key === "custom") return range.to;
+    return 0;
+  }, [range]);
 
   const clicksInRange = useMemo(
-    () => props.clicks.filter((c) => new Date(c.created_at).getTime() >= cutoff),
-    [props.clicks, cutoff]
+    () =>
+      props.clicks.filter((c) => {
+        const t = new Date(c.created_at).getTime();
+        return t >= cutoff && (cutoffEnd === 0 || t <= cutoffEnd);
+      }),
+    [props.clicks, cutoff, cutoffEnd]
   );
 
   const filteredClicks = useMemo(
@@ -555,7 +560,7 @@ export default function SellerDashboard(props: {
     <div className="bg-white border border-gray-200 rounded-xl p-5 mb-5">
       <div className="flex items-center justify-between mb-3">
         <h2 className="font-semibold">Click activity</h2>
-        <span className="text-xs text-gray-600">per day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</span>
+        <span className="text-xs text-gray-600">per day · {range.label.toLowerCase()}</span>
       </div>
       {bars.length === 0 ? (
         <p className="text-sm text-gray-600 py-6">No clicks in this period.</p>
@@ -602,17 +607,7 @@ export default function SellerDashboard(props: {
               </div>
             </div>
             <div className="text-xs">
-              <select
-                value={rangeDays}
-                onChange={(e) => setRangeDays(Number(e.target.value))}
-                className="bg-white/10 border border-white/15 rounded-lg px-2.5 py-1.5 text-white [&>option]:text-gray-900"
-              >
-                {RANGES.map((r) => (
-                  <option key={r.days} value={r.days}>
-                    {r.label}
-                  </option>
-                ))}
-              </select>
+              <DateRangeFilter value={range} onChange={setRange} variant="dark" />
             </div>
           </div>
         </div>
@@ -791,7 +786,7 @@ export default function SellerDashboard(props: {
                 <h2 className="font-semibold">Clicks over time</h2>
                 <span className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full font-semibold">{clicksInRange.length} clicks</span>
               </div>
-              <div className="text-xs text-gray-600 mb-3">Grouped by day · {RANGES.find((r) => r.days === rangeDays)?.label.toLowerCase()}</div>
+              <div className="text-xs text-gray-600 mb-3">Grouped by day · {range.label.toLowerCase()}</div>
               {bars.length === 0 ? (
                 <p className="text-sm text-gray-600 py-6">No clicks in this period.</p>
               ) : (
