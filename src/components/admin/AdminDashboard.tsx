@@ -3,6 +3,7 @@
 import { Fragment, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { AffiliateRequest } from "@/lib/affiliate-requests";
+import AdminSidebar from "./AdminSidebar";
 
 export interface VendorPerf {
   slug: string;
@@ -97,6 +98,7 @@ export default function AdminDashboard({
   profileReviews,
   claims,
   dataRange,
+  ownerName,
 }: {
   vendors: VendorPerf[];
   sellers: SellerAccount[];
@@ -105,6 +107,7 @@ export default function AdminDashboard({
   profileReviews: ProfileReview[];
   claims: ClaimRequest[];
   dataRange?: string;
+  ownerName?: string;
 }) {
   const [tab, setTab] = useState<"network" | "sellers" | "requests" | "reviews" | "claims">("network");
   const [win, setWin] = useState<WinKey>("All");
@@ -209,108 +212,78 @@ export default function AdminDashboard({
   }
 
   return (
-    <div style={{ display: "flex", minHeight: "100vh", fontFamily: "system-ui, sans-serif", background: "#f9fafb" }}>
-      {/* ── Sidebar ── */}
-      <aside style={{ width: 220, background: "#fff", borderRight: "1px solid #e5e7eb", position: "fixed", top: 0, bottom: 0, left: 0, display: "flex", flexDirection: "column" }}>
-        <div style={{ padding: "1rem 1.1rem", borderBottom: "1px solid #f3f4f6" }}>
-          <div style={{ fontWeight: 700, fontSize: ".95rem" }}>Affiliate Network</div>
-          <div style={{ fontSize: ".65rem", letterSpacing: ".2em", color: "#374151" }}>VIRALPEPS</div>
-        </div>
-        <nav style={{ flex: 1, padding: ".5rem .7rem" }}>
-          {[
-            ["network", "Network performance", "📊"],
-            ["sellers", "Registered sellers", "👥"],
-            ["requests", "Join requests", "🔔"],
-            ["claims", "Claim requests", "🏷️"],
-            ["reviews", "Profile review", "🛡️"],
-          ].map(([id, label, icon]) => (
-            <button
-              key={id}
-              onClick={() => setTab(id as "network" | "sellers" | "requests" | "reviews" | "claims")}
-              style={{
-                width: "100%", textAlign: "left", display: "flex", alignItems: "center", gap: ".5rem",
-                padding: ".55rem .7rem", borderRadius: 8, border: "none", background: tab === id ? "#eff6ff" : "transparent",
-                color: tab === id ? "#1d4ed8" : "#111827", fontSize: ".85rem", cursor: "pointer", fontWeight: tab === id ? 600 : 400,
-              }}
-            >
-              <span>{icon}</span> {label}
-              {id === "requests" && affiliateRequests.length > 0 && (
-                <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
-                  {affiliateRequests.length}
-                </span>
-              )}
-              {id === "reviews" && profileReviews.filter((r) => r.status === "pending").length > 0 && (
-                <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
-                  {profileReviews.filter((r) => r.status === "pending").length}
-                </span>
-              )}
-              {id === "claims" && claims.filter((c) => c.status === "pending").length > 0 && (
-                <span style={{ marginLeft: "auto", background: "#e11d48", color: "#fff", fontSize: ".7rem", fontWeight: 700, padding: "1px 8px", borderRadius: 999 }}>
-                  {claims.filter((c) => c.status === "pending").length}
-                </span>
-              )}
-            </button>
-          ))}
-        </nav>
-        <div style={{ padding: ".8rem 1.1rem", borderTop: "1px solid #f3f4f6", fontSize: ".72rem", color: "#374151" }}>
-          <a href="/" style={{ color: "#2563eb", textDecoration: "none" }}>Back to site ↗</a>
-          <button
-            onClick={async () => {
-              await fetch("/api/owner/logout", { method: "POST" });
-              window.location.href = "/admin/login";
-            }}
-            style={{
-              marginTop: ".55rem", width: "100%", textAlign: "left", background: "transparent",
-              border: "none", padding: 0, color: "#b91c1c", cursor: "pointer", fontSize: ".72rem",
-            }}
-          >
-            Sign out
-          </button>
-        </div>
-      </aside>
+    <div className="min-h-screen bg-gray-50 text-gray-900">
+      {/* ── Sidebar (supplier theme) ── */}
+      <AdminSidebar
+        active={tab}
+        onSelect={(id: "network" | "sellers" | "requests" | "reviews" | "claims") => setTab(id)}
+        ownerName={ownerName ?? "Owner"}
+        badges={{
+          requests: affiliateRequests.length,
+          reviews: profileReviews.filter((r) => r.status === "pending").length,
+          claims: claims.filter((c) => c.status === "pending").length,
+        }}
+      />
 
       {/* ── Main ── */}
-      <div style={{ marginLeft: 220, flex: 1, padding: "1.6rem 1.8rem" }}>
+      <div className="ml-64 p-6">
+        {/* Hero — mirrors the supplier portal hero */}
+        <div className="rounded-2xl bg-gradient-to-br from-[#0b1a2e] via-[#1a2d4a] to-[#0b1a2e] text-white p-6 mb-5">
+          <div className="flex items-start justify-between gap-4 flex-wrap">
+            <div>
+              <div className="text-[11px] tracking-widest text-blue-300 uppercase">
+                Owner dashboard
+              </div>
+              <h1 className="text-2xl font-bold mt-1">Affiliate network</h1>
+              <div className="flex items-center gap-2 mt-2 text-xs">
+                <span className="bg-white/10 border border-white/15 rounded-full px-2.5 py-0.5">
+                  {sellers.length} registered sellers
+                </span>
+                <span className="bg-white/10 border border-white/15 rounded-full px-2.5 py-0.5">
+                  {affiliateRequests.length} join request{affiliateRequests.length === 1 ? "" : "s"}
+                </span>
+                <span className="bg-white/10 border border-white/15 rounded-full px-2.5 py-0.5">
+                  Click data: {dataRange || "—"}
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {tab === "network" ? (
           <>
-            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Network performance</h1>
-            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
-              Every supplier&apos;s referral clicks, sales and commission.{" "}
-              <span style={{ color: "#374151" }}>Click data: {dataRange || "—"}</span>
-            </p>
-
             {/* Stat cards */}
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(4, 1fr)", gap: ".9rem", marginBottom: "1.2rem" }}>
+            <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 mb-5">
               {[
                 ["Clicks", totals.clicks.toLocaleString()],
                 ["Sales", totals.sales.toLocaleString()],
                 ["Commission", fmtMoney(totals.commission)],
                 ["Referred revenue", fmtMoney(totals.revenue)],
               ].map(([l, v]) => (
-                <div key={l} style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, padding: ".9rem" }}>
-                  <div style={{ fontSize: ".75rem", color: "#111827" }}>{l}</div>
-                  <div style={{ fontSize: "1.3rem", fontWeight: 700 }}>{v}</div>
+                <div key={l} className="bg-white border border-gray-200 rounded-xl p-4">
+                  <div className="text-xs text-gray-700">{l}</div>
+                  <div className="text-2xl font-bold mt-1">{v}</div>
                 </div>
               ))}
             </div>
 
             {/* Filters */}
-            <div style={{ display: "flex", gap: ".7rem", marginBottom: "1rem", alignItems: "center", flexWrap: "wrap" }}>
+            <div className="flex gap-3 mb-4 items-center flex-wrap">
               <input
                 value={q}
                 onChange={(e) => setQ(e.target.value)}
                 placeholder="Search supplier…"
-                style={{ padding: ".5rem .8rem", border: "1px solid #d1d5db", borderRadius: 8, fontSize: ".85rem", width: 240 }}
+                className="px-3 py-2 border border-gray-200 rounded-lg text-sm w-60 focus:outline-none focus:ring-2 focus:ring-blue-500"
               />
               {WINDOWS.map((w) => (
                 <button
                   key={w.key}
                   onClick={() => setWin(w.key)}
-                  style={{
-                    padding: ".45rem .8rem", borderRadius: 999, border: "1px solid #d1d5db", cursor: "pointer",
-                    background: win === w.key ? "#1d4ed8" : "#fff", color: win === w.key ? "#fff" : "#111827",
-                    fontSize: ".8rem",
-                  }}
+                  className={`px-3 py-1.5 rounded-full border text-sm ${
+                    win === w.key
+                      ? "bg-blue-600 border-blue-600 text-white"
+                      : "bg-white border-gray-200 text-gray-900 hover:bg-gray-50"
+                  }`}
                 >
                   {w.label}
                 </button>
@@ -318,33 +291,33 @@ export default function AdminDashboard({
             </div>
 
             {/* Table */}
-            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
-              <div style={{ maxHeight: "calc(100vh - 300px)", overflowY: "auto" }}>
-                <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <div style={{ maxHeight: "calc(100vh - 360px)" }} className="overflow-y-auto">
+                <table className="w-full text-sm">
                   <thead>
-                    <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left", position: "sticky", top: 0, background: "#fff" }}>
-                      <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
-                      <th style={{ padding: ".55rem .9rem" }}>TrustScore</th>
-                      {th("Clicks", "clicks")}
-                      {th("Sales", "sales")}
-                      {th("Commission", "commission")}
-                      {th("Revenue", "revenue")}
+                    <tr className="border-b-2 border-gray-200 text-left sticky top-0 bg-white">
+                      <th className="py-2 px-4 font-semibold">Supplier</th>
+                      <th className="py-2 px-3 font-semibold">TrustScore</th>
+                      <th className="py-2 px-3 font-semibold cursor-pointer select-none" onClick={() => { if (sortKey === "clicks") setAsc(!asc); else { setSortKey("clicks"); setAsc(false); } }}>Clicks</th>
+                      <th className="py-2 px-3 font-semibold cursor-pointer select-none" onClick={() => { if (sortKey === "sales") setAsc(!asc); else { setSortKey("sales"); setAsc(false); } }}>Sales</th>
+                      <th className="py-2 px-3 font-semibold cursor-pointer select-none" onClick={() => { if (sortKey === "commission") setAsc(!asc); else { setSortKey("commission"); setAsc(false); } }}>Commission</th>
+                      <th className="py-2 px-3 font-semibold cursor-pointer select-none" onClick={() => { if (sortKey === "revenue") setAsc(!asc); else { setSortKey("revenue"); setAsc(false); } }}>Revenue</th>
                     </tr>
                   </thead>
                   <tbody>
                     {rows.length === 0 ? (
-                      <tr><td colSpan={6} style={{ padding: "1.5rem", color: "#374151" }}>No suppliers match.</td></tr>
+                      <tr><td colSpan={6} className="p-6 text-gray-700">No suppliers match.</td></tr>
                     ) : rows.map((v) => (
-                      <tr key={v.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
-                        <td style={{ padding: ".5rem 1.1rem" }}>
-                          <span style={{ fontWeight: 600 }}>{v.name}</span>
-                          <div style={{ color: "#374151", fontSize: ".72rem" }}>{v.slug}</div>
+                      <tr key={v.slug} className="border-b border-gray-100 hover:bg-gray-50">
+                        <td className="py-2 px-4">
+                          <span className="font-semibold">{v.name}</span>
+                          <div className="text-gray-600 text-xs">{v.slug}</div>
                         </td>
-                        <td style={{ padding: ".5rem .9rem" }}><span style={{ fontWeight: 700, color: band(v.trust) }}>{v.trust}</span></td>
-                        <td style={{ padding: ".5rem .9rem" }}>{v.clicks}</td>
-                        <td style={{ padding: ".5rem .9rem" }}>{v.sales}</td>
-                        <td style={{ padding: ".5rem .9rem" }}>{fmtMoney(v.commission)}</td>
-                        <td style={{ padding: ".5rem .9rem" }}>{fmtMoney(v.revenue)}</td>
+                        <td className="py-2 px-3"><span className="font-bold" style={{ color: band(v.trust) }}>{v.trust}</span></td>
+                        <td className="py-2 px-3">{v.clicks}</td>
+                        <td className="py-2 px-3">{v.sales}</td>
+                        <td className="py-2 px-3">{fmtMoney(v.commission)}</td>
+                        <td className="py-2 px-3">{fmtMoney(v.revenue)}</td>
                       </tr>
                     ))}
                   </tbody>
@@ -354,42 +327,42 @@ export default function AdminDashboard({
           </>
         ) : tab === "requests" ? (
           <>
-            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Affiliate join requests</h1>
-            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+            <h1 className="text-xl font-bold mb-1">Affiliate join requests</h1>
+            <p className="text-sm text-gray-700 mb-4">
               {affiliateRequests.length} request(s) from suppliers wanting to join the affiliate program.
             </p>
-            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <table className="w-full text-sm">
                 <thead>
-                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
-                    <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Email</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Commission</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Requested</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Action</th>
+                  <tr className="border-b-2 border-gray-200 text-left">
+                    <th className="py-2 px-4 font-semibold">Supplier</th>
+                    <th className="py-2 px-3 font-semibold">Email</th>
+                    <th className="py-2 px-3 font-semibold">Commission</th>
+                    <th className="py-2 px-3 font-semibold">Requested</th>
+                    <th className="py-2 px-3 font-semibold">Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   {affiliateRequests.length === 0 ? (
-                    <tr><td colSpan={5} style={{ padding: "1.5rem", color: "#374151" }}>No join requests yet.</td></tr>
+                    <tr><td colSpan={5} className="p-6 text-gray-700">No join requests yet.</td></tr>
                   ) : affiliateRequests.map((r) => (
-                    <tr key={r.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
-                      <td style={{ padding: ".5rem 1.1rem" }}>
-                        <a href={`/vendors/${r.slug}`} style={{ fontWeight: 600 }}>{r.name || r.slug}</a>
-                        <div style={{ color: "#374151", fontSize: ".72rem" }}>{r.slug}</div>
+                    <tr key={r.slug} className="border-b border-gray-100 hover:bg-gray-50">
+                      <td className="py-2 px-4">
+                        <a href={`/vendors/${r.slug}`} className="font-semibold hover:underline">{r.name || r.slug}</a>
+                        <div className="text-gray-600 text-xs">{r.slug}</div>
                       </td>
-                      <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{r.email || "—"}</td>
-                      <td style={{ padding: ".5rem .9rem" }}>{r.commissionRate ?? 20}%</td>
-                      <td style={{ padding: ".5rem .9rem", color: "#111827" }}>
+                      <td className="py-2 px-3 text-gray-800">{r.email || "—"}</td>
+                      <td className="py-2 px-3">{r.commissionRate ?? 20}%</td>
+                      <td className="py-2 px-3 text-gray-800">
                         {r.requestedAt ? new Date(r.requestedAt).toLocaleString("en-GB") : "—"}
                       </td>
-                      <td style={{ padding: ".5rem .9rem" }}>
+                      <td className="py-2 px-3">
                         {approved[r.slug] || affiliateApproved[r.slug] ? (
-                          <span style={{ fontSize: ".72rem", padding: "2px 10px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Approved</span>
+                          <span className="text-xs px-2.5 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">✓ Approved</span>
                         ) : (
                           <button
                             onClick={() => approveAffiliate(r.slug)}
-                            style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", cursor: "pointer", fontWeight: 600 }}
+                            className="text-xs px-3 py-1 rounded-lg bg-blue-600 text-white hover:bg-blue-700 font-semibold"
                           >
                             Approve
                           </button>
@@ -403,61 +376,62 @@ export default function AdminDashboard({
           </>
         ) : tab === "reviews" ? (
           <>
-            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Profile review</h1>
-            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+            <h1 className="text-xl font-bold mb-1">Profile review</h1>
+            <p className="text-sm text-gray-700 mb-4">
               Score-affecting claims (entity type + payment method) awaiting your approval. Approve to apply them to the TrustScore.
             </p>
-            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <table className="w-full text-sm">
                 <thead>
-                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
-                    <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Claimed entity</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Claimed payment</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Status</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Action</th>
+                  <tr className="border-b-2 border-gray-200 text-left">
+                    <th className="py-2 px-4 font-semibold">Supplier</th>
+                    <th className="py-2 px-3 font-semibold">Claimed entity</th>
+                    <th className="py-2 px-3 font-semibold">Claimed payment</th>
+                    <th className="py-2 px-3 font-semibold">Status</th>
+                    <th className="py-2 px-3 font-semibold">Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   {profileReviews.length === 0 ? (
-                    <tr><td colSpan={5} style={{ padding: "1.5rem", color: "#374151" }}>No profile claims yet.</td></tr>
+                    <tr><td colSpan={5} className="p-6 text-gray-700">No profile claims yet.</td></tr>
                   ) : profileReviews.map((r) => {
                     const decided = reviewDecided[r.slug] || r.status;
                     return (
-                      <tr key={r.slug} style={{ borderBottom: "1px solid #f3f4f6" }}>
-                        <td style={{ padding: ".5rem 1.1rem" }}>
-                          <span style={{ fontWeight: 600 }}>{r.name || r.slug}</span>
-                          <div style={{ color: "#374151", fontSize: ".72rem" }}>{r.slug}</div>
+                      <tr key={r.slug} className="border-b border-gray-100 hover:bg-gray-50">
+                        <td className="py-2 px-4">
+                          <span className="font-semibold">{r.name || r.slug}</span>
+                          <div className="text-gray-600 text-xs">{r.slug}</div>
                         </td>
-                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{r.entityType || "—"}</td>
-                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{r.paymentMethod || "—"}</td>
-                        <td style={{ padding: ".5rem .9rem" }}>
+                        <td className="py-2 px-3 text-gray-800">{r.entityType || "—"}</td>
+                        <td className="py-2 px-3 text-gray-800">{r.paymentMethod || "—"}</td>
+                        <td className="py-2 px-3">
                           {decided === "pending" ? (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef3c7", color: "#b45309", fontWeight: 600 }}>Pending</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200 font-semibold">Pending</span>
                           ) : decided === "approved" ? (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Approved</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">✓ Approved</span>
                           ) : (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef2f2", color: "#b91c1c", fontWeight: 600 }}>Rejected</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 font-semibold">Rejected</span>
                           )}
                         </td>
-                        <td style={{ padding: ".5rem .9rem" }}>
+                        <td className="py-2 px-3">
                           {decided === "pending" ? (
-                            <div style={{ display: "flex", gap: ".4rem" }}>
+                            <div className="flex gap-1.5">
                               <button
                                 onClick={() => reviewAction(r.slug, "approve")}
-                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", cursor: "pointer", fontWeight: 600 }}
+                                className="text-xs px-3 py-1 rounded-lg bg-blue-600 text-white hover:bg-blue-700 font-semibold"
                               >
                                 Approve
+
                               </button>
                               <button
                                 onClick={() => reviewAction(r.slug, "reject")}
-                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", cursor: "pointer", fontWeight: 600 }}
+                                className="text-xs px-3 py-1 rounded-lg bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 font-semibold"
                               >
                                 Reject
                               </button>
                             </div>
                           ) : (
-                            <span style={{ color: "#374151", fontSize: ".75rem" }}>—</span>
+                            <span className="text-gray-600 text-xs">—</span>
                           )}
                         </td>
                       </tr>
@@ -469,63 +443,63 @@ export default function AdminDashboard({
           </>
         ) : tab === "claims" ? (
           <>
-            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Claim requests</h1>
-            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>
+            <h1 className="text-xl font-bold mb-1">Claim requests</h1>
+            <p className="text-sm text-gray-700 mb-4">
               Suppliers claiming ownership of an existing listing. Approving creates their seller account.
             </p>
-            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-hidden">
+              <table className="w-full text-sm">
                 <thead>
-                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
-                    <th style={{ padding: ".55rem 1.1rem" }}>Listing</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Email</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Domain</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Requested</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Action</th>
+                  <tr className="border-b-2 border-gray-200 text-left">
+                    <th className="py-2 px-4 font-semibold">Listing</th>
+                    <th className="py-2 px-3 font-semibold">Email</th>
+                    <th className="py-2 px-3 font-semibold">Domain</th>
+                    <th className="py-2 px-3 font-semibold">Requested</th>
+                    <th className="py-2 px-3 font-semibold">Action</th>
                   </tr>
                 </thead>
                 <tbody>
                   {claims.length === 0 ? (
-                    <tr><td colSpan={5} style={{ padding: "1.5rem", color: "#374151" }}>No claim requests yet.</td></tr>
+                    <tr><td colSpan={5} className="p-6 text-gray-700">No claim requests yet.</td></tr>
                   ) : claims.map((c) => {
                     const decided = claimDecided[c.id] || c.status;
                     return (
-                      <tr key={c.id} style={{ borderBottom: "1px solid #f3f4f6" }}>
-                        <td style={{ padding: ".5rem 1.1rem" }}>
-                          <span style={{ fontWeight: 600 }}>{c.name || c.slug}</span>
-                          <div style={{ color: "#374151", fontSize: ".72rem" }}>{c.slug}</div>
+                      <tr key={c.id} className="border-b border-gray-100 hover:bg-gray-50">
+                        <td className="py-2 px-4">
+                          <span className="font-semibold">{c.name || c.slug}</span>
+                          <div className="text-gray-600 text-xs">{c.slug}</div>
                         </td>
-                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{c.email}</td>
-                        <td style={{ padding: ".5rem .9rem" }}>
+                        <td className="py-2 px-3 text-gray-800">{c.email}</td>
+                        <td className="py-2 px-3">
                           {c.domainMatch ? (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ match</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">✓ match</span>
                           ) : (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef3c7", color: "#b45309", fontWeight: 600 }}>verify</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-amber-50 text-amber-700 border border-amber-200 font-semibold">verify</span>
                           )}
                         </td>
-                        <td style={{ padding: ".5rem .9rem", color: "#111827" }}>
+                        <td className="py-2 px-3 text-gray-800">
                           {c.createdAt ? new Date(c.createdAt).toLocaleString("en-GB") : "—"}
                         </td>
-                        <td style={{ padding: ".5rem .9rem" }}>
+                        <td className="py-2 px-3">
                           {decided === "pending" ? (
-                            <div style={{ display: "flex", gap: ".4rem" }}>
+                            <div className="flex gap-1.5">
                               <button
                                 onClick={() => claimAction(c.id, "approve")}
-                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "none", background: "#1d4ed8", color: "#fff", cursor: "pointer", fontWeight: 600 }}
+                                className="text-xs px-3 py-1 rounded-lg bg-blue-600 text-white hover:bg-blue-700 font-semibold"
                               >
                                 Approve
                               </button>
                               <button
                                 onClick={() => claimAction(c.id, "reject")}
-                                style={{ fontSize: ".75rem", padding: "4px 12px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", cursor: "pointer", fontWeight: 600 }}
+                                className="text-xs px-3 py-1 rounded-lg bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 font-semibold"
                               >
                                 Reject
                               </button>
                             </div>
                           ) : decided === "approved" ? (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Approved</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">✓ Approved</span>
                           ) : (
-                            <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#fef2f2", color: "#b91c1c", fontWeight: 600 }}>Rejected</span>
+                            <span className="text-xs px-2 py-0.5 rounded-full bg-rose-50 text-rose-700 border border-rose-200 font-semibold">Rejected</span>
                           )}
                         </td>
                       </tr>
@@ -537,54 +511,58 @@ export default function AdminDashboard({
           </>
         ) : (
           <>
-            <h1 style={{ fontSize: "1.4rem", fontWeight: 700, margin: 0 }}>Registered sellers</h1>
-            <p style={{ color: "#111827", margin: ".2rem 0 1.2rem", fontSize: ".85rem" }}>{sellers.length} seller account(s).</p>
-            <div style={{ background: "#fff", border: "1px solid #e5e7eb", borderRadius: 12, overflow: "hidden" }}>
-              <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".85rem" }}>
+            <h1 className="text-xl font-bold mb-1">Registered sellers</h1>
+            <p className="text-sm text-gray-700 mb-4">{sellers.length} seller account(s).</p>
+            <div className="bg-white border border-gray-200 rounded-xl overflow-x-auto">
+              <table className="w-full text-sm">
                 <thead>
-                  <tr style={{ borderBottom: "2px solid #e5e7eb", textAlign: "left" }}>
-                    <th style={{ padding: ".55rem 1.1rem" }}>Supplier</th>
-                    <th style={{ padding: ".55rem .9rem" }}>TrustScore</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Status</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Affiliate</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Clicks</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Sales</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Commission</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Email</th>
-                    <th style={{ padding: ".55rem .9rem" }}>Actions</th>
+                  <tr className="border-b-2 border-gray-200 text-left">
+                    <th className="py-2 px-4 font-semibold">Supplier</th>
+                    <th className="py-2 px-3 font-semibold">TrustScore</th>
+                    <th className="py-2 px-3 font-semibold">Status</th>
+                    <th className="py-2 px-3 font-semibold">Affiliate</th>
+                    <th className="py-2 px-3 font-semibold">Clicks</th>
+                    <th className="py-2 px-3 font-semibold">Sales</th>
+                    <th className="py-2 px-3 font-semibold">Commission</th>
+                    <th className="py-2 px-3 font-semibold">Email</th>
+                    <th className="py-2 px-3 font-semibold">Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   {sellers.length === 0 ? (
-                    <tr><td colSpan={9} style={{ padding: "1.5rem", color: "#374151" }}>No sellers registered yet.</td></tr>
+                    <tr><td colSpan={9} className="p-6 text-gray-700">No sellers registered yet.</td></tr>
                   ) : sellers.map((s) => (
                     <Fragment key={s.slug}>
-                    <tr style={{ borderBottom: "1px solid #f3f4f6", background: s.active ? undefined : "#fffbeb" }}>
-                      <td style={{ padding: ".5rem 1.1rem" }}>
-                        <a href={`/vendors/${s.slug}`} style={{ fontWeight: 600 }}>{s.name || s.slug}</a>
-                        <div style={{ color: "#374151", fontSize: ".72rem" }}>{s.slug}</div>
+                    <tr className={`border-b border-gray-100 hover:bg-gray-50 ${s.active ? "" : "bg-amber-50"}`}>
+                      <td className="py-2 px-4">
+                        <a href={`/vendors/${s.slug}`} className="font-semibold hover:underline">{s.name || s.slug}</a>
+                        <div className="text-gray-600 text-xs">{s.slug}</div>
                       </td>
-                      <td style={{ padding: ".5rem .9rem" }}><span style={{ fontWeight: 700, color: band(s.trust) }}>{s.trust}</span></td>
-                      <td style={{ padding: ".5rem .9rem" }}>
-                        <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: s.active ? "#ecfdf5" : "#fef2f2", color: s.active ? "#047857" : "#b91c1c", fontWeight: 600 }}>
+                      <td className="py-2 px-3"><span className="font-bold" style={{ color: band(s.trust) }}>{s.trust}</span></td>
+                      <td className="py-2 px-3">
+                        <span className={`text-xs px-2 py-0.5 rounded-full border font-semibold ${
+                          s.active
+                            ? "bg-emerald-50 text-emerald-700 border-emerald-200"
+                            : "bg-rose-50 text-rose-700 border-rose-200"
+                        }`}>
                           {s.active ? "Active" : "Suspended"}
                         </span>
                       </td>
-                      <td style={{ padding: ".5rem .9rem" }}>
+                      <td className="py-2 px-3">
                         {s.affiliateJoinedAt ? (
-                          <span style={{ fontSize: ".72rem", padding: "2px 8px", borderRadius: 999, background: "#ecfdf5", color: "#047857", fontWeight: 600 }}>✓ Joined</span>
+                          <span className="text-xs px-2 py-0.5 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-200 font-semibold">✓ Joined</span>
                         ) : (
-                          <span style={{ fontSize: ".72rem", color: "#374151" }}>—</span>
+                          <span className="text-xs text-gray-600">—</span>
                         )}
                       </td>
-                      <td style={{ padding: ".5rem .9rem" }}>{s.clicks}</td>
-                      <td style={{ padding: ".5rem .9rem" }}>{s.sales}</td>
-                      <td style={{ padding: ".5rem .9rem" }}>{fmtMoney(s.commission)}</td>
-                      <td style={{ padding: ".5rem .9rem", color: "#111827" }}>{s.email ?? "—"}</td>
-                      <td style={{ padding: ".5rem .9rem" }}>
+                      <td className="py-2 px-3">{s.clicks}</td>
+                      <td className="py-2 px-3">{s.sales}</td>
+                      <td className="py-2 px-3">{fmtMoney(s.commission)}</td>
+                      <td className="py-2 px-3 text-gray-800">{s.email ?? "—"}</td>
+                      <td className="py-2 px-3">
                         <button
                           onClick={() => setSellerOpen(sellerOpen === s.slug ? null : s.slug)}
-                          style={{ fontSize: ".72rem", padding: "4px 10px", borderRadius: 8, border: "1px solid #d1d5db", background: "#fff", color: "#111827", cursor: "pointer", fontWeight: 600 }}
+                          className="text-xs px-2.5 py-1 rounded-lg bg-white border border-gray-200 text-gray-900 hover:bg-gray-50 font-semibold"
                         >
                           {sellerOpen === s.slug ? "Close" : "Manage"}
                         </button>
@@ -592,7 +570,7 @@ export default function AdminDashboard({
                     </tr>
                     {sellerOpen === s.slug && (
                       <tr>
-                        <td colSpan={9} style={{ padding: ".9rem 1.1rem 1.2rem", background: "#f9fafb", borderBottom: "1px solid #e5e7eb" }}>
+                        <td colSpan={9} className="px-4 pt-3 pb-4 bg-gray-50 border-b border-gray-200">
                           <SellerManagePanel seller={s} onDone={() => router.refresh()} />
                         </td>
                       </tr>

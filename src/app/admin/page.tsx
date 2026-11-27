@@ -184,5 +184,5 @@ export default async function AdminPage() {
     createdAt: x.created_at ? new Date(x.created_at as any).toISOString() : null,
   }));
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} claims={claims} dataRange={dataRange} />;
+  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} claims={claims} dataRange={dataRange} ownerName={owner.name} />;
 }
