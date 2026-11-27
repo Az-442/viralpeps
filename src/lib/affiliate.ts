@@ -79,9 +79,11 @@ export async function ensureAffiliateSchema(): Promise<void> {
   await sql`ALTER TABLE sales ADD COLUMN IF NOT EXISTS updated_at timestamptz NOT NULL DEFAULT now()`;
 
   // A conversion is identified by (supplier, their order id). The old table
-  // had order_id uniquely ALONE — a global unique index, which means two
-  // different suppliers could never use the same order number. Drop it and
-  // key on the pair instead.
+  // had order_id uniquely ALONE — a global UNIQUE CONSTRAINT, which means two
+  // different suppliers could never use the same order number. A constraint
+  // is not a plain index: DROP INDEX fails with "constraint requires it", so
+  // the constraint itself must go.
+  await sql`ALTER TABLE sales DROP CONSTRAINT IF EXISTS sales_order_id_key`;
   await sql`DROP INDEX IF EXISTS sales_order_id_key`;
   await sql`CREATE UNIQUE INDEX IF NOT EXISTS sales_vendor_order_idx ON sales (vendor_slug, order_id)`;
   await sql`CREATE INDEX IF NOT EXISTS sales_customer_ref_idx ON sales (vendor_slug, customer_ref)`;
