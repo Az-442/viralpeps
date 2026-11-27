@@ -30,6 +30,8 @@ export default function LeadMagnetPopup() {
   const getMagnetForPage = useCallback((): LeadMagnet | null => {
     if (typeof window === "undefined") return null;
     const path = window.location.pathname;
+    // Never show consumer lead-capture chrome inside owner / supplier tooling.
+    if (/^\/(admin|sellers|supplier-portal|dashboard)(\/|$)/.test(path)) return null;
     const viewed = sessionStorage.getItem("vp_popup_shown");
     const pageView = parseInt(sessionStorage.getItem("vp_page_views") || "0");
 

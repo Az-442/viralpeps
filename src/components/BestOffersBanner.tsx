@@ -9,8 +9,10 @@ export default function BestOffersBanner() {
   const [email, setEmail] = useState("");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
 
-  // Hide on the supplier portal — the sign-up banner is for public visitors only.
+  // Hide on the supplier portal and owner dashboard — the sign-up banner is for
+  // public visitors only.
   if (pathname?.startsWith("/sellers")) return null;
+  if (pathname?.startsWith("/admin")) return null;
   if (!visible) return null;
 
   const handleSubscribe = async () => {

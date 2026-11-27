@@ -121,6 +121,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           />
         </noscript>
         {/* End Google Tag Manager (noscript) */}
+        {/* Global chrome components are client-side gated: they render nothing
+            on owner/admin and supplier-portal routes (see each component). */}
         <BestOffersBanner />
         {children}
         <LeadMagnetPopup />
