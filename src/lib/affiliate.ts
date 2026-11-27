@@ -65,6 +65,28 @@ export function tokenMatches(presented: string, storedHash: string): boolean {
 export async function ensureAffiliateSchema(): Promise<void> {
   await sql`ALTER TABLE sellers ADD COLUMN IF NOT EXISTS postback_token_hash text`;
   await sql`ALTER TABLE sellers ADD COLUMN IF NOT EXISTS postback_token_hint text`;
+  await sql`ALTER TABLE sellers ADD COLUMN IF NOT EXISTS postback_connected_at timestamptz`;
+  await sql`ALTER TABLE sellers ADD COLUMN IF NOT EXISTS postback_store_url text`;
+
+  // Single-use install codes. Only the hash is stored, so a database dump
+  // does not yield working codes. One live code per supplier at a time.
+  await sql`
+    CREATE TABLE IF NOT EXISTS affiliate_claim_codes (
+      id               serial PRIMARY KEY,
+      claim_code_hash  text NOT NULL UNIQUE,
+      vendor_slug      text NOT NULL,
+      expires_at       timestamptz NOT NULL,
+      used_at          timestamptz,
+      store_url        text,
+      store_name       text,
+      platform         text,
+      plugin_version   text,
+      used_ip          text,
+      created_at       timestamptz NOT NULL DEFAULT now()
+    )
+  `;
+  await sql`CREATE INDEX IF NOT EXISTS claim_codes_vendor_idx ON affiliate_claim_codes (vendor_slug)`;
+  await sql`CREATE INDEX IF NOT EXISTS claim_codes_expiry_idx ON affiliate_claim_codes (expires_at)`;
 
   // sales gains the lifecycle fields. Existing rows keep working: they get
   // status 'completed' by the default and were all reported as paid.
