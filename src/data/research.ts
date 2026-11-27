@@ -2302,6 +2302,18 @@ export const guides: ResearchArticle[] = [
   },
 
   {
+    title: "GHK-Cu vs Retinol: A Comparison the Evidence Cannot Settle",
+    desc: "GHK-Cu vs retinol compared on verified molecular identity, receptor route and trial design, and why the single head-to-head study cannot be found on MEDLINE.",
+    category: "Guide",
+    section: "comparisons",
+    compound: "GHK-Cu",
+    slug: "ghk-cu-vs-retinol",
+    image: "ghk-cu-vs-retinol",
+    minutes: 12,
+    tags: ["ghk-cu", "retinol", "comparison", "copper-peptide", "collagen", "skin", "trial-design", "lancet", "pubchem"],
+  },
+
+  {
     title: "Mazdutide vs Semaglutide: Why DREAMS-3 Cannot Settle It",
     desc: "Mazdutide vs semaglutide: the DREAMS-3 head-to-head has published no efficacy result. What GLORY-1 and STEP 1 really show, and why the dose chosen matters.",
     category: "Guide",
