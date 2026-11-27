@@ -56,6 +56,9 @@ export interface SellerRow {
   badge_token: string | null;
   affiliate_joined_at: string | null;
   created_at: string;
+  postback_token_hint?: string | null;
+  postback_connected_at?: string | null;
+  postback_store_url?: string | null;
 }
 
 export async function findSellerBySession(token: string | null): Promise<SellerRow | null> {
@@ -66,7 +69,8 @@ export async function findSellerBySession(token: string | null): Promise<SellerR
     const sid = await resolveSession("seller", token);
     if (!sid) return null;
     const r = await sql`
-      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, badge_token, affiliate_joined_at, created_at
+      SELECT id, slug, name, email, commission_rate, active, session_token, api_key, badge_token, affiliate_joined_at, created_at,
+             postback_token_hint, postback_connected_at, postback_store_url
       FROM sellers WHERE id = ${sid} AND active = true
     `;
     return (r.rows[0] as SellerRow) ?? null;

@@ -2,6 +2,7 @@
 
 import { useState, useMemo, type ReactNode } from "react";
 import SellerProfile from "./SellerProfile";
+import AffiliateNetwork from "./AffiliateNetwork";
 import TrustScoreIcon from "../TrustScoreIcon";
 import SellerSidebar from "./SellerSidebar";
 import DateRangeFilter, { DEFAULT_RANGE, type DateRange } from "../shared/DateRangeFilter";
@@ -34,6 +35,9 @@ export interface SaleRow {
   customer_type: string | null;
   commission_amount: number | string | null;
   created_at: string;
+  id?: number;
+  status?: string | null;
+  ignored_reason?: string | null;
 }
 
 export interface RankingRow {
@@ -315,6 +319,12 @@ export default function SellerDashboard(props: {
   badgeToken: string;
   email: string;
   affiliateJoinedAt: string | null;
+  affiliateConnection?: {
+    connected: boolean;
+    token_hint: string | null;
+    connected_at: string | null;
+    store_url: string | null;
+  } | null;
   stats: {
     clicks30: number;
     visitors30: number;
@@ -1211,9 +1221,27 @@ export default function SellerDashboard(props: {
         )}
 
         {tab === "affiliate" && (
-          <Placeholder
-            title="Affiliate network"
-            desc="Refer other suppliers and earn commission on sales they generate. This is on our roadmap."
+          <AffiliateNetwork
+            slug={props.slug}
+            connection={
+              props.affiliateConnection ?? {
+                connected: false,
+                token_hint: null,
+                connected_at: null,
+                store_url: null,
+              }
+            }
+            sales={(props.sales ?? []).map((s) => ({
+              id: Number(s.id ?? 0),
+              order_id: String((s as any).order_id ?? ""),
+              order_value: Number(s.order_value ?? 0),
+              commission_amount: Number(s.commission_amount ?? 0),
+              status: String((s as any).status ?? "completed"),
+              customer_type: (s as any).customer_type ?? null,
+              created_at: String(s.created_at ?? new Date().toISOString()),
+              ignored_reason: (s as any).ignored_reason ?? null,
+            }))}
+            commissionRate={props.commissionRate}
           />
         )}
 

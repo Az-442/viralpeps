@@ -1,7 +1,9 @@
 import { NextRequest, NextResponse } from "next/server";
 import { sql } from "@vercel/postgres";
 import { createHash, randomBytes } from "crypto";
+import { cookies } from "next/headers";
 import { ensureAffiliateSchema, hashToken, newServerToken } from "@/lib/affiliate";
+import { findSellerBySession } from "@/lib/seller-auth";
 
 export const runtime = "nodejs";
 export const dynamic = "force-dynamic";
@@ -19,27 +21,41 @@ function hintFor(token: string): string {
 }
 
 /**
+ * Resolve the caller from the seller session cookie.
+ *
+ * A supplier must only ever mint a code for their OWN store, so the slug in
+ * the body is checked against the session rather than trusted.
+ */
+async function callerSlug(request: NextRequest): Promise<{ slug: string } | null> {
+  const token =
+    request.cookies.get("vp_seller_session")?.value ??
+    (await cookies()).get("vp_seller_session")?.value ??
+    null;
+  const seller = await findSellerBySession(token ?? null);
+  if (!seller) return null;
+  return { slug: seller.slug };
+}
+
+/**
  * POST /api/affiliate/claim-code
  *
- * Called from the supplier's own profile page (authenticated by their seller
- * session cookie) to mint a single-use code. The code is shown ONCE and is
- * the only thing the supplier carries across to the plugin.
+ * Mints a single-use install code for the logged-in supplier. The code is
+ * returned once and never stored in plaintext.
  *
- * Body: {} (supplier identified from session)
- * Returns: { ok, claim_code, expires_at, vendor_slug }
+ * Returns: { ok, claim_code, expires_at, vendor_slug, ttl_hours }
  */
 export async function POST(request: NextRequest) {
   try {
     await ensureAffiliateSchema();
 
-    const body = await request.json().catch(() => ({}));
-    const slug = String((body as Record<string, unknown>)?.vendor_slug ?? "").trim();
-
-    if (!slug) {
-      return NextResponse.json({ ok: false, error: "vendor_slug required" }, { status: 422 });
+    const who = await callerSlug(request);
+    if (!who) {
+      return NextResponse.json({ ok: false, error: "unauthorized" }, { status: 401 });
     }
 
-    const q = await sql`SELECT slug, name, active FROM sellers WHERE slug = ${slug}`;
+    const slug = who.slug;
+
+    const q = await sql`SELECT slug, active FROM sellers WHERE slug = ${slug}`;
     if (q.rows.length === 0) {
       return NextResponse.json({ ok: false, error: "vendor_not_found" }, { status: 404 });
     }
@@ -79,22 +95,16 @@ export async function POST(request: NextRequest) {
 /**
  * PUT /api/affiliate/claim-code
  *
- * Rotates the store token for an already-connected supplier. The old token
- * stops working immediately, which is the recovery path if a token leaks.
+ * Rotates the store token for the logged-in supplier. The old token stops
+ * working immediately — the recovery path if a token leaks.
  */
 export async function PUT(request: NextRequest) {
   try {
     await ensureAffiliateSchema();
 
-    const body = await request.json().catch(() => ({}));
-    const slug = String((body as Record<string, unknown>)?.vendor_slug ?? "").trim();
-    if (!slug) {
-      return NextResponse.json({ ok: false, error: "vendor_slug required" }, { status: 422 });
-    }
-
-    const q = await sql`SELECT slug, active FROM sellers WHERE slug = ${slug}`;
-    if (q.rows.length === 0) {
-      return NextResponse.json({ ok: false, error: "vendor_not_found" }, { status: 404 });
+    const who = await callerSlug(request);
+    if (!who) {
+      return NextResponse.json({ ok: false, error: "unauthorized" }, { status: 401 });
     }
 
     const token = newServerToken();
@@ -102,15 +112,15 @@ export async function PUT(request: NextRequest) {
       UPDATE sellers
       SET postback_token_hash = ${hashToken(token)},
           postback_token_hint = ${hintFor(token)}
-      WHERE slug = ${slug}
+      WHERE slug = ${who.slug}
     `;
 
     return NextResponse.json({
       ok: true,
       token,
       token_hint: hintFor(token),
-      vendor_slug: slug,
-      warning: "Replace the token in the plugin immediately; the old token no longer works.",
+      vendor_slug: who.slug,
+      warning: "Put this in the plugin now; the old token no longer works.",
     });
   } catch (err) {
     console.error("[claim-code:rotate] error", err);

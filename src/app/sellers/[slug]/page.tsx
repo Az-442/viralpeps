@@ -67,16 +67,20 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
   const t = totals.rows[0];
 
   const sales = await sql`
-    SELECT order_id, order_value, currency, customer_type, commission_amount, created_at
+    SELECT id, order_id, order_value, currency, customer_type, commission_amount,
+           status, ignored_reason, created_at
     FROM sales WHERE vendor_slug = ${slug}
     ORDER BY created_at DESC LIMIT 100
   `;
   const saleRows = (sales.rows as Array<Record<string, unknown>>).map((s) => ({
+    id: Number(s.id ?? 0),
     order_id: String(s.order_id ?? ""),
     order_value: s.order_value ?? 0,
     currency: s.currency ?? null,
     customer_type: s.customer_type ?? null,
     commission_amount: s.commission_amount ?? null,
+    status: s.status == null ? null : String(s.status),
+    ignored_reason: s.ignored_reason == null ? null : String(s.ignored_reason),
     created_at: toIso(s.created_at),
   })) as unknown as SaleRow[];
 
@@ -223,6 +227,12 @@ export default async function SellerPage({ params }: { params: Promise<{ slug: s
       badgeToken={seller.badge_token ?? ""}
       email={seller.email}
       affiliateJoinedAt={seller.affiliate_joined_at ?? null}
+      affiliateConnection={{
+        connected: !!seller.postback_token_hint,
+        token_hint: seller.postback_token_hint ?? null,
+        connected_at: seller.postback_connected_at ?? null,
+        store_url: seller.postback_store_url ?? null,
+      }}
       stats={{
         clicks30: t.clicks_30,
         visitors30: t.visitors_30,
