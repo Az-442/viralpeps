@@ -135,6 +135,9 @@ export async function POST(request: NextRequest) {
     `;
     const existing = existingQ.rows[0] ?? null;
 
+    // The status the supplier already reported for this order, if any.
+    const priorStatus = existing?.status ? String(existing.status) : null;
+
     // ---- eligibility (only judged on the FIRST report of an order) ------
     let reason: IgnoreReason | null = null;
     let clickId: number | null = null;
@@ -208,6 +211,22 @@ export async function POST(request: NextRequest) {
         commission_base: base ?? undefined,
         commission: base && !reason ? commissionFor(base, Number(who.commission_rate ?? 20)) : 0,
         note: "test flag set — nothing recorded",
+      });
+    }
+
+    // ---- terminal states are final ---------------------------------------
+    // A refunded or cancelled order must never be re-credited. Gateways retry,
+    // stores replay webhooks, and admins re-save orders — without this, a
+    // refunded sale could silently come back to life as 'completed'.
+    if (
+      (priorStatus === "refunded" || priorStatus === "cancelled") &&
+      status === "completed"
+    ) {
+      return NextResponse.json({
+        ok: true,
+        ignored: true,
+        reason: "rejected",
+        detail: `order already ${priorStatus}`,
       });
     }
 

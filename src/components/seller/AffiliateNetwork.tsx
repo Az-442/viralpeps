@@ -43,7 +43,7 @@ export default function AffiliateNetwork(props: {
   const [copied, setCopied] = useState(false);
 
   const connected = props.connection?.connected;
-  const pluginUrl = "/downloads/viralpeps-affiliate-1.0.0.zip";
+  const pluginUrl = "/downloads/viralpeps-affiliate-1.0.1.zip";
 
   async function generateCode() {
     setBusy(true);
@@ -203,7 +203,7 @@ export default function AffiliateNetwork(props: {
                   className="mt-1 inline-block text-blue-700 hover:underline"
                   download
                 >
-                  viralpeps-affiliate-1.0.0.zip
+                  viralpeps-affiliate-1.0.1.zip
                 </a>
                 <p className="mt-1 text-xs text-gray-500">
                   Also installable directly from the WordPress plugin directory.

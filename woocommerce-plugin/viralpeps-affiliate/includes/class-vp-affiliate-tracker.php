@@ -226,6 +226,15 @@ class VP_Affiliate_Tracker {
 			return;
 		}
 
+		// Terminal states are final. A refunded or cancelled order must never
+		// be re-credited by a stray payment_complete hook firing afterwards
+		// (gateway retries, admin re-saving, a replayed webhook). Only a
+		// refund on a previously-completed order may move from completed.
+		if ( ( 'refunded' === $last || 'cancelled' === $last ) && 'completed' === $status ) {
+			$this->plugin->log( 'ignoring ' . $status . ' on #' . $order_id . ' — already ' . $last );
+			return;
+		}
+
 		$result = $this->plugin->reporter->report_order( $order, $status );
 
 		if ( ! empty( $result['ok'] ) ) {
