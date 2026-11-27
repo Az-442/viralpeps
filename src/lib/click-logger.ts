@@ -36,13 +36,13 @@ export interface ClickRow {
 /**
  * Record one outbound click as a single INSERT. Never throws — a failure only
  * means the click isn't counted; the redirect still proceeds. Returns true on
- * success, false on failure or invalid row.
+ * the new click id on success, null on failure or invalid row.
  */
-export async function logClick(row: ClickRow): Promise<boolean> {
+export async function logClick(row: ClickRow): Promise<number | null> {
   try {
-    if (!row || !row.vendorSlug) return false;
+    if (!row || !row.vendorSlug) return null;
 
-    await sql`
+    const q = await sql`
       INSERT INTO clicks (
         click_type, vendor_slug, vendor_name, compound_slug,
         dest_url, ref_page, visitor_id, ip, is_bot
@@ -52,13 +52,17 @@ export async function logClick(row: ClickRow): Promise<boolean> {
         ${row.refPage ?? null}, ${row.visitorId ?? null}, ${row.ip ?? null},
         ${row.isBot === true}
       )
+      RETURNING id
     `;
 
-    return true;
+    // The insert id IS the click id the supplier's store sends back as
+    // click_ref on the eventual order, so it must be returned, not discarded.
+    const id = q.rows[0]?.id;
+    return id == null ? null : Number(id);
   } catch (err) {
     // Never throw on the redirect hot path — a log failure must not break the
     // outbound navigation. Log it so Vercel runtime logs surface the cause.
     console.warn("[click-logger] insert failed — click NOT persisted", err);
-    return false;
+    return null;
   }
 }

@@ -55,6 +55,7 @@ export async function GET(
   // 5. Log the outbound product click BEFORE redirecting — but only for real
   //    humans. Bots/prefetchers are redirected as normal, just not counted.
   //    The logger never throws; a failure only means the click isn't counted.
+  let clickId: number | null = null;
   try {
     const bot = detectBot(request.headers);
     if (!bot.isBot) {
@@ -70,7 +71,7 @@ export async function GET(
       // A honeypot hit is a positive bot identification — permanent, header-proof.
       const banned = await isBlocklisted(vid, ip);
       // Always write the row; is_bot marks it as excluded from every count.
-      await logClick({
+      clickId = await logClick({
         type: "product",
         vendorSlug,
         vendorName: vendor.name,
@@ -101,8 +102,19 @@ export async function GET(
     return res;
   }
 
-  // 6. 302 redirect to the supplier's product page
-  const res = NextResponse.redirect(match.url, 302);
+  // 6. 302 redirect to the supplier's product page, carrying the click id so
+  //    the store can bind this exact click to the resulting order.
+  let dest = match.url;
+  if (clickId != null) {
+    try {
+      const u = new URL(match.url);
+      u.searchParams.set("vp_tid", String(clickId));
+      dest = u.toString();
+    } catch {
+      /* malformed URL — redirect as-is */
+    }
+  }
+  const res = NextResponse.redirect(dest, 302);
   // Keep these redirect URLs out of the search index and stop passing link
   // equity to supplier product pages. noindex requires crawlers to fetch the
   // URL, so robots.txt Disallow would be contradictory and is NOT used.

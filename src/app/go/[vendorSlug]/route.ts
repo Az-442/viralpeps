@@ -24,6 +24,7 @@ export async function GET(
   // Three gates, cheapest first: bot detection (headers), then behavioural
   // rate limiting (debounce + ceilings). Bots and suppressed clicks still get
   // redirected normally — they are simply not counted.
+  let clickId: number | null = null;
   try {
     const bot = detectBot(request.headers);
     if (!bot.isBot) {
@@ -37,7 +38,7 @@ export async function GET(
       const banned = await isBlocklisted(vid, ip);
       // Always write the row; is_bot marks it as excluded from every count.
       // Keeping the row preserves the audit trail without polluting stats.
-      await logClick({
+      clickId = await logClick({
         type: "vendor-site",
         vendorSlug,
         vendorName: vendor.name,
@@ -67,7 +68,20 @@ export async function GET(
     return res;
   }
 
-  const res = NextResponse.redirect(vendor.website, 302);
+  // Carry the click id through as ?vp_tid so the supplier's store can bind
+  // this exact click to the order. Without it a sale can never be attributed.
+  let dest = vendor.website;
+  if (clickId != null) {
+    try {
+      const u = new URL(vendor.website);
+      u.searchParams.set("vp_tid", String(clickId));
+      dest = u.toString();
+    } catch {
+      /* malformed vendor URL — redirect as-is */
+    }
+  }
+
+  const res = NextResponse.redirect(dest, 302);
   // Keep these redirect URLs out of the search index and stop passing link
   // equity to supplier sites. noindex requires crawlers to fetch the URL, so
   // robots.txt Disallow would be contradictory and is deliberately NOT used.
