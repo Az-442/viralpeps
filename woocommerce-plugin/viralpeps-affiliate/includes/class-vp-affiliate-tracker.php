@@ -37,6 +37,16 @@ class VP_Affiliate_Tracker {
 		add_action( 'woocommerce_checkout_create_order', array( $this, 'stamp_order' ), 10, 2 );
 		add_action( 'woocommerce_store_api_checkout_order_processed', array( $this, 'stamp_order_blocks' ), 10, 1 );
 
+		// A brand-new order starts as 'pending' and Woo does not fire a status
+		// transition for the state it was created in. Report it once the order
+		// has been fully assembled — item totals do not exist yet at
+		// woocommerce_new_order time, and an order with no subtotal cannot be
+		// reported. woocommerce_checkout_order_processed / the Blocks
+		// equivalent fire after totals are calculated.
+		add_action( 'woocommerce_checkout_order_processed', array( $this, 'on_new_order' ), 20, 1 );
+		add_action( 'woocommerce_store_api_checkout_order_processed', array( $this, 'on_new_order' ), 20, 1 );
+		add_action( 'woocommerce_new_order', array( $this, 'on_new_order' ), 20, 1 );
+
 		// Send the conversion when the order reaches a paid-ish state.
 		add_action( 'woocommerce_payment_complete', array( $this, 'on_payment_complete' ), 10, 1 );
 		add_action( 'woocommerce_order_status_pending', array( $this, 'on_order_pending' ), 10, 1 );
@@ -176,6 +186,38 @@ class VP_Affiliate_Tracker {
 	 * @param int $order_id Order id.
 	 */
 	public function on_order_pending( $order_id ) {
+		$this->report_order( $order_id, 'pending' );
+	}
+
+	/**
+	 * A newly created order. It is created in whatever status the checkout
+	 * decided (usually pending, or on-hold for BACS/crypto), which means no
+	 * status-transition hook ever fires for it. Report it here so unpaid
+	 * orders are visible instead of silently missing.
+	 *
+	 * @param int $order_id Order id.
+	 */
+	public function on_new_order( $order_id ) {
+		$order = wc_get_order( $order_id );
+		if ( ! $order instanceof WC_Order ) {
+			return;
+		}
+		// Creation happens before the click id is stamped in some flows, so
+		// read the cookie directly rather than relying on order meta.
+		$tid = $this->get_click_id();
+		if ( '' === $tid && ! $order->get_meta( '_vp_click_id' ) ) {
+			return;
+		}
+		if ( '' !== $tid && ! $order->get_meta( '_vp_click_id' ) ) {
+			$order->update_meta_data( '_vp_click_id', $tid );
+			$order->save();
+		}
+		// Totals are not calculated yet at woocommerce_new_order time. Skip
+		// quietly and let the checkout_processed / status hooks report it,
+		// rather than burning a failed request against the network.
+		if ( (float) $order->get_subtotal() <= 0 ) {
+			return;
+		}
 		$this->report_order( $order_id, 'pending' );
 	}
 
