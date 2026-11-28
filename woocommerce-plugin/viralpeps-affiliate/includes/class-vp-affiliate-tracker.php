@@ -39,8 +39,11 @@ class VP_Affiliate_Tracker {
 
 		// Send the conversion when the order reaches a paid-ish state.
 		add_action( 'woocommerce_payment_complete', array( $this, 'on_payment_complete' ), 10, 1 );
+		add_action( 'woocommerce_order_status_pending', array( $this, 'on_order_pending' ), 10, 1 );
+		add_action( 'woocommerce_order_status_on-hold', array( $this, 'on_order_on_hold' ), 10, 1 );
 		add_action( 'woocommerce_order_status_processing', array( $this, 'on_order_processing' ), 10, 1 );
 		add_action( 'woocommerce_order_status_completed', array( $this, 'on_order_completed' ), 10, 1 );
+		add_action( 'woocommerce_order_status_failed', array( $this, 'on_order_failed' ), 10, 1 );
 		add_action( 'woocommerce_order_status_refunded', array( $this, 'on_order_refunded' ), 10, 1 );
 		add_action( 'woocommerce_order_status_cancelled', array( $this, 'on_order_cancelled' ), 10, 1 );
 	}
@@ -167,6 +170,35 @@ class VP_Affiliate_Tracker {
 	}
 
 	/**
+	 * Status → pending. The order exists but nothing has been paid yet, so the
+	 * network records it as an open sale worth zero commission until it moves.
+	 *
+	 * @param int $order_id Order id.
+	 */
+	public function on_order_pending( $order_id ) {
+		$this->report_order( $order_id, 'pending' );
+	}
+
+	/**
+	 * Status → on-hold. This is the bank-transfer / crypto state: the customer
+	 * has ordered but the money has not landed. Recorded, not credited.
+	 *
+	 * @param int $order_id Order id.
+	 */
+	public function on_order_on_hold( $order_id ) {
+		$this->report_order( $order_id, 'pending' );
+	}
+
+	/**
+	 * Status → failed. Payment attempt did not go through.
+	 *
+	 * @param int $order_id Order id.
+	 */
+	public function on_order_failed( $order_id ) {
+		$this->report_order( $order_id, 'failed' );
+	}
+
+	/**
 	 * Status → processing.
 	 *
 	 * @param int $order_id Order id.
@@ -234,6 +266,10 @@ class VP_Affiliate_Tracker {
 			$this->plugin->log( 'ignoring ' . $status . ' on #' . $order_id . ' — already ' . $last );
 			return;
 		}
+
+		// A refund or cancellation may follow any earlier state, including
+		// pending and failed, so those are never blocked. Forwards transitions
+		// out of a terminal state are the only thing forbidden above.
 
 		$result = $this->plugin->reporter->report_order( $order, $status );
 

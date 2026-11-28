@@ -297,7 +297,10 @@ export default function AffiliateNetwork(props: {
                 </tr>
               </thead>
               <tbody>
-                {props.sales.slice(0, 25).map((s) => (
+                {props.sales.slice(0, 25).map((s) => {
+                  const reversed = s.status === "refunded" || s.status === "cancelled";
+                  const open = s.status === "pending" || s.status === "failed";
+                  return (
                   <tr key={s.id} className="border-b border-gray-100 last:border-0">
                     <td className="py-2 font-mono text-xs text-gray-700">{s.order_id}</td>
                     <td className="py-2 text-gray-600">
@@ -309,17 +312,26 @@ export default function AffiliateNetwork(props: {
                     <td className="py-2 text-gray-600">
                       {s.customer_type === "existing" ? "Repeat" : "New"}
                     </td>
-                    <td className="py-2 text-right text-gray-800">
+                    <td className={`py-2 text-right ${reversed ? "text-red-600 line-through" : "text-gray-800"}`}>
                       £{Number(s.order_value).toFixed(2)}
                     </td>
-                    <td className="py-2 text-right font-medium text-gray-900">
-                      £{Number(s.commission_amount).toFixed(2)}
+                    <td
+                      className={`py-2 text-right font-medium ${
+                        reversed
+                          ? "text-red-600"
+                          : open
+                          ? "text-gray-400"
+                          : "text-gray-900"
+                      }`}
+                    >
+                      {open ? "—" : `${reversed ? "−" : ""}£${Math.abs(Number(s.commission_amount)).toFixed(2)}`}
                     </td>
                     <td className="py-2 text-right">
                       <StatusPill status={s.status} />
                     </td>
                   </tr>
-                ))}
+                  );
+                })}
               </tbody>
             </table>
           </div>

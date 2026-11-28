@@ -402,7 +402,21 @@ export default function SellerDashboard(props: {
         new Date(c.created_at).getTime() >= since
     ).length;
   }, [props.clicks, props.affiliateJoinedAt]);
-  const totalCommissionAll = props.sales.reduce((acc, s) => acc + Number(s.commission_amount ?? 0), 0);
+  // Only completed orders pay commission. Refunded and cancelled orders are
+  // shown in the order list as negatives but must never inflate the headline.
+  const totalCommissionAll = props.sales.reduce((acc, s) => {
+    const status = String(s.status ?? "completed");
+    if (status === "refunded" || status === "cancelled") return acc;
+    return acc + Number(s.commission_amount ?? 0);
+  }, 0);
+
+  // Reversed commission — money that was earned and then taken back. Shown
+  // separately so the owner can see what refunds actually cost.
+  const reversedCommission = props.sales.reduce((acc, s) => {
+    const status = String(s.status ?? "completed");
+    if (status !== "refunded" && status !== "cancelled") return acc;
+    return acc + Math.abs(Number(s.commission_amount ?? 0));
+  }, 0);
 
   // Bar chart: continuous daily series over the range (accurate time axis).
   const bars = useMemo(() => {
@@ -661,7 +675,11 @@ export default function SellerDashboard(props: {
                 <div className="bg-gray-50 border border-gray-100 rounded-lg p-3">
                   <div className="text-xs text-gray-700">Total commissions</div>
                   <div className="text-2xl font-bold mt-1">{fmtMoney(totalCommissionAll)}</div>
-                  <div className="text-xs text-gray-600 mt-0.5">across all referred sales</div>
+                  <div className="text-xs text-gray-600 mt-0.5">
+                    {reversedCommission > 0
+                      ? `${fmtMoney(reversedCommission)} reversed by refunds`
+                      : "across all referred sales"}
+                  </div>
                 </div>
               </div>
             </div>

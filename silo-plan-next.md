@@ -2069,3 +2069,8 @@ rotation). Sitemap auto-includes via the registry (verified live: all 6 spokes p
 - **Rule 0 respected:** no CAS, no formula, no MW anywhere — hCG is a biological
   (CGA P01215 + CGB P01233 heterodimer). Prescription-only status stated in all 6 spokes.
 - **Next in queue:** oxytocin-nasal-spray (Tier 1, 1 source only — verify demand before building).
+
+## ✅ DONE — GLOW silo (28 Nov 2026)
+- commit `4533b2d5` · deploy `dpl_5M7mNrtfLEPF3bGHwF8AEE4SJRjd`
+- 6 spokes live, all 200 verified live: where-to-buy-glow-uk, cheapest-glow-uk, glow-price-comparison-uk, buy-glow-online-uk, glow-uk-supplier, best-glow-peptide
+- Hub tiles live on /compounds/glow. Data: src/data/glow-{silo,spokes}.ts. No spokes substituted.

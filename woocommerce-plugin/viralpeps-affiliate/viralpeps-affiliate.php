@@ -3,7 +3,7 @@
  * Plugin Name:       ViralPeps Affiliate
  * Plugin URI:        https://www.viralpeps.co.uk/affiliate-network
  * Description:       Connects your WooCommerce store to the ViralPeps affiliate network. Tracks referred visits, attributes orders, and reports conversions automatically.
- * Version:           1.0.1
+ * Version:           1.0.2
  * Requires at least: 6.0
  * Requires PHP:      7.4
  * Author:            ViralPeps
@@ -20,7 +20,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'VP_AFF_VERSION', '1.0.1' );
+define( 'VP_AFF_VERSION', '1.0.2' );
 define( 'VP_AFF_PLUGIN_FILE', __FILE__ );
 define( 'VP_AFF_PLUGIN_DIR', plugin_dir_path( __FILE__ ) );
 define( 'VP_AFF_PLUGIN_URL', plugin_dir_url( __FILE__ ) );

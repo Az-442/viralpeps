@@ -64,18 +64,19 @@ export default async function AdminPage() {
   const sales = await sql`
     SELECT
       vendor_slug,
-      count(*)::int AS sales_all,
-      count(*) FILTER (WHERE created_at > now() - interval '90 days')::int AS sales_90,
-      count(*) FILTER (WHERE created_at > now() - interval '30 days')::int AS sales_30,
-      count(*) FILTER (WHERE created_at > now() - interval '7 days')::int AS sales_7,
-      COALESCE(sum(commission_amount), 0)::float AS commission_all,
-      COALESCE(sum(commission_amount) FILTER (WHERE created_at > now() - interval '90 days'), 0)::float AS commission_90,
-      COALESCE(sum(commission_amount) FILTER (WHERE created_at > now() - interval '30 days'), 0)::float AS commission_30,
-      COALESCE(sum(commission_amount) FILTER (WHERE created_at > now() - interval '7 days'), 0)::float AS commission_7,
-      COALESCE(sum(order_value), 0)::float AS revenue_all,
-      COALESCE(sum(order_value) FILTER (WHERE created_at > now() - interval '90 days'), 0)::float AS revenue_90,
-      COALESCE(sum(order_value) FILTER (WHERE created_at > now() - interval '30 days'), 0)::float AS revenue_30,
-      COALESCE(sum(order_value) FILTER (WHERE created_at > now() - interval '7 days'), 0)::float AS revenue_7
+      count(*) FILTER (WHERE status NOT IN ('refunded','cancelled'))::int AS sales_all,
+      count(*) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '90 days')::int AS sales_90,
+      count(*) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '30 days')::int AS sales_30,
+      count(*) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '7 days')::int AS sales_7,
+      COALESCE(sum(commission_amount) FILTER (WHERE status NOT IN ('refunded','cancelled')), 0)::float AS commission_all,
+      COALESCE(sum(commission_amount) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '90 days'), 0)::float AS commission_90,
+      COALESCE(sum(commission_amount) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '30 days'), 0)::float AS commission_30,
+      COALESCE(sum(commission_amount) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '7 days'), 0)::float AS commission_7,
+      COALESCE(sum(order_value) FILTER (WHERE status NOT IN ('refunded','cancelled')), 0)::float AS revenue_all,
+      COALESCE(sum(order_value) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '90 days'), 0)::float AS revenue_90,
+      COALESCE(sum(order_value) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '30 days'), 0)::float AS revenue_30,
+      COALESCE(sum(order_value) FILTER (WHERE status NOT IN ('refunded','cancelled') AND created_at > now() - interval '7 days'), 0)::float AS revenue_7,
+      COALESCE(sum(order_value) FILTER (WHERE status IN ('refunded','cancelled')), 0)::float AS reversed_all
     FROM sales GROUP BY vendor_slug
   `;
   const salesMap: Record<string, any> = {};
@@ -85,15 +86,19 @@ export default async function AdminPage() {
     SELECT vendor_slug,
            extract(epoch from created_at) * 1000 AS t,
            COALESCE(commission_amount, 0)::float AS commission,
-           COALESCE(order_value, 0)::float AS value
+           COALESCE(order_value, 0)::float AS value,
+           COALESCE(status, 'completed') AS status
     FROM sales
   `;
   const saleSeries: Record<string, { t: number; commission: number; value: number }[]> = {};
   for (const r of rawSales.rows) {
+    // Refunded and cancelled orders count as negatives, so the chart line
+    // reflects money actually kept rather than money merely invoiced.
+    const sign = r.status === "refunded" || r.status === "cancelled" ? -1 : 1;
     (saleSeries[r.vendor_slug] ||= []).push({
       t: Math.round(Number(r.t)),
-      commission: Number(r.commission),
-      value: Number(r.value),
+      commission: sign * Number(r.commission),
+      value: sign * Number(r.value),
     });
   }
 
