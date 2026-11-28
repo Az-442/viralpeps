@@ -52,6 +52,16 @@ export interface SellerAccount {
   reviewStatus: string | null;
 }
 
+export interface OwnerOrder {
+  id: number;
+  orderId: string;
+  value: number;
+  commission: number;
+  status: string;
+  customerType: string | null;
+  createdAt: string | null;
+}
+
 export interface ProfileReview {
   slug: string;
   name: string;
@@ -88,6 +98,7 @@ function band(s: number): string {
 export default function AdminDashboard({
   vendors,
   sellers,
+  ordersBySeller,
   affiliateRequests,
   affiliateApproved,
   profileReviews,
@@ -97,6 +108,7 @@ export default function AdminDashboard({
 }: {
   vendors: VendorPerf[];
   sellers: SellerAccount[];
+  ordersBySeller: Record<string, OwnerOrder[]>;
   affiliateRequests: AffiliateRequest[];
   affiliateApproved: Record<string, string | null>;
   profileReviews: ProfileReview[];
@@ -570,7 +582,11 @@ export default function AdminDashboard({
                     {sellerOpen === s.slug && (
                       <tr>
                         <td colSpan={9} className="px-4 pt-3 pb-4 bg-gray-50 border-b border-gray-200">
-                          <SellerManagePanel seller={s} onDone={() => router.refresh()} />
+                          <SellerManagePanel
+                            seller={s}
+                            orders={ordersBySeller[s.slug] ?? []}
+                            onDone={() => router.refresh()}
+                          />
                         </td>
                       </tr>
                     )}
@@ -591,7 +607,15 @@ export default function AdminDashboard({
 // commission, reset password, rotate API key / badge token, force-verify entity
 // + payment, revoke affiliate, delete account. Every action hits /api/admin/sellers.
 
-function SellerManagePanel({ seller, onDone }: { seller: SellerAccount; onDone: () => void }) {
+function SellerManagePanel({
+  seller,
+  orders,
+  onDone,
+}: {
+  seller: SellerAccount;
+  orders: OwnerOrder[];
+  onDone: () => void;
+}) {
   const [busy, setBusy] = useState<string | null>(null);
   const [msg, setMsg] = useState<string | null>(null);
   const [err, setErr] = useState<string | null>(null);
@@ -745,8 +769,150 @@ function SellerManagePanel({ seller, onDone }: { seller: SellerAccount; onDone: 
         <div>Registered: {seller.createdAt ? new Date(seller.createdAt).toLocaleString("en-GB") : "—"}</div>
       </div>
 
+      {/* ── Order ledger: every order this supplier has reported ─────────── */}
+      <div>
+        <div style={labelStyle}>Orders ({orders.length})</div>
+        <OwnerOrderTable orders={orders} />
+      </div>
+
       {msg && <div style={{ fontSize: ".75rem", color: "#047857", fontWeight: 600, wordBreak: "break-all" }}>{msg}</div>}
       {err && <div style={{ fontSize: ".75rem", color: "#b91c1c", fontWeight: 600 }}>{err}</div>}
+    </div>
+  );
+}
+
+/**
+ * Full order ledger with status-aware totals.
+ *
+ * Refunded and cancelled orders stay visible so the owner can audit them, but
+ * their value is shown struck through and their commission as a negative, and
+ * they are excluded from the totals — a reversed sale must not inflate what the
+ * owner believes the network earned.
+ */
+function OwnerOrderTable({ orders }: { orders: OwnerOrder[] }) {
+  const reversed = orders.filter((o) => o.status === "refunded" || o.status === "cancelled");
+  const live = orders.filter((o) => o.status !== "refunded" && o.status !== "cancelled");
+
+  const liveValue = live.reduce((a, o) => a + o.value, 0);
+  const liveCommission = live.reduce((a, o) => a + o.commission, 0);
+  const reversedValue = reversed.reduce((a, o) => a + o.value, 0);
+  const reversedCommission = reversed.reduce((a, o) => a + Math.abs(o.commission), 0);
+
+  if (orders.length === 0) {
+    return (
+      <div style={{ fontSize: ".78rem", color: "#6b7280", padding: ".6rem 0" }}>
+        No orders reported yet. They appear here as soon as this supplier&rsquo;s store
+        sends a conversion, including unpaid orders.
+      </div>
+    );
+  }
+
+  const pill = (status: string) => {
+    const map: Record<string, { bg: string; fg: string; bd: string }> = {
+      completed: { bg: "#ecfdf5", fg: "#047857", bd: "#a7f3d0" },
+      pending: { bg: "#fffbeb", fg: "#b45309", bd: "#fde68a" },
+      failed: { bg: "#fef2f2", fg: "#b91c1c", bd: "#fecaca" },
+      refunded: { bg: "#fef2f2", fg: "#b91c1c", bd: "#fecaca" },
+      cancelled: { bg: "#f3f4f6", fg: "#4b5563", bd: "#e5e7eb" },
+    };
+    const c = map[status] ?? map.cancelled;
+    return (
+      <span
+        style={{
+          display: "inline-block",
+          fontSize: ".68rem",
+          fontWeight: 700,
+          padding: "2px 8px",
+          borderRadius: 999,
+          background: c.bg,
+          color: c.fg,
+          border: `1px solid ${c.bd}`,
+          textTransform: "capitalize",
+        }}
+      >
+        {status}
+      </span>
+    );
+  };
+
+  return (
+    <div>
+      <div style={{ display: "flex", flexWrap: "wrap", gap: "1.4rem", marginBottom: ".6rem" }}>
+        <Stat label="Live orders" value={String(live.length)} />
+        <Stat label="Order value" value={fmtMoney(liveValue)} />
+        <Stat label="Commission" value={fmtMoney(liveCommission)} />
+        {reversed.length > 0 && (
+          <>
+            <Stat label="Reversed orders" value={String(reversed.length)} tone="danger" />
+            <Stat label="Reversed value" value={fmtMoney(reversedValue)} tone="danger" />
+            <Stat label="Reversed commission" value={fmtMoney(reversedCommission)} tone="danger" />
+          </>
+        )}
+      </div>
+
+      <div style={{ maxHeight: 340, overflow: "auto", border: "1px solid #e5e7eb", borderRadius: 10 }}>
+        <table style={{ width: "100%", borderCollapse: "collapse", fontSize: ".78rem" }}>
+          <thead>
+            <tr style={{ background: "#f9fafb", textAlign: "left", position: "sticky", top: 0 }}>
+              <th style={{ padding: ".45rem .7rem", fontWeight: 700 }}>Order</th>
+              <th style={{ padding: ".45rem .7rem", fontWeight: 700 }}>Date</th>
+              <th style={{ padding: ".45rem .7rem", fontWeight: 700 }}>Customer</th>
+              <th style={{ padding: ".45rem .7rem", fontWeight: 700, textAlign: "right" }}>Value</th>
+              <th style={{ padding: ".45rem .7rem", fontWeight: 700, textAlign: "right" }}>Commission</th>
+              <th style={{ padding: ".45rem .7rem", fontWeight: 700, textAlign: "right" }}>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            {orders.map((o) => {
+              const isReversed = o.status === "refunded" || o.status === "cancelled";
+              const isOpen = o.status === "pending" || o.status === "failed";
+              return (
+                <tr key={o.id} style={{ borderTop: "1px solid #f3f4f6" }}>
+                  <td style={{ padding: ".45rem .7rem", fontFamily: "ui-monospace, monospace" }}>{o.orderId}</td>
+                  <td style={{ padding: ".45rem .7rem", color: "#4b5563" }}>
+                    {o.createdAt ? new Date(o.createdAt).toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "2-digit" }) : "—"}
+                  </td>
+                  <td style={{ padding: ".45rem .7rem", color: "#4b5563" }}>
+                    {o.customerType === "existing" ? "Repeat" : "New"}
+                  </td>
+                  <td
+                    style={{
+                      padding: ".45rem .7rem",
+                      textAlign: "right",
+                      color: isReversed ? "#b91c1c" : "#111827",
+                      textDecoration: isReversed ? "line-through" : "none",
+                    }}
+                  >
+                    {fmtMoney(o.value)}
+                  </td>
+                  <td
+                    style={{
+                      padding: ".45rem .7rem",
+                      textAlign: "right",
+                      fontWeight: 600,
+                      color: isReversed ? "#b91c1c" : isOpen ? "#9ca3af" : "#111827",
+                    }}
+                  >
+                    {isOpen ? "—" : `${isReversed ? "−" : ""}${fmtMoney(Math.abs(o.commission))}`}
+                  </td>
+                  <td style={{ padding: ".45rem .7rem", textAlign: "right" }}>{pill(o.status)}</td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
+function Stat({ label, value, tone }: { label: string; value: string; tone?: "danger" }) {
+  return (
+    <div>
+      <div style={{ fontSize: ".66rem", textTransform: "uppercase", letterSpacing: ".05em", color: tone === "danger" ? "#b91c1c" : "#6b7280", fontWeight: 700 }}>
+        {label}
+      </div>
+      <div style={{ fontSize: "1.05rem", fontWeight: 700, color: tone === "danger" ? "#b91c1c" : "#111827" }}>{value}</div>
     </div>
   );
 }

@@ -4,7 +4,7 @@ import { redirect } from "next/navigation";
 import { getTrustScore } from "@/lib/trust-score";
 import vendorsData from "@/data/vendors.json";
 import { getAffiliateRequests, type AffiliateRequest } from "@/lib/affiliate-requests";
-import AdminDashboard, { type VendorPerf, type SellerAccount } from "@/components/admin/AdminDashboard";
+import AdminDashboard, { type VendorPerf, type SellerAccount, type OwnerOrder } from "@/components/admin/AdminDashboard";
 import { getOwnerFromRequest } from "@/lib/owner-auth";
 
 export const dynamic = "force-dynamic";
@@ -137,6 +137,28 @@ export default async function AdminPage() {
     LEFT JOIN seller_profiles p ON p.seller_slug = s.slug
     ORDER BY s.active DESC, s.created_at DESC
   `;
+
+  // Full order ledger for every supplier, so the owner can open any profile and
+  // audit individual orders rather than only seeing aggregate totals.
+  const allSalesResult = await sql`
+    SELECT id, vendor_slug, order_id, order_value, currency, customer_type,
+           commission_amount, status, created_at
+    FROM sales
+    ORDER BY created_at DESC
+  `;
+  const ordersBySeller: Record<string, OwnerOrder[]> = {};
+  for (const r of allSalesResult.rows) {
+    const slug = String(r.vendor_slug);
+    (ordersBySeller[slug] ||= []).push({
+      id: Number(r.id),
+      orderId: String(r.order_id ?? ""),
+      value: Number(r.order_value ?? 0),
+      commission: Number(r.commission_amount ?? 0),
+      status: String(r.status ?? "completed"),
+      customerType: r.customer_type == null ? null : String(r.customer_type),
+      createdAt: r.created_at ? new Date(r.created_at as string | Date).toISOString() : null,
+    });
+  }
   const sellers: SellerAccount[] = sellersResult.rows.map((s) => {
     const vendor = (vendorsData as Vendor[]).find((v) => v.slug === s.slug);
     const c = clickMap[s.slug] ?? {};
@@ -218,5 +240,5 @@ export default async function AdminPage() {
     createdAt: x.created_at ? new Date(x.created_at as any).toISOString() : null,
   }));
 
-  return <AdminDashboard vendors={vendors} sellers={sellers} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} claims={claims} dataRange={dataRange} ownerName={owner.name} />;
+  return <AdminDashboard vendors={vendors} sellers={sellers} ordersBySeller={ordersBySeller} affiliateRequests={affiliateRequests} affiliateApproved={affiliateApproved} profileReviews={profileReviews} claims={claims} dataRange={dataRange} ownerName={owner.name} />;
 }
