@@ -48,6 +48,7 @@ import {
 } from "@/data/cjc-1295-ipamorelin-silo";
 import { HMG_SPOKES, getHmgStats, type HmgStats } from "@/data/hmg-silo";
 import { MT2_SPOKES, getMt2Stats, type Mt2Stats } from "@/data/melanotan-ii-silo";
+import { GLOW_SPOKES, getGlowStats, type GlowStats } from "@/data/glow-silo";
 
 /**
  * Silo registry — the SINGLE list of which compounds have a live silo.
@@ -298,6 +299,14 @@ export const SILOS: Silo[] = [
     spokes: MT2_SPOKES as unknown as SiloSpoke[],
     getStats: () => getMt2Stats() as unknown as SiloStats,
   },
+  {
+    compoundSlug: "glow",
+    name: "GLOW",
+    blurb:
+      "GLOW three-peptide blend (GHK-Cu + BPC-157 + TB-500) buying guides — verified UK suppliers, lowest price per mg of blend mass, full comparison and TrustScore rankings.",
+    spokes: GLOW_SPOKES as unknown as SiloSpoke[],
+    getStats: () => getGlowStats() as unknown as SiloStats,
+  },
 ];
 
 /** Every spoke slug across every silo — for generateStaticParams + sitemap. */
@@ -324,3 +333,4 @@ export type { CjcStats };
 export type { OxStats };
 export type { HmgStats };
 export type { Mt2Stats };
+export type { GlowStats };
